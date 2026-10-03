@@ -13,7 +13,7 @@ from pathlib import Path
 CHANNEL_ID = "UCKj9i0wunjX5VX2pvLHoFaA"   # 例: UCxxxxxxxx
 API_KEY = os.environ.get("YOUTUBE_API_KEY")  # GitHub Secrets から取得
 OUTPUT_PATH = Path(__file__).parent.parent / "data" / "matches.json"
-DAYS_TO_FETCH = 7  # 過去何日分を取得するか（初回は多めに）
+LOG_PATH = Path(__file__).parent.parent / "logs" / "fetch_log.txt"  # 追加
 
 # キャラ名リスト（先頭一致用・必要に応じて追加）
 CHARACTERS = [
@@ -43,17 +43,17 @@ def extract_character(title: str) -> str:
     match = re.match(r"^([^\s#]+)", title)
     return match.group(1) if match else "不明"
 
-def parse_description(description: str) -> list[dict]:
-    """説明文から有効なタイムスタンプ行だけを抽出"""
+def parse_description(description: str, title: str, log_lines: list) -> list[dict]:
+    """説明文から有効なタイムスタンプ行だけを抽出。無視した行も記録する"""
     matches = []
+    ignored_lines = []
 
-    # 行ごとに処理
     for line in description.splitlines():
         line = line.strip()
         if not line:
             continue
 
-        # タイムスタンプで始まるかチェック（0:27:21 や 1:53:55 など）
+        # タイムスタンプで始まるかチェック
         ts_match = re.match(r"^(\d{1,2}:\d{2}:\d{2}|\d{1,2}:\d{2})\s*(.*)$", line)
         if not ts_match:
             continue
@@ -61,20 +61,27 @@ def parse_description(description: str) -> list[dict]:
         timestamp = ts_match.group(1)
         rest = ts_match.group(2).strip()
 
+        # 0:00:00 の行は完全に無視（ログにも出さない）
+        if timestamp in ("0:00:00", "0:00", "00:00:00", "00:00"):
+            continue
+
         # 直後が半角・全角かっこで始まる場合はスキップ
         if rest.startswith("(") or rest.startswith("（"):
+            ignored_lines.append(line)
             continue
 
         # 正常形式: マップ/プレイヤー名/ランク
         parts = rest.split("/")
         if len(parts) < 3:
-            continue  # 形式が合わないのでスキップ
+            ignored_lines.append(line)
+            continue
 
         map_name = parts[0].strip()
         player = parts[1].strip()
-        rank = "/".join(parts[2:]).strip()  # ランクに / が含まれる可能性に対応
+        rank = "/".join(parts[2:]).strip()
 
         if not map_name or not player:
+            ignored_lines.append(line)
             continue
 
         matches.append({
@@ -85,10 +92,17 @@ def parse_description(description: str) -> list[dict]:
             "rank": rank
         })
 
+    # 無視した行がある場合だけログに記録
+    if ignored_lines:
+        log_lines.append(f"[無視した行] {title}")
+        for ignored in ignored_lines:
+            log_lines.append(f"  → {ignored}")
+        log_lines.append("")
+
     return matches
 
 def fetch_videos():
-    """チャンネルの全アップロード動画を取得（playlistItems使用）"""
+    """チャンネルの全アップロード動画を取得（playlistItems使用）+ ログ出力"""
     from googleapiclient.discovery import build
 
     youtube = build("youtube", "v3", developerKey=API_KEY)
@@ -106,7 +120,7 @@ def fetch_videos():
     uploads_playlist_id = channel_response["items"][0]["contentDetails"]["relatedPlaylists"]["uploads"]
     print(f"uploads プレイリストID: {uploads_playlist_id}")
 
-    # 2. プレイリストから全動画IDを取得（ページネーション）
+    # 2. プレイリストから全動画IDを取得
     video_ids = []
     next_page_token = None
 
@@ -128,17 +142,25 @@ def fetch_videos():
         if not next_page_token:
             break
 
-        # テスト用に件数制限したい場合は以下のコメントを外す
+        # テスト用制限をかけたい場合は以下を有効に
         # if len(video_ids) >= 300:
         #     break
 
     if not video_ids:
+        print("動画が1本も取得できませんでした。")
         return []
 
+    # 3. 詳細情報取得 + ログ準備
     print(f"詳細情報を取得中（全{len(video_ids)}本）...")
     results = []
+    log_lines = []
+    no_timestamp_titles = []
 
-    # 3. 動画詳細を50本ずつ取得
+    log_lines.append(f"実行日時: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    log_lines.append(f"取得動画数: {len(video_ids)}")
+    log_lines.append("=" * 60)
+    log_lines.append("")
+
     for i in range(0, len(video_ids), 50):
         batch_ids = video_ids[i:i+50]
         videos_response = youtube.videos().list(
@@ -154,9 +176,10 @@ def fetch_videos():
             published_at = snippet["publishedAt"]
 
             character = extract_character(title)
-            matches = parse_description(description)
+            matches = parse_description(description, title, log_lines)
 
             if not matches:
+                no_timestamp_titles.append(title)
                 continue
 
             results.append({
@@ -169,6 +192,23 @@ def fetch_videos():
             })
 
         print(f"  詳細処理済み: {min(i+50, len(video_ids))} / {len(video_ids)}")
+
+    # タイムスタンプがなかった配信をログに追加
+    if no_timestamp_titles:
+        log_lines.append("=" * 60)
+        log_lines.append(f"タイムスタンプなしの配信（{len(no_timestamp_titles)}本）:")
+        log_lines.append("=" * 60)
+        for t in no_timestamp_titles:
+            log_lines.append(f"  - {t}")
+        log_lines.append("")
+
+    # ログファイルに書き出し（毎回上書き）
+    LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with open(LOG_PATH, "w", encoding="utf-8") as f:
+        f.write("\n".join(log_lines))
+
+    print(f"ログを書き出しました: {LOG_PATH}")
+    print(f"有効な動画数: {len(results)} 本")
 
     results.sort(key=lambda x: x["published_at"], reverse=True)
     return results

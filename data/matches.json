@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T06:26:00.273645+00:00",
+  "updated_at": "2026-10-03T06:46:56.087503+00:00",
   "videos": [
     {
       "video_id": "x4GKtZo2jHM",
@@ -1028,7 +1028,7 @@
         {
           "timestamp": "0:57:45",
           "seconds": 3465,
-          "map": "7赤の教会",
+          "map": "赤の教会",
           "player": "初代たけ",
           "rank": "B"
         },
@@ -4175,13 +4175,6 @@
       "url": "https://www.youtube.com/watch?v=SMHklaRN4Hw",
       "matches": [
         {
-          "timestamp": "0:00:23",
-          "seconds": 23,
-          "map": "アイヴィ",
-          "player": "ぽんぽこかき▭",
-          "rank": "軍需工場"
-        },
-        {
           "timestamp": "0:05:50",
           "seconds": 350,
           "map": "湖景村",
@@ -5391,13 +5384,6 @@
       "published_at": "2026-09-04T10:38:24Z",
       "url": "https://www.youtube.com/watch?v=JhHakZRkVLY",
       "matches": [
-        {
-          "timestamp": "0:00:30",
-          "seconds": 30,
-          "map": "オペラ歌手",
-          "player": "赤の教会",
-          "rank": "Wr_arcana"
-        },
         {
           "timestamp": "0:09:38",
           "seconds": 578,
@@ -6898,13 +6884,6 @@
       "url": "https://www.youtube.com/watch?v=CzPfxh5aM7w",
       "matches": [
         {
-          "timestamp": "0:00:23",
-          "seconds": 23,
-          "map": "鹿",
-          "player": "聖心病院",
-          "rank": "ちなにゃん▭"
-        },
-        {
           "timestamp": "0:08:18",
           "seconds": 498,
           "map": "永眠町",
@@ -6959,13 +6938,6 @@
           "map": "レオの思い出",
           "player": "Tranhdayy",
           "rank": "95位"
-        },
-        {
-          "timestamp": "0:57:42",
-          "seconds": 3462,
-          "map": "ビリヤードプレイヤー",
-          "player": "中華街",
-          "rank": "とまだよー"
         },
         {
           "timestamp": "1:05:33",
@@ -8961,8 +8933,8 @@
     },
     {
       "video_id": "3w3T3rXmT98",
-      "title": "※設定ミスで音無し 女王蜂 #22 S43 達人観戦 Queen Bee 昼ラン #identityV #第五人格",
-      "character": "※設定ミスで音無し",
+      "title": "女王蜂 #22 S43 達人観戦 Queen Bee 昼ラン #identityV #第五人格 ※設定ミスで音無し",
+      "character": "女王",
       "published_at": "2026-08-24T06:13:39Z",
       "url": "https://www.youtube.com/watch?v=3w3T3rXmT98",
       "matches": [
@@ -23802,7 +23774,7 @@
         {
           "timestamp": "1:26:10",
           "seconds": 5170,
-          "map": "赤の教会a",
+          "map": "赤の教会",
           "player": "小奇迹Wyvee",
           "rank": "無徽章"
         },
@@ -32222,7 +32194,7 @@
         {
           "timestamp": "1:47:52",
           "seconds": 6472,
-          "map": "a",
+          "map": "レオの思い出",
           "player": "鏡中女王",
           "rank": "74位"
         },
@@ -58078,8 +58050,8 @@
     },
     {
       "video_id": "Gwtay46AI7c",
-      "title": "※音無し　泣き虫 #17 S40 達人観戦 Axe Boy 夜ラン #identityV #第五人格",
-      "character": "※音無し",
+      "title": "泣き虫 #17 S40 達人観戦 Axe Boy 夜ラン #identityV #第五人格 ※音無し",
+      "character": "泣き虫",
       "published_at": "2025-12-30T13:19:21Z",
       "url": "https://www.youtube.com/watch?v=Gwtay46AI7c",
       "matches": [
@@ -58212,7 +58184,7 @@
         {
           "timestamp": "1:57:32",
           "seconds": 7052,
-          "map": "こけい",
+          "map": "湖景村",
           "player": "こう",
           "rank": "1位"
         }
@@ -58220,8 +58192,8 @@
     },
     {
       "video_id": "qyVFjWTyoFI",
-      "title": "※音無し　オペラ歌手 #40 S40 達人観戦 Opera Singer 昼ラン #identityV #第五人格",
-      "character": "※音無し",
+      "title": "オペラ歌手 #40 S40 達人観戦 Opera Singer 昼ラン #identityV #第五人格 ※音無し",
+      "character": "オペラ",
       "published_at": "2025-12-30T06:20:00Z",
       "url": "https://www.youtube.com/watch?v=qyVFjWTyoFI",
       "matches": [
@@ -66648,13 +66620,6 @@
       "published_at": "2025-11-23T13:20:40Z",
       "url": "https://www.youtube.com/watch?v=IHROnYwj2uU",
       "matches": [
-        {
-          "timestamp": "0:00:00",
-          "seconds": 0,
-          "map": "赤の教会",
-          "player": "うひょ＠うひょ",
-          "rank": "65位"
-        },
         {
           "timestamp": "0:08:50",
           "seconds": 530,
@@ -82174,8 +82139,8 @@
     },
     {
       "video_id": "fcAp51nF6Ys",
-      "title": "フルゴ #11 S39 達人観戦 \"Fool's Gold\" 朝ラン #identityV #第五人格",
-      "character": "フルゴ",
+      "title": "フールズ・ゴールド #11 S39 達人観戦 \"Fool's Gold\" 朝ラン #identityV #第五人格",
+      "character": "フールズ・ゴールド",
       "published_at": "2025-09-28T22:20:40Z",
       "url": "https://www.youtube.com/watch?v=fcAp51nF6Ys",
       "matches": [
@@ -93456,13 +93421,6 @@
       "url": "https://www.youtube.com/watch?v=yWVHySvV9bk",
       "matches": [
         {
-          "timestamp": "0:00:00",
-          "seconds": 0,
-          "map": "月の河公園",
-          "player": "やややたなか",
-          "rank": "76位"
-        },
-        {
           "timestamp": "0:06:07",
           "seconds": 367,
           "map": "月の河公園",
@@ -94386,13 +94344,6 @@
       "published_at": "2025-08-22T18:20:28Z",
       "url": "https://www.youtube.com/watch?v=333W7Og_H-Y",
       "matches": [
-        {
-          "timestamp": "0:00:00",
-          "seconds": 0,
-          "map": "中華街",
-          "player": "ずらぁあ",
-          "rank": ""
-        },
         {
           "timestamp": "0:05:25",
           "seconds": 325,

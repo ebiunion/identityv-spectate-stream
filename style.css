@@ -72,3 +72,83 @@ button:hover { background: #444; }
   border-radius: 4px;
   font-size: 0.85rem;
 }
+
+
+.video-card {
+  background: #1a1a22;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.video-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.video-checkbox {
+  margin-top: 4px;
+  accent-color: #7aa2ff;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.video-title {
+  font-size: 1.1rem;
+  margin: 0;
+  flex: 1;
+}
+
+.video-meta {
+  color: #888;
+  font-size: 0.85rem;
+  margin-bottom: 12px;
+  margin-left: 30px;
+}
+
+.match-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.match-item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  padding: 8px 0;
+  border-top: 1px solid #2a2a35;
+  align-items: center;
+}
+
+.match-checkbox {
+  accent-color: #7aa2ff;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.tag {
+  background: #2a2a35;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+
+.loading, .no-more {
+  text-align: center;
+  padding: 20px;
+  color: #888;
+}
+
+/* チェック済みの見た目（任意） */
+.video-card.watched {
+  opacity: 0.65;
+}
+.match-item.watched {
+  opacity: 0.55;
+}
