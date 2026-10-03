@@ -44,75 +44,121 @@ def extract_character(title: str) -> str:
     return match.group(1) if match else "不明"
 
 def parse_description(description: str) -> list[dict]:
-    """説明文からタイムスタンプ行を抽出"""
+    """説明文から有効なタイムスタンプ行だけを抽出"""
     matches = []
-    # 形式: 0:27:21 永眠町/変質者オレ/1位
-    pattern = re.compile(
-        r"(\d{1,2}:\d{2}:\d{2}|\d{1,2}:\d{2})\s+([^/\n]+)/([^/\n]+)/([^\n]+)"
-    )
-    for m in pattern.finditer(description):
-        ts, map_name, player, rank = m.groups()
+
+    # 行ごとに処理
+    for line in description.splitlines():
+        line = line.strip()
+        if not line:
+            continue
+
+        # タイムスタンプで始まるかチェック（0:27:21 や 1:53:55 など）
+        ts_match = re.match(r"^(\d{1,2}:\d{2}:\d{2}|\d{1,2}:\d{2})\s*(.*)$", line)
+        if not ts_match:
+            continue
+
+        timestamp = ts_match.group(1)
+        rest = ts_match.group(2).strip()
+
+        # 直後が半角・全角かっこで始まる場合はスキップ
+        if rest.startswith("(") or rest.startswith("（"):
+            continue
+
+        # 正常形式: マップ/プレイヤー名/ランク
+        parts = rest.split("/")
+        if len(parts) < 3:
+            continue  # 形式が合わないのでスキップ
+
+        map_name = parts[0].strip()
+        player = parts[1].strip()
+        rank = "/".join(parts[2:]).strip()  # ランクに / が含まれる可能性に対応
+
+        if not map_name or not player:
+            continue
+
         matches.append({
-            "timestamp": ts.strip(),
-            "seconds": to_seconds(ts),
-            "map": map_name.strip(),
-            "player": player.strip(),
-            "rank": rank.strip()
+            "timestamp": timestamp,
+            "seconds": to_seconds(timestamp),
+            "map": map_name,
+            "player": player,
+            "rank": rank
         })
+
     return matches
 
 def fetch_videos():
-    """YouTube Data API で最新動画を取得"""
+    """YouTube Data API で動画を取得（ページネーション対応）"""
     from googleapiclient.discovery import build
 
     youtube = build("youtube", "v3", developerKey=API_KEY)
 
-    # 検索で最新動画IDを取得
-    published_after = (datetime.now(timezone.utc) - timedelta(days=DAYS_TO_FETCH)).isoformat()
+    video_ids = []
+    next_page_token = None
 
-    search_response = youtube.search().list(
-        part="id",
-        channelId=CHANNEL_ID,
-        type="video",
-        order="date",
-        publishedAfter=published_after,
-        maxResults=50
-    ).execute()
+    print("動画IDを取得中...")
+    while True:
+        request = youtube.search().list(
+            part="id",
+            channelId=CHANNEL_ID,
+            type="video",
+            order="date",
+            maxResults=50,
+            pageToken=next_page_token
+            # publishedAfter は外す（全期間取得）
+        )
+        response = request.execute()
 
-    video_ids = [item["id"]["videoId"] for item in search_response.get("items", [])]
+        for item in response.get("items", []):
+            video_ids.append(item["id"]["videoId"])
+
+        next_page_token = response.get("nextPageToken")
+        print(f"  現在 {len(video_ids)} 本取得...")
+
+        if not next_page_token:
+            break
+
+        # APIクォータ節約のため、必要に応じて制限をかける場合はここに break を入れる
+        # 例: if len(video_ids) >= 300: break
+
     if not video_ids:
         return []
 
-    # 詳細情報を取得
-    videos_response = youtube.videos().list(
-        part="snippet",
-        id=",".join(video_ids)
-    ).execute()
-
+    print(f"詳細情報を取得中（全{len(video_ids)}本）...")
     results = []
-    for item in videos_response.get("items", []):
-        snippet = item["snippet"]
-        video_id = item["id"]
-        title = snippet["title"]
-        description = snippet.get("description", "")
-        published_at = snippet["publishedAt"]
 
-        character = extract_character(title)
-        matches = parse_description(description)
+    # videos.list は1回あたり最大50本まで
+    for i in range(0, len(video_ids), 50):
+        batch_ids = video_ids[i:i+50]
+        videos_response = youtube.videos().list(
+            part="snippet",
+            id=",".join(batch_ids)
+        ).execute()
 
-        if not matches:
-            continue  # タイムスタンプがない動画はスキップ
+        for item in videos_response.get("items", []):
+            snippet = item["snippet"]
+            video_id = item["id"]
+            title = snippet["title"]
+            description = snippet.get("description", "")
+            published_at = snippet["publishedAt"]
 
-        results.append({
-            "video_id": video_id,
-            "title": title,
-            "character": character,
-            "published_at": published_at,
-            "url": f"https://www.youtube.com/watch?v={video_id}",
-            "matches": matches
-        })
+            character = extract_character(title)
+            matches = parse_description(description)
 
-    # 新しい順にソート
+            if not matches:
+                continue  # 有効なタイムスタンプがない動画はスキップ
+
+            results.append({
+                "video_id": video_id,
+                "title": title,
+                "character": character,
+                "published_at": published_at,
+                "url": f"https://www.youtube.com/watch?v={video_id}",
+                "matches": matches
+            })
+
+        print(f"  詳細処理済み: {min(i+50, len(video_ids))} / {len(video_ids)}")
+
     results.sort(key=lambda x: x["published_at"], reverse=True)
     return results
 
