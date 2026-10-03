@@ -121,7 +121,7 @@ function loadMore() {
     if (visibleMatches.length === 0 && (map || player)) return;
 
     const isVideoWatched = watchedVideos.includes(video.video_id);
-    const isLive = video.is_live_archive !== false;
+    const isLive = video.is_live_archive === true; // true のときだけ配信扱い
 
     const card = document.createElement("div");
     card.className = "video-card" + (isVideoWatched ? " watched" : "");
@@ -130,8 +130,8 @@ function loadMore() {
     const date = new Date(video.published_at).toLocaleDateString("ja-JP");
 
     if (!isLive) {
-      // ===== 通常動画：フラット表示 =====
-      const m = visibleMatches[0] || video.matches[0];
+      // ===== 通常動画：フラット表示（タイムスタンプ行なし） =====
+      const m = visibleMatches[0] || video.matches[0] || {};
       card.innerHTML = `
         <div class="video-header">
           <input type="checkbox" class="video-checkbox" data-video-id="${video.video_id}" ${isVideoWatched ? "checked" : ""}>
@@ -139,8 +139,8 @@ function loadMore() {
             <h2 class="video-title">${video.character} — ${video.title}</h2>
             <div class="video-meta">
               ${date} ／
-              <span class="tag">${m.map}</span>
-              <span class="tag">${m.player}</span>
+              <span class="tag">${m.map || ""}</span>
+              <span class="tag">${m.player || ""}</span>
               ${m.rank ? `<span class="tag">${m.rank}</span>` : ""}
               ／ <a href="${video.url}" target="_blank">動画を開く</a>
             </div>

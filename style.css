@@ -161,21 +161,21 @@ button:hover {
   font-size: 0.85rem;
 }
 
-/* チェック時の見た目 */
-.video-card.watched .video-header,
-.video-card.watched .video-title,
-.video-card.watched .video-meta {
-  opacity: 0.55;
+/* 配信・動画本体がチェックされたとき → タイトル周りだけ暗くする */
+.video-card.watched > .video-header,
+.video-card.watched > .video-meta {
+  opacity: 0.45;
 }
 
-/* 親が checked でもタイムスタンプ行は暗くしない */
+/* タイムスタンプ行は親の影響を受けない */
+.video-card.watched .match-list,
 .video-card.watched .match-item {
-  opacity: 1;
+  opacity: 1 !important;
 }
 
 /* タイムスタンプ自体がチェックされたときだけ暗くする */
 .match-item.watched {
-  opacity: 0.55;
+  opacity: 0.45;
 }
 
 /* 読み込み・終了メッセージ */
