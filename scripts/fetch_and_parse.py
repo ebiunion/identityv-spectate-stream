@@ -88,38 +88,49 @@ def parse_description(description: str) -> list[dict]:
     return matches
 
 def fetch_videos():
-    """YouTube Data API で動画を取得（ページネーション対応）"""
+    """チャンネルの全アップロード動画を取得（playlistItems使用）"""
     from googleapiclient.discovery import build
 
     youtube = build("youtube", "v3", developerKey=API_KEY)
 
+    # 1. チャンネルの uploads プレイリストIDを取得
+    print("チャンネル情報を取得中...")
+    channel_response = youtube.channels().list(
+        part="contentDetails",
+        id=CHANNEL_ID
+    ).execute()
+
+    if not channel_response.get("items"):
+        raise ValueError("チャンネルが見つかりません。CHANNEL_IDを確認してください。")
+
+    uploads_playlist_id = channel_response["items"][0]["contentDetails"]["relatedPlaylists"]["uploads"]
+    print(f"uploads プレイリストID: {uploads_playlist_id}")
+
+    # 2. プレイリストから全動画IDを取得（ページネーション）
     video_ids = []
     next_page_token = None
 
     print("動画IDを取得中...")
     while True:
-        request = youtube.search().list(
-            part="id",
-            channelId=CHANNEL_ID,
-            type="video",
-            order="date",
+        playlist_response = youtube.playlistItems().list(
+            part="contentDetails",
+            playlistId=uploads_playlist_id,
             maxResults=50,
             pageToken=next_page_token
-            # publishedAfter は外す（全期間取得）
-        )
-        response = request.execute()
+        ).execute()
 
-        for item in response.get("items", []):
-            video_ids.append(item["id"]["videoId"])
+        for item in playlist_response.get("items", []):
+            video_ids.append(item["contentDetails"]["videoId"])
 
-        next_page_token = response.get("nextPageToken")
+        next_page_token = playlist_response.get("nextPageToken")
         print(f"  現在 {len(video_ids)} 本取得...")
 
         if not next_page_token:
             break
 
-        # APIクォータ節約のため、必要に応じて制限をかける場合はここに break を入れる
-        # 例: if len(video_ids) >= 300: break
+        # テスト用に件数制限したい場合は以下のコメントを外す
+        # if len(video_ids) >= 300:
+        #     break
 
     if not video_ids:
         return []
@@ -127,7 +138,7 @@ def fetch_videos():
     print(f"詳細情報を取得中（全{len(video_ids)}本）...")
     results = []
 
-    # videos.list は1回あたり最大50本まで
+    # 3. 動画詳細を50本ずつ取得
     for i in range(0, len(video_ids), 50):
         batch_ids = video_ids[i:i+50]
         videos_response = youtube.videos().list(
@@ -146,7 +157,7 @@ def fetch_videos():
             matches = parse_description(description)
 
             if not matches:
-                continue  # 有効なタイムスタンプがない動画はスキップ
+                continue
 
             results.append({
                 "video_id": video_id,
