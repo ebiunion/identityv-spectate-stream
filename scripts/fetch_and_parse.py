@@ -295,12 +295,16 @@ def fetch_videos():
             log_lines.append(f"  - {t}")
         log_lines.append("")
 
+    # ログファイルに書き出し（毎回上書き）
     LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
     with open(LOG_PATH, "w", encoding="utf-8") as f:
         f.write("\n".join(log_lines))
 
     print(f"ログを書き出しました: {LOG_PATH}")
     print(f"有効な動画数: {len(results)} 本")
+
+    results.sort(key=lambda x: x["published_at"], reverse=True)
+    return results
 
 def main():
     if not API_KEY:
