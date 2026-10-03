@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第五人格 配信試合フィルタ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>第五人格 配信試合フィルタ</h1>
+        <p class="updated" id="updatedAt">データ更新中...</p>
+
+        <div class="filters">
+            <div class="filter-group">
+                <label>キャラクター</label>
+                <select id="characterFilter">
+                    <option value="">すべて</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>マップ</label>
+                <select id="mapFilter">
+                    <option value="">すべて</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>プレイヤー名</label>
+                <input type="text" id="playerFilter" placeholder="部分一致">
+            </div>
+            <button id="resetBtn">リセット</button>
+        </div>
+
+        <div id="results"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
