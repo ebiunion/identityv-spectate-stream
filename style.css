@@ -1,121 +1,74 @@
-* {
-    box-sizing: border-box;
-}
-
+* { box-sizing: border-box; }
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    background: #0f0f13;
-    color: #e8e8e8;
-    margin: 0;
-    padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: #0f0f13;
+  color: #e8e8e8;
+  margin: 0;
+  padding: 20px;
 }
-
-.container {
-    max-width: 960px;
-    margin: 0 auto;
-}
-
-h1 {
-    font-size: 1.6rem;
-    margin-bottom: 4px;
-}
-
-.updated {
-    color: #888;
-    font-size: 0.85rem;
-    margin-bottom: 20px;
-}
+.container { max-width: 960px; margin: 0 auto; }
+h1 { font-size: 1.6rem; margin-bottom: 4px; }
+.updated { color: #888; font-size: 0.85rem; margin-bottom: 20px; }
 
 .filters {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-    margin-bottom: 24px;
-    background: #1a1a22;
-    padding: 16px;
-    border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 24px;
+  background: #1a1a22;
+  padding: 16px;
+  border-radius: 10px;
 }
-
-.filter-group {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-}
-
-label {
-    font-size: 0.8rem;
-    color: #aaa;
-}
-
+.filter-group { display: flex; flex-direction: column; gap: 4px; }
+label { font-size: 0.8rem; color: #aaa; }
 select, input {
-    padding: 8px 12px;
-    border: 1px solid #333;
-    border-radius: 6px;
-    background: #121218;
-    color: #eee;
-    min-width: 140px;
+  padding: 8px 12px;
+  border: 1px solid #333;
+  border-radius: 6px;
+  background: #121218;
+  color: #eee;
+  min-width: 140px;
 }
-
 button {
-    align-self: flex-end;
-    padding: 8px 16px;
-    background: #333;
-    color: #eee;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
+  align-self: flex-end;
+  padding: 8px 16px;
+  background: #333;
+  color: #eee;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
 }
-
-    button:hover {
-        background: #444;
-    }
+button:hover { background: #444; }
 
 .video-card {
-    background: #1a1a22;
-    border-radius: 10px;
-    padding: 16px;
-    margin-bottom: 16px;
+  background: #1a1a22;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 16px;
 }
-
 .video-title {
-    font-size: 1.1rem;
-    margin: 0 0 6px;
+  font-size: 1.1rem;
+  margin: 0 0 6px;
 }
-
-.video-meta {
-    color: #888;
-    font-size: 0.85rem;
-    margin-bottom: 12px;
-}
-
-.match-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
+.video-meta { color: #888; font-size: 0.85rem; margin-bottom: 12px; }
+.match-list { list-style: none; padding: 0; margin: 0; }
 .match-item {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px 16px;
-    padding: 8px 0;
-    border-top: 1px solid #2a2a35;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  padding: 8px 0;
+  border-top: 1px solid #2a2a35;
+  align-items: center;
 }
-
-    .match-item a {
-        color: #7aa2ff;
-        text-decoration: none;
-        font-weight: 500;
-    }
-
-        .match-item a:hover {
-            text-decoration: underline;
-        }
-
+.match-item a {
+  color: #7aa2ff;
+  text-decoration: none;
+  font-weight: 500;
+}
+.match-item a:hover { text-decoration: underline; }
 .tag {
-    background: #2a2a35;
-    padding: 2px 8px;
-    border-radius: 4px;
-    font-size: 0.85rem;
+  background: #2a2a35;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.85rem;
 }

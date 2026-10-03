@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Identity V ”zMƒf[ƒ^‚ğæ“¾‚µ‚Ä matches.json ‚ğ¶¬‚·‚éƒXƒNƒŠƒvƒg
+Identity V é…ä¿¡ãƒ‡ãƒ¼ã‚¿ã‚’å–å¾—ã—ã¦ matches.json ã‚’ç”Ÿæˆã™ã‚‹ã‚¹ã‚¯ãƒªãƒ—ãƒˆ
 """
 
 import os
@@ -9,24 +9,23 @@ import json
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-# ===== İ’è =====
-CHANNEL_ID = "‚±‚±‚Éƒ`ƒƒƒ“ƒlƒ‹ID‚ğ“ü‚ê‚é"   # —á: UCxxxxxxxx
-API_KEY = os.environ.get("YOUTUBE_API_KEY")  # GitHub Secrets ‚©‚çæ“¾
+# ===== è¨­å®š =====
+CHANNEL_ID = "UCKj9i0wunjX5VX2pvLHoFaA"   # ä¾‹: UCxxxxxxxx
+API_KEY = os.environ.get("YOUTUBE_API_KEY")  # GitHub Secrets ã‹ã‚‰å–å¾—
 OUTPUT_PATH = Path(__file__).parent.parent / "data" / "matches.json"
-DAYS_TO_FETCH = 7  # ‰ß‹‰½“ú•ª‚ğæ“¾‚·‚é‚©i‰‰ñ‚Í‘½‚ß‚Éj
+DAYS_TO_FETCH = 7  # éå»ä½•æ—¥åˆ†ã‚’å–å¾—ã™ã‚‹ã‹ï¼ˆåˆå›ã¯å¤šã‚ã«ï¼‰
 
-# ƒLƒƒƒ‰–¼ƒŠƒXƒgiæ“ªˆê’v—pE•K—v‚É‰‚¶‚Ä’Ç‰Áj
+# ã‚­ãƒ£ãƒ©åãƒªã‚¹ãƒˆï¼ˆå…ˆé ­ä¸€è‡´ç”¨ãƒ»å¿…è¦ã«å¿œã˜ã¦è¿½åŠ ï¼‰
 CHARACTERS = [
-    "ƒsƒGƒ", "Õi", "ˆãt", "•ÙŒìm", "‰€’š", "‹óŒR", "‹@ŠB‹Zt", "SŠá", "—b•º‘à",
-    "’²t", "ƒJƒEƒ{[ƒC", "•‘—", "è‚¢t", "–„‚ß•æl", "–ìl", "‹ÈŒ|t", "æŒ©",
-    "lŒ`t", "”ÆßS—ŠwÒ", "‹ƒ‚«’", "ƒvƒƒXƒyƒNƒ^[", "ôpt", "‰æ‰Æ", "ƒoƒbƒcƒ}ƒ“",
-    "Šß‹ïEl", "Š³Ò", "S—Šw‰Æ", "­—", "—Fˆ¤", "‹LÒ", "–`Œ¯‰Æ", "‹Rm", "©’ŠwÒ",
-    "Œ|p‰Æ", "‹³ö", "ŒÃ“Ÿ¤", "ì‹È‰Æ", "‹âs‰Æ", "ƒXƒpƒi", "—X•Ö”z’B", "“¹‰»t",
-    # •K—v‚É‰‚¶‚Ä’Ç‰Á
+    "ã‚¢ã‚¤ãƒ´ã‚£", "ãƒ¬ã‚ª", "ãƒ”ã‚¨ãƒ­", "é¹¿", "ãƒ´ã‚¡ã‚¤ã‚ªãƒªãƒ‹ã‚¹ãƒˆ", "èŠ¸è€…", "å¥³ç‹", "ã‚¬ãƒ©ãƒ†ã‚¢", "ã‚­ãƒ¼ã‚¬ãƒ³",
+    "ã‚¤ã‚¿ã‚«", "æ‚ªå¤¢", "éš è€…", "ã‚°ãƒ¬ã‚¤ã‚¹", "èœ˜è››", "ãƒ«ã‚­ãƒ", "ãƒ•ãƒ«ã‚´", "ãƒ•ãƒ©ãƒãƒ«ãƒ¼", "ãƒã‚¹ã‚¿ãƒ¼", "é­”å¥³", 
+    "ã‚¢ãƒ³", "ç ´è¼ª", "ã‚ªãƒšãƒ©", "æ³£ãè™«", "è‹äººå½¢å¸«", "ç™½é»’ç„¡å¸¸", "ãƒœãƒ³ãƒœãƒ³", "é›‘è²¨å•†", "å¥³ç‹èœ‚", "ãƒªãƒƒãƒ‘ãƒ¼", 
+    "ã‚¸ãƒ§ã‚¼ãƒ•", "ãƒãƒ«ã‚¯", "ã‚¢ãƒ³ãƒ‡ãƒƒãƒ‰", "è¶³èãˆ", "ãƒ“ãƒªãƒ¤ãƒ¼ãƒ‰ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼", "æ­¯åŒ»è€…"
+    # å¿…è¦ã«å¿œã˜ã¦è¿½åŠ 
 ]
 
 def to_seconds(ts: str) -> int:
-    """0:27:21 ¨ 1641"""
+    """0:27:21 â†’ 1641"""
     parts = list(map(int, ts.split(":")))
     if len(parts) == 3:
         return parts[0] * 3600 + parts[1] * 60 + parts[2]
@@ -35,19 +34,19 @@ def to_seconds(ts: str) -> int:
     return 0
 
 def extract_character(title: str) -> str:
-    """ƒ^ƒCƒgƒ‹æ“ª‚©‚çƒLƒƒƒ‰–¼‚ğ’Šo"""
+    """ã‚¿ã‚¤ãƒˆãƒ«å…ˆé ­ã‹ã‚‰ã‚­ãƒ£ãƒ©åã‚’æŠ½å‡º"""
     title = title.strip()
     for char in CHARACTERS:
         if title.startswith(char):
             return char
-    # ƒtƒH[ƒ‹ƒoƒbƒN: Å‰‚ÌƒXƒy[ƒX‚Ü‚½‚Í#‚Ì‘O
+    # ãƒ•ã‚©ãƒ¼ãƒ«ãƒãƒƒã‚¯: æœ€åˆã®ã‚¹ãƒšãƒ¼ã‚¹ã¾ãŸã¯#ã®å‰
     match = re.match(r"^([^\s#]+)", title)
-    return match.group(1) if match else "•s–¾"
+    return match.group(1) if match else "ä¸æ˜"
 
 def parse_description(description: str) -> list[dict]:
-    """à–¾•¶‚©‚çƒ^ƒCƒ€ƒXƒ^ƒ“ƒvs‚ğ’Šo"""
+    """èª¬æ˜æ–‡ã‹ã‚‰ã‚¿ã‚¤ãƒ ã‚¹ã‚¿ãƒ³ãƒ—è¡Œã‚’æŠ½å‡º"""
     matches = []
-    # Œ`®: 0:27:21 ‰i–°’¬/•Ï¿ÒƒIƒŒ/1ˆÊ
+    # å½¢å¼: 0:27:21 æ°¸çœ ç”º/å¤‰è³ªè€…ã‚ªãƒ¬/1ä½
     pattern = re.compile(
         r"(\d{1,2}:\d{2}:\d{2}|\d{1,2}:\d{2})\s+([^/\n]+)/([^/\n]+)/([^\n]+)"
     )
@@ -63,12 +62,12 @@ def parse_description(description: str) -> list[dict]:
     return matches
 
 def fetch_videos():
-    """YouTube Data API ‚ÅÅV“®‰æ‚ğæ“¾"""
+    """YouTube Data API ã§æœ€æ–°å‹•ç”»ã‚’å–å¾—"""
     from googleapiclient.discovery import build
 
     youtube = build("youtube", "v3", developerKey=API_KEY)
 
-    # ŒŸõ‚ÅÅV“®‰æID‚ğæ“¾
+    # æ¤œç´¢ã§æœ€æ–°å‹•ç”»IDã‚’å–å¾—
     published_after = (datetime.now(timezone.utc) - timedelta(days=DAYS_TO_FETCH)).isoformat()
 
     search_response = youtube.search().list(
@@ -84,7 +83,7 @@ def fetch_videos():
     if not video_ids:
         return []
 
-    # Ú×î•ñ‚ğæ“¾
+    # è©³ç´°æƒ…å ±ã‚’å–å¾—
     videos_response = youtube.videos().list(
         part="snippet",
         id=",".join(video_ids)
@@ -102,7 +101,7 @@ def fetch_videos():
         matches = parse_description(description)
 
         if not matches:
-            continue  # ƒ^ƒCƒ€ƒXƒ^ƒ“ƒv‚ª‚È‚¢“®‰æ‚ÍƒXƒLƒbƒv
+            continue  # ã‚¿ã‚¤ãƒ ã‚¹ã‚¿ãƒ³ãƒ—ãŒãªã„å‹•ç”»ã¯ã‚¹ã‚­ãƒƒãƒ—
 
         results.append({
             "video_id": video_id,
@@ -113,15 +112,15 @@ def fetch_videos():
             "matches": matches
         })
 
-    # V‚µ‚¢‡‚Éƒ\[ƒg
+    # æ–°ã—ã„é †ã«ã‚½ãƒ¼ãƒˆ
     results.sort(key=lambda x: x["published_at"], reverse=True)
     return results
 
 def main():
     if not API_KEY:
-        raise ValueError("YOUTUBE_API_KEY ‚ªİ’è‚³‚ê‚Ä‚¢‚Ü‚¹‚ñ")
+        raise ValueError("YOUTUBE_API_KEY ãŒè¨­å®šã•ã‚Œã¦ã„ã¾ã›ã‚“")
 
-    print("“®‰æƒf[ƒ^‚ğæ“¾’†...")
+    print("å‹•ç”»ãƒ‡ãƒ¼ã‚¿ã‚’å–å¾—ä¸­...")
     data = fetch_videos()
 
     output = {
@@ -133,7 +132,7 @@ def main():
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
-    print(f"Š®—¹: {len(data)} –{‚Ì“®‰æ‚ğ {OUTPUT_PATH} ‚É•Û‘¶‚µ‚Ü‚µ‚½")
+    print(f"å®Œäº†: {len(data)} æœ¬ã®å‹•ç”»ã‚’ {OUTPUT_PATH} ã«ä¿å­˜ã—ã¾ã—ãŸ")
 
 if __name__ == "__main__":
     main()
