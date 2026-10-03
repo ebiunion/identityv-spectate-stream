@@ -1,15 +1,33 @@
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   background: #0f0f13;
   color: #e8e8e8;
   margin: 0;
   padding: 20px;
+  line-height: 1.5;
 }
-.container { max-width: 960px; margin: 0 auto; }
-h1 { font-size: 1.6rem; margin-bottom: 4px; }
-.updated { color: #888; font-size: 0.85rem; margin-bottom: 20px; }
 
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 1.6rem;
+  margin-bottom: 4px;
+}
+
+.updated {
+  color: #888;
+  font-size: 0.85rem;
+  margin-bottom: 20px;
+}
+
+/* フィルター */
 .filters {
   display: flex;
   flex-wrap: wrap;
@@ -18,10 +36,22 @@ h1 { font-size: 1.6rem; margin-bottom: 4px; }
   background: #1a1a22;
   padding: 16px;
   border-radius: 10px;
+  align-items: flex-end;
 }
-.filter-group { display: flex; flex-direction: column; gap: 4px; }
-label { font-size: 0.8rem; color: #aaa; }
-select, input {
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+label {
+  font-size: 0.8rem;
+  color: #aaa;
+}
+
+select,
+input[type="text"] {
   padding: 8px 12px;
   border: 1px solid #333;
   border-radius: 6px;
@@ -29,8 +59,8 @@ select, input {
   color: #eee;
   min-width: 140px;
 }
+
 button {
-  align-self: flex-end;
   padding: 8px 16px;
   background: #333;
   color: #eee;
@@ -38,55 +68,24 @@ button {
   border-radius: 6px;
   cursor: pointer;
 }
-button:hover { background: #444; }
 
+button:hover {
+  background: #444;
+}
+
+/* カード */
 .video-card {
   background: #1a1a22;
   border-radius: 10px;
   padding: 16px;
   margin-bottom: 16px;
-}
-.video-title {
-  font-size: 1.1rem;
-  margin: 0 0 6px;
-}
-.video-meta { color: #888; font-size: 0.85rem; margin-bottom: 12px; }
-.match-list { list-style: none; padding: 0; margin: 0; }
-.match-item {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px 16px;
-  padding: 8px 0;
-  border-top: 1px solid #2a2a35;
-  align-items: center;
-}
-.match-item a {
-  color: #7aa2ff;
-  text-decoration: none;
-  font-weight: 500;
-}
-.match-item a:hover { text-decoration: underline; }
-.tag {
-  background: #2a2a35;
-  padding: 2px 8px;
-  border-radius: 4px;
-  font-size: 0.85rem;
-}
-
-
-.video-card {
-  background: #1a1a22;
-  border-radius: 10px;
-  padding: 16px;
-  margin-bottom: 16px;
-  position: relative;
 }
 
 .video-header {
   display: flex;
   align-items: flex-start;
   gap: 12px;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 .video-checkbox {
@@ -95,21 +94,34 @@ button:hover { background: #444; }
   width: 18px;
   height: 18px;
   cursor: pointer;
+  flex-shrink: 0;
+}
+
+.video-title-area {
+  flex: 1;
 }
 
 .video-title {
   font-size: 1.1rem;
-  margin: 0;
-  flex: 1;
+  margin: 0 0 4px;
 }
 
 .video-meta {
   color: #888;
   font-size: 0.85rem;
-  margin-bottom: 12px;
-  margin-left: 30px;
+  margin-bottom: 8px;
 }
 
+.video-meta a {
+  color: #7aa2ff;
+  text-decoration: none;
+}
+
+.video-meta a:hover {
+  text-decoration: underline;
+}
+
+/* 試合リスト（配信用） */
 .match-list {
   list-style: none;
   padding: 0;
@@ -132,6 +144,16 @@ button:hover { background: #444; }
   cursor: pointer;
 }
 
+.match-item a {
+  color: #7aa2ff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.match-item a:hover {
+  text-decoration: underline;
+}
+
 .tag {
   background: #2a2a35;
   padding: 2px 8px;
@@ -139,16 +161,27 @@ button:hover { background: #444; }
   font-size: 0.85rem;
 }
 
-.loading, .no-more {
+/* チェック時の見た目 */
+.video-card.watched .video-header,
+.video-card.watched .video-title,
+.video-card.watched .video-meta {
+  opacity: 0.55;
+}
+
+/* 親が checked でもタイムスタンプ行は暗くしない */
+.video-card.watched .match-item {
+  opacity: 1;
+}
+
+/* タイムスタンプ自体がチェックされたときだけ暗くする */
+.match-item.watched {
+  opacity: 0.55;
+}
+
+/* 読み込み・終了メッセージ */
+.loading,
+.no-more {
   text-align: center;
   padding: 20px;
   color: #888;
-}
-
-/* チェック済みの見た目（任意） */
-.video-card.watched {
-  opacity: 0.65;
-}
-.match-item.watched {
-  opacity: 0.55;
 }

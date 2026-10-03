@@ -17,12 +17,24 @@ LOG_PATH = Path(__file__).parent.parent / "logs" / "fetch_log.txt"  # 追加
 
 # キャラ名リスト（先頭一致用・必要に応じて追加）
 CHARACTERS = [
-    "アイヴィ", "レオ", "ピエロ", "鹿", "ヴァイオリニスト", "芸者", "女王", "ガラテア", "キーガン",
+    "アイヴィ", "レオ", "ピエロ", "鹿", "ヴァイオリニスト", "芸者", "血の女王", "ガラテア", "キーガン",
     "イタカ", "悪夢", "隠者", "グレイス", "蜘蛛", "ルキノ", "フルゴ", "フラバルー", "ハスター", "魔女", 
     "アン", "破輪", "オペラ", "泣き虫", "蝋人形師", "白黒無常", "ボンボン", "雑貨商", "女王蜂", "リッパー", 
-    "ジョゼフ", "バルク", "アンデッド", "足萎え", "ビリヤードプレイヤー", "歯医者"
+    "ジョゼフ", "バルク", "アンデッド", "足萎えの羊", "ビリヤードプレイヤー", "歯医者"
     # 必要に応じて追加
 ]
+
+def is_short(duration: str) -> bool:
+    """ISO 8601 duration が60秒以下なら Shorts と判定"""
+    if not duration or not duration.startswith("PT"):
+        return False
+    # 時間または分が含まれていれば Shorts ではない
+    if "H" in duration or "M" in duration:
+        return False
+    m = re.search(r"(\d+)S", duration)
+    if m:
+        return int(m.group(1)) <= 60
+    return False
 
 def to_seconds(ts: str) -> int:
     """0:27:21 → 1641"""
@@ -210,11 +222,16 @@ def fetch_videos():
     for i in range(0, len(video_ids), 50):
         batch_ids = video_ids[i:i+50]
         videos_response = youtube.videos().list(
-            part="snippet,liveStreamingDetails",  # ← 重要：liveStreamingDetails を追加
+            part="snippet,liveStreamingDetails,contentDetails",
             id=",".join(batch_ids)
         ).execute()
 
         for item in videos_response.get("items", []):
+            # Shorts 除外
+            duration = item.get("contentDetails", {}).get("duration", "")
+            if is_short(duration):
+                continue
+
             snippet = item["snippet"]
             video_id = item["id"]
             title = snippet["title"]
@@ -224,7 +241,7 @@ def fetch_videos():
             is_live_archive = "liveStreamingDetails" in item
 
             if is_live_archive:
-                # ===== 配信の場合（従来通り） =====
+                # ===== 配信の場合 =====
                 character = extract_character(title)
                 matches = parse_description(description, title, log_lines)
 
@@ -243,7 +260,7 @@ def fetch_videos():
                 })
 
             else:
-                # ===== 通常動画の場合（タイトルのみから取得） =====
+                # ===== 通常動画の場合（タイトルのみ） =====
                 info = parse_video_title(title)
 
                 if not info:
@@ -270,7 +287,6 @@ def fetch_videos():
 
         print(f"  詳細処理済み: {min(i+50, len(video_ids))} / {len(video_ids)}")
 
-    # タイムスタンプがなかったものをログに追加
     if no_timestamp_titles:
         log_lines.append("=" * 60)
         log_lines.append(f"有効な試合情報が取れなかったもの（{len(no_timestamp_titles)}本）:")
@@ -279,16 +295,12 @@ def fetch_videos():
             log_lines.append(f"  - {t}")
         log_lines.append("")
 
-    # ログファイルに書き出し（毎回上書き）
     LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
     with open(LOG_PATH, "w", encoding="utf-8") as f:
         f.write("\n".join(log_lines))
 
     print(f"ログを書き出しました: {LOG_PATH}")
     print(f"有効な動画数: {len(results)} 本")
-
-    results.sort(key=lambda x: x["published_at"], reverse=True)
-    return results
 
 def main():
     if not API_KEY:
