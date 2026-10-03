@@ -43,6 +43,56 @@ def extract_character(title: str) -> str:
     match = re.match(r"^([^\s#]+)", title)
     return match.group(1) if match else "不明"
 
+def parse_video_title(title: str) -> dict | None:
+    """
+    通常動画のタイトルから試合情報を抽出する
+    戻り値: {"character", "player", "map", "rank"} または None
+    """
+    title = title.strip()
+
+    # パターン1: 【...】 で始まる場合
+    if title.startswith("【"):
+        # 】の位置を探す
+        end = title.find("】")
+        if end == -1:
+            return None
+
+        after = title[end + 1:].strip()
+        # 例: オペラ歌手 レオの思い出 神のレアキャラ試合 引分け #第五人格 ...
+        parts = after.split()
+
+        if len(parts) < 2:
+            return None
+
+        character = parts[0]
+        map_name = parts[1]
+
+        return {
+            "character": character,
+            "player": "Kakiri",
+            "map": map_name,
+            "rank": ""  # タイトルに順位がない場合は空
+        }
+
+    # パターン2: 【 で始まらない場合
+    # 例: 女王蜂 1位 とまだよー 永眠町 S40 Queen Bee 1st Eversleeping Town #第五人格 ...
+    # 先頭4つを キャラ / 順位 / プレイヤー / マップ とみなす
+    parts = title.split()
+    if len(parts) < 4:
+        return None
+
+    character = parts[0]
+    rank = parts[1]
+    player = parts[2]
+    map_name = parts[3]
+
+    return {
+        "character": character,
+        "player": player,
+        "map": map_name,
+        "rank": rank
+    }
+
 def parse_description(description: str, title: str, log_lines: list) -> list[dict]:
     """説明文から有効なタイムスタンプ行だけを抽出。無視した行も記録する"""
     matches = []
@@ -142,10 +192,6 @@ def fetch_videos():
         if not next_page_token:
             break
 
-        # テスト用制限をかけたい場合は以下を有効に
-        # if len(video_ids) >= 300:
-        #     break
-
     if not video_ids:
         print("動画が1本も取得できませんでした。")
         return []
@@ -164,7 +210,7 @@ def fetch_videos():
     for i in range(0, len(video_ids), 50):
         batch_ids = video_ids[i:i+50]
         videos_response = youtube.videos().list(
-            part="snippet",
+            part="snippet,liveStreamingDetails",  # ← 重要：liveStreamingDetails を追加
             id=",".join(batch_ids)
         ).execute()
 
@@ -175,28 +221,59 @@ def fetch_videos():
             description = snippet.get("description", "")
             published_at = snippet["publishedAt"]
 
-            character = extract_character(title)
-            matches = parse_description(description, title, log_lines)
+            is_live_archive = "liveStreamingDetails" in item
 
-            if not matches:
-                no_timestamp_titles.append(title)
-                continue
+            if is_live_archive:
+                # ===== 配信の場合（従来通り） =====
+                character = extract_character(title)
+                matches = parse_description(description, title, log_lines)
 
-            results.append({
-                "video_id": video_id,
-                "title": title,
-                "character": character,
-                "published_at": published_at,
-                "url": f"https://www.youtube.com/watch?v={video_id}",
-                "matches": matches
-            })
+                if not matches:
+                    no_timestamp_titles.append(f"[配信] {title}")
+                    continue
+
+                results.append({
+                    "video_id": video_id,
+                    "title": title,
+                    "character": character,
+                    "published_at": published_at,
+                    "url": f"https://www.youtube.com/watch?v={video_id}",
+                    "is_live_archive": True,
+                    "matches": matches
+                })
+
+            else:
+                # ===== 通常動画の場合（タイトルのみから取得） =====
+                info = parse_video_title(title)
+
+                if not info:
+                    no_timestamp_titles.append(f"[動画] {title}")
+                    continue
+
+                matches = [{
+                    "timestamp": "0:00",
+                    "seconds": 0,
+                    "map": info["map"],
+                    "player": info["player"],
+                    "rank": info["rank"]
+                }]
+
+                results.append({
+                    "video_id": video_id,
+                    "title": title,
+                    "character": info["character"],
+                    "published_at": published_at,
+                    "url": f"https://www.youtube.com/watch?v={video_id}",
+                    "is_live_archive": False,
+                    "matches": matches
+                })
 
         print(f"  詳細処理済み: {min(i+50, len(video_ids))} / {len(video_ids)}")
 
-    # タイムスタンプがなかった配信をログに追加
+    # タイムスタンプがなかったものをログに追加
     if no_timestamp_titles:
         log_lines.append("=" * 60)
-        log_lines.append(f"タイムスタンプなしの配信（{len(no_timestamp_titles)}本）:")
+        log_lines.append(f"有効な試合情報が取れなかったもの（{len(no_timestamp_titles)}本）:")
         log_lines.append("=" * 60)
         for t in no_timestamp_titles:
             log_lines.append(f"  - {t}")
