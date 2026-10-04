@@ -46,14 +46,20 @@ def to_seconds(ts: str) -> int:
     return 0
 
 def extract_character(title: str) -> str:
-    """タイトル先頭からキャラ名を抽出"""
+    """タイトル先頭の単語をキャラ名として完全一致で取得"""
     title = title.strip()
-    for char in CHARACTERS:
-        if title.startswith(char):
-            return char
-    # フォールバック: 最初のスペースまたは#の前
     match = re.match(r"^([^\s#]+)", title)
-    return match.group(1) if match else "不明"
+    if not match:
+        return "不明"
+
+    token = match.group(1)
+
+    # CHARACTERS に完全一致するものがあればそれを使う
+    if token in CHARACTERS:
+        return token
+
+    # リストになくても先頭単語をそのまま返す
+    return token
 
 def parse_video_title(title: str) -> dict | None:
     """
@@ -127,12 +133,35 @@ def parse_description(description: str, title: str, log_lines: list) -> list[dic
         if timestamp in ("0:00:00", "0:00", "00:00:00", "00:00"):
             continue
 
-        # 直後が半角・全角かっこで始まる場合はスキップ
+        # ===== 特殊形式: （キャラ名）/マップ/プレイヤー  or  (キャラ名)/マップ/プレイヤー =====
+        special = re.match(
+            r"^[（(]([^）)]+)[）)]\s*/\s*([^/]+)\s*/\s*(.+)$",
+            rest
+        )
+        if special:
+            char_name = special.group(1).strip()
+            map_name = special.group(2).strip()
+            player = special.group(3).strip()
+
+            if char_name and map_name and player:
+                matches.append({
+                    "timestamp": timestamp,
+                    "seconds": to_seconds(timestamp),
+                    "map": map_name,
+                    "player": player,
+                    "rank": "",              # ランク不明のため空白
+                    "character": char_name   # 実際のキャラクター名
+                })
+            else:
+                ignored_lines.append(line)
+            continue
+
+        # その他の「直後がかっこ」で始まる行はスキップ
         if rest.startswith("(") or rest.startswith("（"):
             ignored_lines.append(line)
             continue
 
-        # 正常形式: マップ/プレイヤー名/ランク
+        # ===== 通常形式: マップ/プレイヤー名/ランク =====
         parts = rest.split("/")
         if len(parts) < 3:
             ignored_lines.append(line)
@@ -152,9 +181,9 @@ def parse_description(description: str, title: str, log_lines: list) -> list[dic
             "map": map_name,
             "player": player,
             "rank": rank
+            # character は持たない（動画タイトルのキャラを使う）
         })
 
-    # 無視した行がある場合だけログに記録
     if ignored_lines:
         log_lines.append(f"[無視した行] {title}")
         for ignored in ignored_lines:
