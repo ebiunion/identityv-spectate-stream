@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T03:34:35.646068+00:00",
+  "updated_at": "2026-10-04T04:01:36.371068+00:00",
   "videos": [
     {
       "video_id": "d8d3INXpvWU",
@@ -4391,8 +4391,8 @@
         {
           "timestamp": "0:00:23",
           "seconds": 23,
-          "map": "ぽんぽこかき▭",
-          "player": "軍需工場",
+          "map": "軍需工場",
+          "player": "ぽんぽこかき▭",
           "rank": "",
           "character": "アイヴィ"
         },
@@ -4685,16 +4685,16 @@
         {
           "timestamp": "0:19:01",
           "seconds": 1141,
-          "map": "Freikugel",
-          "player": "月の河公園",
+          "map": "月の河公園",
+          "player": "Freikugel",
           "rank": "",
           "character": "泣き虫"
         },
         {
           "timestamp": "0:25:17",
           "seconds": 1517,
-          "map": "Yukipi_",
-          "player": "赤の教会",
+          "map": "赤の教会",
+          "player": "Yukipi_",
           "rank": "",
           "character": "歯医者"
         },
@@ -41772,6 +41772,14 @@
       "url": "https://www.youtube.com/watch?v=j-KcpjSPLNs",
       "is_live_archive": true,
       "matches": [
+        {
+          "timestamp": "0:00:31",
+          "seconds": 31,
+          "map": "レオの思い出",
+          "player": "ぽんぽこかき",
+          "rank": "",
+          "character": "オペラ歌手"
+        },
         {
           "timestamp": "0:09:00",
           "seconds": 540,
