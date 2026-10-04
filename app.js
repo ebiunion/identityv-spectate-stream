@@ -35,34 +35,38 @@ function matchKey(videoId, seconds) {
 }
 
 async function loadData() {
-  const res = await fetch("./data/matches.json?" + Date.now());
-  const data = await res.json();
-  allVideos = data.videos || [];
+  try {
+    const res = await fetch("./data/matches.json?" + Date.now());
+    if (!res.ok) throw new Error("matches.json の取得に失敗: " + res.status);
+    const data = await res.json();
+    allVideos = data.videos || [];
 
-  document.getElementById("updatedAt").textContent =
-    "最終更新: " + new Date(data.updated_at).toLocaleString("ja-JP");
+    document.getElementById("updatedAt").textContent =
+      "最終更新: " + new Date(data.updated_at).toLocaleString("ja-JP");
 
-  populateFilters();
-  applyFilter();
+    populateFilters();
+    applyFilter();
+  } catch (err) {
+    console.error(err);
+    document.getElementById("updatedAt").textContent = "データの読み込みに失敗しました";
+    document.getElementById("loading").style.display = "none";
+  }
 }
 
 function populateFilters() {
-  // 動画タイトルのキャラ + 試合固有のキャラ を両方集める
   const characterSet = new Set();
   allVideos.forEach(v => {
     if (v.character) characterSet.add(v.character);
-    v.matches.forEach(m => {
+    (v.matches || []).forEach(m => {
       if (m.character) characterSet.add(m.character);
     });
   });
   const characters = [...characterSet].sort();
-
-  const maps = [...new Set(allVideos.flatMap(v => v.matches.map(m => m.map)))].sort();
+  const maps = [...new Set(allVideos.flatMap(v => (v.matches || []).map(m => m.map).filter(Boolean)))].sort();
 
   const charSelect = document.getElementById("characterFilter");
   const mapSelect = document.getElementById("mapFilter");
 
-  // 既存の「すべて」以外をクリアしてから追加
   charSelect.innerHTML = '<option value="">すべて</option>';
   mapSelect.innerHTML = '<option value="">すべて</option>';
 
@@ -87,18 +91,18 @@ function applyFilter() {
   const player = document.getElementById("playerFilter").value.trim().toLowerCase();
 
   filteredVideos = allVideos.filter(video => {
-    // キャラクターフィルター（動画タイトル or 試合固有キャラ）
+    const matches = video.matches || [];
+
     if (char) {
       const videoCharMatch = video.character === char;
-      const matchCharMatch = video.matches.some(m => m.character === char);
+      const matchCharMatch = matches.some(m => m.character === char);
       if (!videoCharMatch && !matchCharMatch) return false;
     }
 
-    // マップ・プレイヤーフィルター
     if (map || player) {
-      return video.matches.some(m => {
+      return matches.some(m => {
         if (map && m.map !== map) return false;
-        if (player && !m.player.toLowerCase().includes(player)) return false;
+        if (player && !(m.player || "").toLowerCase().includes(player)) return false;
         return true;
       });
     }
@@ -108,6 +112,7 @@ function applyFilter() {
   displayedCount = 0;
   document.getElementById("results").innerHTML = "";
   document.getElementById("noMore").style.display = "none";
+  document.getElementById("loading").style.display = "none";
   loadMore();
 }
 
@@ -117,104 +122,107 @@ function loadMore() {
   const noMore = document.getElementById("noMore");
 
   if (displayedCount >= filteredVideos.length) {
+    loading.style.display = "none";
     noMore.style.display = filteredVideos.length > 0 ? "block" : "none";
     return;
   }
 
   loading.style.display = "block";
 
-  const nextVideos = filteredVideos.slice(displayedCount, displayedCount + PAGE_SIZE);
-  const watchedVideos = getWatchedVideos();
-  const watchedMatches = getWatchedMatches();
+  try {
+    const nextVideos = filteredVideos.slice(displayedCount, displayedCount + PAGE_SIZE);
+    const watchedVideos = getWatchedVideos();
+    const watchedMatches = getWatchedMatches();
 
-  // ★ここで char / map / player をすべて取得する（これが抜けていた）
-  const char = document.getElementById("characterFilter").value;
-  const map = document.getElementById("mapFilter").value;
-  const player = document.getElementById("playerFilter").value.trim().toLowerCase();
+    const char = document.getElementById("characterFilter").value;
+    const map = document.getElementById("mapFilter").value;
+    const player = document.getElementById("playerFilter").value.trim().toLowerCase();
 
-  nextVideos.forEach(video => {
-    const visibleMatches = video.matches.filter(m => {
-      if (char) {
-        const matchChar = m.character || video.character;
-        if (matchChar !== char) return false;
-      }
-      if (map && m.map !== map) return false;
-      if (player && !m.player.toLowerCase().includes(player)) return false;
-      return true;
-    });
+    nextVideos.forEach(video => {
+      const matches = video.matches || [];
 
-    if (visibleMatches.length === 0 && (char || map || player)) return;
+      const visibleMatches = matches.filter(m => {
+        if (char) {
+          const matchChar = m.character || video.character;
+          if (matchChar !== char) return false;
+        }
+        if (map && m.map !== map) return false;
+        if (player && !(m.player || "").toLowerCase().includes(player)) return false;
+        return true;
+      });
 
-    const isVideoWatched = watchedVideos.includes(video.video_id);
-    const isLive = video.is_live_archive === true;
+      // フィルター中で1件も残らない場合はスキップ
+      if (visibleMatches.length === 0 && (char || map || player)) return;
 
-    const card = document.createElement("div");
-    card.className = "video-card" + (isVideoWatched ? " watched" : "");
-    card.dataset.videoId = video.video_id;
+      const isVideoWatched = watchedVideos.includes(video.video_id);
+      const isLive = video.is_live_archive === true;
 
-    const date = new Date(video.published_at).toLocaleDateString("ja-JP");
+      const card = document.createElement("div");
+      card.className = "video-card" + (isVideoWatched ? " watched" : "");
+      card.dataset.videoId = video.video_id;
 
-    if (!isLive) {
-      // ===== 通常動画：フラット表示 =====
-      const m = visibleMatches[0] || video.matches[0] || {};
-      card.innerHTML = `
-        <div class="video-header">
-          <input type="checkbox" class="video-checkbox" data-video-id="${video.video_id}" ${isVideoWatched ? "checked" : ""}>
-          <div class="video-title-area">
-            <h2 class="video-title">${video.character} — ${video.title}</h2>
-            <div class="video-meta">
-              ${date} ／
-              <span class="tag">${m.map || ""}</span>
-              <span class="tag">${m.player || ""}</span>
-              ${m.rank ? `<span class="tag">${m.rank}</span>` : ""}
-              ／ <a href="${video.url}" target="_blank">動画を開く</a>
+      const date = new Date(video.published_at).toLocaleDateString("ja-JP");
+
+      if (!isLive) {
+        // 通常動画
+        const m = visibleMatches[0] || matches[0] || {};
+        card.innerHTML = `
+          <div class="video-header">
+            <input type="checkbox" class="video-checkbox" data-video-id="${video.video_id}" ${isVideoWatched ? "checked" : ""}>
+            <div class="video-title-area">
+              <h2 class="video-title">${video.character || ""} — ${video.title || ""}</h2>
+              <div class="video-meta">
+                ${date} ／
+                <span class="tag">${m.map || ""}</span>
+                <span class="tag">${m.player || ""}</span>
+                ${m.rank ? `<span class="tag">${m.rank}</span>` : ""}
+                ／ <a href="${video.url}" target="_blank">動画を開く</a>
+              </div>
             </div>
           </div>
-        </div>
-      `;
-    } else {
-      // ===== 配信：親子構造 =====
-      card.innerHTML = `
-        <div class="video-header">
-          <input type="checkbox" class="video-checkbox" data-video-id="${video.video_id}" ${isVideoWatched ? "checked" : ""}>
-          <h2 class="video-title">${video.character} — ${video.title}</h2>
-        </div>
-        <div class="video-meta">${date} ／ <a href="${video.url}" target="_blank">動画を開く</a></div>
-        <ul class="match-list">
-          ${visibleMatches.map(m => {
-            const key = matchKey(video.video_id, m.seconds);
-            const isMatchWatched = watchedMatches.includes(key);
-            const charTag = m.character
-              ? `<span class="tag">${m.character}</span>`
-              : "";
-            const rankTag = m.rank
-              ? `<span class="tag">${m.rank}</span>`
-              : "";
-            return `
-              <li class="match-item${isMatchWatched ? " watched" : ""}">
-                <input type="checkbox" class="match-checkbox" data-key="${key}" ${isMatchWatched ? "checked" : ""}>
-                <a href="https://www.youtube.com/watch?v=${video.video_id}&t=${m.seconds}s" target="_blank">
-                  ${m.timestamp}
-                </a>
-                ${charTag}
-                <span class="tag">${m.map}</span>
-                <span class="tag">${m.player}</span>
-                ${rankTag}
-              </li>
-            `;
-          }).join("")}
-        </ul>
-      `;
+        `;
+      } else {
+        // 配信
+        card.innerHTML = `
+          <div class="video-header">
+            <input type="checkbox" class="video-checkbox" data-video-id="${video.video_id}" ${isVideoWatched ? "checked" : ""}>
+            <h2 class="video-title">${video.character || ""} — ${video.title || ""}</h2>
+          </div>
+          <div class="video-meta">${date} ／ <a href="${video.url}" target="_blank">動画を開く</a></div>
+          <ul class="match-list">
+            ${visibleMatches.map(m => {
+              const key = matchKey(video.video_id, m.seconds);
+              const isMatchWatched = watchedMatches.includes(key);
+              const charTag = m.character ? `<span class="tag">${m.character}</span>` : "";
+              const rankTag = m.rank ? `<span class="tag">${m.rank}</span>` : "";
+              return `
+                <li class="match-item${isMatchWatched ? " watched" : ""}">
+                  <input type="checkbox" class="match-checkbox" data-key="${key}" ${isMatchWatched ? "checked" : ""}>
+                  <a href="https://www.youtube.com/watch?v=${video.video_id}&t=${m.seconds || 0}s" target="_blank">
+                    ${m.timestamp || ""}
+                  </a>
+                  ${charTag}
+                  <span class="tag">${m.map || ""}</span>
+                  <span class="tag">${m.player || ""}</span>
+                  ${rankTag}
+                </li>
+              `;
+            }).join("")}
+          </ul>
+        `;
+      }
+
+      results.appendChild(card);
+    });
+
+    displayedCount += nextVideos.length;
+  } catch (err) {
+    console.error("loadMore error:", err);
+  } finally {
+    loading.style.display = "none";
+    if (displayedCount >= filteredVideos.length) {
+      noMore.style.display = filteredVideos.length > 0 ? "block" : "none";
     }
-
-    results.appendChild(card);
-  });
-
-  displayedCount += nextVideos.length;
-  loading.style.display = "none";
-
-  if (displayedCount >= filteredVideos.length) {
-    noMore.style.display = "block";
   }
 }
 

@@ -167,10 +167,15 @@ button:hover {
   opacity: 0.45;
 }
 
-/* タイムスタンプ行は親の影響を受けない */
-.video-card.watched .match-list,
-.video-card.watched .match-item {
-  opacity: 1 !important;
+/* 配信・動画本体がチェックされたとき → タイトル周りだけ暗くする */
+.video-card.watched > .video-header,
+.video-card.watched > .video-meta {
+  opacity: 0.45;
+}
+
+/* タイムスタンプ自体がチェックされたとき暗くする */
+.match-item.watched {
+  opacity: 0.45;
 }
 
 /* タイムスタンプ自体がチェックされたときだけ暗くする */
