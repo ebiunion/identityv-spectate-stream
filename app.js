@@ -47,11 +47,24 @@ async function loadData() {
 }
 
 function populateFilters() {
-  const characters = [...new Set(allVideos.map(v => v.character))].sort();
+  // 動画タイトルのキャラ + 試合固有のキャラ を両方集める
+  const characterSet = new Set();
+  allVideos.forEach(v => {
+    if (v.character) characterSet.add(v.character);
+    v.matches.forEach(m => {
+      if (m.character) characterSet.add(m.character);
+    });
+  });
+  const characters = [...characterSet].sort();
+
   const maps = [...new Set(allVideos.flatMap(v => v.matches.map(m => m.map)))].sort();
 
   const charSelect = document.getElementById("characterFilter");
   const mapSelect = document.getElementById("mapFilter");
+
+  // 既存の「すべて」以外をクリアしてから追加
+  charSelect.innerHTML = '<option value="">すべて</option>';
+  mapSelect.innerHTML = '<option value="">すべて</option>';
 
   characters.forEach(c => {
     const opt = document.createElement("option");
@@ -74,7 +87,7 @@ function applyFilter() {
   const player = document.getElementById("playerFilter").value.trim().toLowerCase();
 
   filteredVideos = allVideos.filter(video => {
-    // キャラクターフィルター
+    // キャラクターフィルター（動画タイトル or 試合固有キャラ）
     if (char) {
       const videoCharMatch = video.character === char;
       const matchCharMatch = video.matches.some(m => m.character === char);
@@ -84,10 +97,6 @@ function applyFilter() {
     // マップ・プレイヤーフィルター
     if (map || player) {
       return video.matches.some(m => {
-        if (char && m.character && m.character !== char) {
-          // 試合に独自キャラがある場合はそれも考慮
-          // （video.character で既に通っている場合はここでは弾かない）
-        }
         if (map && m.map !== map) return false;
         if (player && !m.player.toLowerCase().includes(player)) return false;
         return true;
@@ -118,25 +127,26 @@ function loadMore() {
   const watchedVideos = getWatchedVideos();
   const watchedMatches = getWatchedMatches();
 
+  // ★ここで char / map / player をすべて取得する（これが抜けていた）
+  const char = document.getElementById("characterFilter").value;
   const map = document.getElementById("mapFilter").value;
   const player = document.getElementById("playerFilter").value.trim().toLowerCase();
 
   nextVideos.forEach(video => {
     const visibleMatches = video.matches.filter(m => {
-    if (char) {
-        // 試合に character がある場合はそれで判定、ない場合は動画の character で判定
+      if (char) {
         const matchChar = m.character || video.character;
         if (matchChar !== char) return false;
-    }
-    if (map && m.map !== map) return false;
-    if (player && !m.player.toLowerCase().includes(player)) return false;
-    return true;
+      }
+      if (map && m.map !== map) return false;
+      if (player && !m.player.toLowerCase().includes(player)) return false;
+      return true;
     });
 
-    if (visibleMatches.length === 0 && (map || player)) return;
+    if (visibleMatches.length === 0 && (char || map || player)) return;
 
     const isVideoWatched = watchedVideos.includes(video.video_id);
-    const isLive = video.is_live_archive === true; // true のときだけ配信扱い
+    const isLive = video.is_live_archive === true;
 
     const card = document.createElement("div");
     card.className = "video-card" + (isVideoWatched ? " watched" : "");
@@ -145,7 +155,7 @@ function loadMore() {
     const date = new Date(video.published_at).toLocaleDateString("ja-JP");
 
     if (!isLive) {
-      // ===== 通常動画：フラット表示（タイムスタンプ行なし） =====
+      // ===== 通常動画：フラット表示 =====
       const m = visibleMatches[0] || video.matches[0] || {};
       card.innerHTML = `
         <div class="video-header">
@@ -174,20 +184,25 @@ function loadMore() {
           ${visibleMatches.map(m => {
             const key = matchKey(video.video_id, m.seconds);
             const isMatchWatched = watchedMatches.includes(key);
-            const charTag = m.character ? `<span class="tag">${m.character}</span>` : "";
+            const charTag = m.character
+              ? `<span class="tag">${m.character}</span>`
+              : "";
+            const rankTag = m.rank
+              ? `<span class="tag">${m.rank}</span>`
+              : "";
             return `
-                <li class="match-item${isMatchWatched ? " watched" : ""}">
+              <li class="match-item${isMatchWatched ? " watched" : ""}">
                 <input type="checkbox" class="match-checkbox" data-key="${key}" ${isMatchWatched ? "checked" : ""}>
                 <a href="https://www.youtube.com/watch?v=${video.video_id}&t=${m.seconds}s" target="_blank">
-                    ${m.timestamp}
+                  ${m.timestamp}
                 </a>
                 ${charTag}
                 <span class="tag">${m.map}</span>
                 <span class="tag">${m.player}</span>
-                ${m.rank ? `<span class="tag">${m.rank}</span>` : ""}
-                </li>
+                ${rankTag}
+              </li>
             `;
-            }).join("")}
+          }).join("")}
         </ul>
       `;
     }
