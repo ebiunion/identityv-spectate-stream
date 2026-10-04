@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T15:14:22.583463+00:00",
+  "updated_at": "2026-10-04T03:34:35.646068+00:00",
   "videos": [
     {
       "video_id": "d8d3INXpvWU",
@@ -174,6 +174,14 @@
           "rank": "28位"
         },
         {
+          "timestamp": "0:18:35",
+          "seconds": 1115,
+          "map": "湖景村",
+          "player": "ぽんぽこかき▭",
+          "rank": "",
+          "character": "アイヴィ"
+        },
+        {
           "timestamp": "0:27:34",
           "seconds": 1654,
           "map": "聖心病院",
@@ -274,6 +282,14 @@
       "url": "https://www.youtube.com/watch?v=6gybt5rmIgk",
       "is_live_archive": true,
       "matches": [
+        {
+          "timestamp": "0:00:28",
+          "seconds": 28,
+          "map": "レオの思い出",
+          "player": "ねぎちくん",
+          "rank": "",
+          "character": "オペラ歌手"
+        },
         {
           "timestamp": "0:07:30",
           "seconds": 450,
@@ -579,7 +595,7 @@
     {
       "video_id": "Ze3hdch1aTs",
       "title": "アンデッド #5 S44 達人観戦 Undead 昼ラン #identityV #第五人格",
-      "character": "アン",
+      "character": "アンデッド",
       "published_at": "2026-09-29T19:43:22Z",
       "url": "https://www.youtube.com/watch?v=Ze3hdch1aTs",
       "is_live_archive": true,
@@ -1530,6 +1546,14 @@
       "is_live_archive": true,
       "matches": [
         {
+          "timestamp": "0:00:51",
+          "seconds": 51,
+          "map": "赤の教会",
+          "player": "竹若こう",
+          "rank": "",
+          "character": "泣き虫"
+        },
+        {
           "timestamp": "0:07:04",
           "seconds": 424,
           "map": "中華街",
@@ -1653,7 +1677,7 @@
     {
       "video_id": "hANkaV-MApA",
       "title": "オペラ歌手 #71 S44 達人観戦 Opera Singer 昼ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2026-09-24T06:10:49Z",
       "url": "https://www.youtube.com/watch?v=hANkaV-MApA",
       "is_live_archive": true,
@@ -3665,7 +3689,7 @@
     {
       "video_id": "n1lErMHCiO4",
       "title": "オペラ歌手 #70 S44 達人観戦 Opera Singer 昼ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2026-09-14T06:14:19Z",
       "url": "https://www.youtube.com/watch?v=n1lErMHCiO4",
       "is_live_archive": true,
@@ -4365,6 +4389,14 @@
       "is_live_archive": true,
       "matches": [
         {
+          "timestamp": "0:00:23",
+          "seconds": 23,
+          "map": "ぽんぽこかき▭",
+          "player": "軍需工場",
+          "rank": "",
+          "character": "アイヴィ"
+        },
+        {
           "timestamp": "0:05:50",
           "seconds": 350,
           "map": "湖景村",
@@ -4651,6 +4683,22 @@
           "rank": "65位"
         },
         {
+          "timestamp": "0:19:01",
+          "seconds": 1141,
+          "map": "Freikugel",
+          "player": "月の河公園",
+          "rank": "",
+          "character": "泣き虫"
+        },
+        {
+          "timestamp": "0:25:17",
+          "seconds": 1517,
+          "map": "Yukipi_",
+          "player": "赤の教会",
+          "rank": "",
+          "character": "歯医者"
+        },
+        {
           "timestamp": "0:33:44",
           "seconds": 2024,
           "map": "永眠町",
@@ -4840,7 +4888,7 @@
     {
       "video_id": "Wl4vQD_gQp0",
       "title": "アンデッド #5 S43 達人観戦 Undead 夜ラン #identityV #第五人格",
-      "character": "アン",
+      "character": "アンデッド",
       "published_at": "2026-09-07T19:13:58Z",
       "url": "https://www.youtube.com/watch?v=Wl4vQD_gQp0",
       "is_live_archive": true,
@@ -5348,6 +5396,14 @@
           "rank": "B"
         },
         {
+          "timestamp": "0:44:36",
+          "seconds": 2676,
+          "map": "軍需工場",
+          "player": "お前マヂヵ",
+          "rank": "",
+          "character": "足萎えの羊"
+        },
+        {
           "timestamp": "0:52:02",
           "seconds": 3122,
           "map": "聖心病院",
@@ -5570,6 +5626,14 @@
       "url": "https://www.youtube.com/watch?v=JhHakZRkVLY",
       "is_live_archive": true,
       "matches": [
+        {
+          "timestamp": "0:00:30",
+          "seconds": 30,
+          "map": "赤の教会",
+          "player": "Wr_arcana",
+          "rank": "",
+          "character": "オペラ歌手"
+        },
         {
           "timestamp": "0:09:38",
           "seconds": 578,
@@ -6673,6 +6737,14 @@
       "is_live_archive": true,
       "matches": [
         {
+          "timestamp": "0:00:28",
+          "seconds": 28,
+          "map": "軍需工場",
+          "player": "お前マヂヵ",
+          "rank": "",
+          "character": "雑貨商"
+        },
+        {
           "timestamp": "0:07:15",
           "seconds": 435,
           "map": "赤の教会",
@@ -7074,6 +7146,14 @@
       "is_live_archive": true,
       "matches": [
         {
+          "timestamp": "0:00:23",
+          "seconds": 23,
+          "map": "聖心病院",
+          "player": "ちなにゃん▭",
+          "rank": "",
+          "character": "鹿"
+        },
+        {
           "timestamp": "0:08:18",
           "seconds": 498,
           "map": "永眠町",
@@ -7128,6 +7208,14 @@
           "map": "レオの思い出",
           "player": "Tranhdayy",
           "rank": "95位"
+        },
+        {
+          "timestamp": "0:57:42",
+          "seconds": 3462,
+          "map": "中華街",
+          "player": "とまだよー",
+          "rank": "",
+          "character": "ビリヤードプレイヤー"
         },
         {
           "timestamp": "1:05:33",
@@ -8072,7 +8160,7 @@
     {
       "video_id": "EynIuigY12M",
       "title": "オペラ歌手 #69 S43 達人観戦 Opera Singer 朝ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2026-08-27T22:19:06Z",
       "url": "https://www.youtube.com/watch?v=EynIuigY12M",
       "is_live_archive": true,
@@ -9003,7 +9091,7 @@
     {
       "video_id": "tWvFns-cQzI",
       "title": "アンデッド #4 S43 達人観戦 Undead 朝ラン #identityV #第五人格",
-      "character": "アン",
+      "character": "アンデッド",
       "published_at": "2026-08-24T22:15:12Z",
       "url": "https://www.youtube.com/watch?v=tWvFns-cQzI",
       "is_live_archive": true,
@@ -9968,6 +10056,14 @@
       "is_live_archive": true,
       "matches": [
         {
+          "timestamp": "0:00:26",
+          "seconds": 26,
+          "map": "軍需工場",
+          "player": "堝禍過",
+          "rank": "",
+          "character": "女王蜂"
+        },
+        {
           "timestamp": "0:08:31",
           "seconds": 511,
           "map": "永眠町",
@@ -10084,7 +10180,7 @@
     {
       "video_id": "UxHzd3UIXCo",
       "title": "オペラ歌手 #68 S43 達人観戦 Opera Singer 昼ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2026-08-19T18:34:59Z",
       "url": "https://www.youtube.com/watch?v=UxHzd3UIXCo",
       "is_live_archive": true,
@@ -13156,7 +13252,7 @@
     {
       "video_id": "Hmq44rjdb-Y",
       "title": "アンデッド #3 S43 達人観戦 Undead 昼ラン #identityV #第五人格",
-      "character": "アン",
+      "character": "アンデッド",
       "published_at": "2026-08-10T19:25:32Z",
       "url": "https://www.youtube.com/watch?v=Hmq44rjdb-Y",
       "is_live_archive": true,
@@ -14359,7 +14455,7 @@
     {
       "video_id": "kxiN0RDzIYs",
       "title": "オペラ歌手 #67 S43 達人観戦 Opera Singer 夜ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2026-08-07T13:16:28Z",
       "url": "https://www.youtube.com/watch?v=kxiN0RDzIYs",
       "is_live_archive": true,
@@ -15433,7 +15529,7 @@
     {
       "video_id": "_2he_Z5Yz5I",
       "title": "オペラ歌手 #66 S43 達人観戦 Opera Singer 昼ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2026-08-04T06:14:34Z",
       "url": "https://www.youtube.com/watch?v=_2he_Z5Yz5I",
       "is_live_archive": true,
@@ -17667,6 +17763,14 @@
       "is_live_archive": true,
       "matches": [
         {
+          "timestamp": "0:00:32",
+          "seconds": 32,
+          "map": "レオの思い出",
+          "player": "あはまnya",
+          "rank": "",
+          "character": "女王蜂"
+        },
+        {
           "timestamp": "0:08:28",
           "seconds": 508,
           "map": "レオの思い出",
@@ -18055,7 +18159,7 @@
     {
       "video_id": "QSTN_-Chct0",
       "title": "オペラ歌手 #65 S43 達人観戦 Opera Singer 朝ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2026-07-22T22:14:00Z",
       "url": "https://www.youtube.com/watch?v=QSTN_-Chct0",
       "is_live_archive": true,
@@ -18456,7 +18560,7 @@
     {
       "video_id": "YCeukLVP4Ic",
       "title": "アンデッド #2 S43 達人観戦 Undead 朝ラン #identityV #第五人格",
-      "character": "アン",
+      "character": "アンデッド",
       "published_at": "2026-07-19T10:32:14Z",
       "url": "https://www.youtube.com/watch?v=YCeukLVP4Ic",
       "is_live_archive": true,
@@ -19990,7 +20094,7 @@
     {
       "video_id": "CevQkU5axqA",
       "title": "アンデッド #1 S43 達人観戦 Undead 夜ラン #identityV #第五人格",
-      "character": "アン",
+      "character": "アンデッド",
       "published_at": "2026-07-11T13:17:00Z",
       "url": "https://www.youtube.com/watch?v=CevQkU5axqA",
       "is_live_archive": true,
@@ -21070,6 +21174,14 @@
       "is_live_archive": true,
       "matches": [
         {
+          "timestamp": "0:00:40",
+          "seconds": 40,
+          "map": "永眠町",
+          "player": "はちみつ^888",
+          "rank": "",
+          "character": "アイヴィ"
+        },
+        {
           "timestamp": "0:07:49",
           "seconds": 469,
           "map": "赤の教会",
@@ -21880,7 +21992,7 @@
     {
       "video_id": "PYwYupdQB-U",
       "title": "オペラ歌手 #64 S42 達人観戦 Opera Singer 昼ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2026-07-01T18:40:39Z",
       "url": "https://www.youtube.com/watch?v=PYwYupdQB-U",
       "is_live_archive": true,
@@ -22137,6 +22249,14 @@
       "is_live_archive": true,
       "matches": [
         {
+          "timestamp": "0:00:37",
+          "seconds": 37,
+          "map": "中華街",
+          "player": "ねぎちくん",
+          "rank": "",
+          "character": "足萎えの羊"
+        },
+        {
           "timestamp": "0:06:19",
           "seconds": 379,
           "map": "永眠町",
@@ -22214,6 +22334,14 @@
           "rank": "C"
         },
         {
+          "timestamp": "1:27:25",
+          "seconds": 5245,
+          "map": "湖景村",
+          "player": "ひいちゃんぴ",
+          "rank": "",
+          "character": "雑貨商"
+        },
+        {
           "timestamp": "1:32:57",
           "seconds": 5577,
           "map": "レオの思い出",
@@ -22226,6 +22354,14 @@
           "map": "赤の教会",
           "player": "鬱鬱アタクシ",
           "rank": "無徽章"
+        },
+        {
+          "timestamp": "1:49:50",
+          "seconds": 6590,
+          "map": "軍需工場",
+          "player": "あうちゃんだし",
+          "rank": "",
+          "character": "ビリヤードプレイヤー"
         },
         {
           "timestamp": "1:56:44",
@@ -22756,6 +22892,14 @@
           "map": "聖心病院",
           "player": "esmero:D",
           "rank": "17位"
+        },
+        {
+          "timestamp": "1:32:51",
+          "seconds": 5571,
+          "map": "赤の教会",
+          "player": "BlackTapioka?",
+          "rank": "",
+          "character": "ジョゼフ"
         },
         {
           "timestamp": "1:44:04",
@@ -24000,7 +24144,7 @@
     {
       "video_id": "RBqeMjgESJM",
       "title": "オペラ歌手 #63 S42 達人観戦 Opera Singer 昼ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2026-06-23T10:52:30Z",
       "url": "https://www.youtube.com/watch?v=RBqeMjgESJM",
       "is_live_archive": true,
@@ -24339,6 +24483,14 @@
       "url": "https://www.youtube.com/watch?v=PIOci4eACwQ",
       "is_live_archive": true,
       "matches": [
+        {
+          "timestamp": "0:00:47",
+          "seconds": 47,
+          "map": "レオの思い出",
+          "player": "亜鉛GG",
+          "rank": "",
+          "character": "オペラ歌手"
+        },
         {
           "timestamp": "0:12:57",
           "seconds": 777,
@@ -24776,6 +24928,14 @@
           "rank": "無徽章"
         },
         {
+          "timestamp": "1:01:07",
+          "seconds": 3667,
+          "map": "赤の教会",
+          "player": "主帝福虎",
+          "rank": "",
+          "character": "女王蜂"
+        },
+        {
           "timestamp": "1:07:09",
           "seconds": 4029,
           "map": "赤の教会",
@@ -24836,7 +24996,7 @@
     {
       "video_id": "0kMZ5v-o1Js",
       "title": "オペラ歌手 #62 S42 達人観戦 Opera Singer 朝ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2026-06-17T13:30:54Z",
       "url": "https://www.youtube.com/watch?v=0kMZ5v-o1Js",
       "is_live_archive": true,
@@ -24945,6 +25105,14 @@
           "map": "永眠町",
           "player": "女主角",
           "rank": "11位"
+        },
+        {
+          "timestamp": "1:44:21",
+          "seconds": 6261,
+          "map": "罪の森",
+          "player": "主帝福虎",
+          "rank": "",
+          "character": "蝋人形師"
         },
         {
           "timestamp": "1:53:18",
@@ -26007,6 +26175,14 @@
           "rank": "5位"
         },
         {
+          "timestamp": "1:40:27",
+          "seconds": 6027,
+          "map": "月の河公園",
+          "player": "ぱいん＠下手",
+          "rank": "",
+          "character": "オペラ歌手"
+        },
+        {
           "timestamp": "1:48:29",
           "seconds": 6509,
           "map": "月の河公園",
@@ -26638,6 +26814,14 @@
           "rank": "29位"
         },
         {
+          "timestamp": "0:50:03",
+          "seconds": 3003,
+          "map": "中華街",
+          "player": "あうちゃんだし",
+          "rank": "",
+          "character": "悪夢"
+        },
+        {
           "timestamp": "0:56:52",
           "seconds": 3412,
           "map": "レオの思い出",
@@ -26657,6 +26841,14 @@
           "map": "軍需工場",
           "player": "露水情緣要不得",
           "rank": "無徽章"
+        },
+        {
+          "timestamp": "1:16:16",
+          "seconds": 4576,
+          "map": "湖景村",
+          "player": "とまだよー",
+          "rank": "",
+          "character": "女王蜂"
         },
         {
           "timestamp": "1:22:49",
@@ -26834,7 +27026,7 @@
     {
       "video_id": "H6PuR3WcKk8",
       "title": "オペラ歌手 #61 S42 達人観戦 Opera Singer 昼ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2026-06-09T19:11:20Z",
       "url": "https://www.youtube.com/watch?v=H6PuR3WcKk8",
       "is_live_archive": true,
@@ -27514,7 +27706,7 @@
     {
       "video_id": "TZq0dHPagaA",
       "title": "オペラ歌手 #60 S42 達人観戦 Opera Singer 朝ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2026-06-06T12:00:38Z",
       "url": "https://www.youtube.com/watch?v=TZq0dHPagaA",
       "is_live_archive": true,
@@ -27756,6 +27948,14 @@
       "url": "https://www.youtube.com/watch?v=CuXHKvFy2xQ",
       "is_live_archive": true,
       "matches": [
+        {
+          "timestamp": "0:00:32",
+          "seconds": 32,
+          "map": "永眠町",
+          "player": "ぱいん＠下手",
+          "rank": "",
+          "character": "女王蜂"
+        },
         {
           "timestamp": "0:07:44",
           "seconds": 464,
@@ -28410,7 +28610,7 @@
     {
       "video_id": "11xGQOiK0ic",
       "title": "オペラ歌手 #59 S42 達人観戦 Opera Singer 朝ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2026-06-02T22:16:01Z",
       "url": "https://www.youtube.com/watch?v=11xGQOiK0ic",
       "is_live_archive": true,
@@ -30094,7 +30294,7 @@
     {
       "video_id": "lSb-DiYc2jo",
       "title": "オペラ歌手 #58 S42 達人観戦 Opera Singer 夜ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2026-05-26T13:22:26Z",
       "url": "https://www.youtube.com/watch?v=lSb-DiYc2jo",
       "is_live_archive": true,
@@ -31942,7 +32142,7 @@
     {
       "video_id": "eSbqGagxklI",
       "title": "オペラ歌手 #57 S42 達人観戦 Opera Singer 昼ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2026-05-19T06:19:50Z",
       "url": "https://www.youtube.com/watch?v=eSbqGagxklI",
       "is_live_archive": true,
@@ -32283,6 +32483,14 @@
           "rank": "56位"
         },
         {
+          "timestamp": "1:10:25",
+          "seconds": 4225,
+          "map": "湖景村",
+          "player": "小夢妹",
+          "rank": "",
+          "character": "蝋人形師"
+        },
+        {
           "timestamp": "1:17:57",
           "seconds": 4677,
           "map": "中華街",
@@ -32612,6 +32820,14 @@
           "map": "湖景村",
           "player": "노인과노루",
           "rank": "無徽章"
+        },
+        {
+          "timestamp": "0:11:46",
+          "seconds": 706,
+          "map": "聖心病院",
+          "player": "平の凡",
+          "rank": "",
+          "character": "イタカ"
         },
         {
           "timestamp": "0:16:23",
@@ -33653,6 +33869,30 @@
       "is_live_archive": true,
       "matches": [
         {
+          "timestamp": "0:00:29",
+          "seconds": 29,
+          "map": "永眠町",
+          "player": "ぱいんLv0",
+          "rank": "",
+          "character": "歯医者"
+        },
+        {
+          "timestamp": "0:07:39",
+          "seconds": 459,
+          "map": "レオの思い出",
+          "player": "困了累了就睡覚",
+          "rank": "",
+          "character": "蝋人形師"
+        },
+        {
+          "timestamp": "0:14:15",
+          "seconds": 855,
+          "map": "湖景村",
+          "player": "Sabotage:",
+          "rank": "",
+          "character": "フラバルー"
+        },
+        {
           "timestamp": "0:20:31",
           "seconds": 1231,
           "map": "罪の森",
@@ -33748,7 +33988,7 @@
     {
       "video_id": "BY8oGDSjz-M",
       "title": "オペラ歌手 #56 S42 達人観戦 Opera Singer 昼ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2026-05-13T06:14:03Z",
       "url": "https://www.youtube.com/watch?v=BY8oGDSjz-M",
       "is_live_archive": true,
@@ -34216,6 +34456,14 @@
           "map": "軍需工場",
           "player": "くじらぷしゃー",
           "rank": "23位"
+        },
+        {
+          "timestamp": "1:13:34",
+          "seconds": 4414,
+          "map": "湖景村",
+          "player": "だるいヴィトン",
+          "rank": "",
+          "character": "グレイス"
         },
         {
           "timestamp": "1:23:41",
@@ -35520,6 +35768,14 @@
           "map": "中華街",
           "player": "ISFPツ",
           "rank": "無徽章"
+        },
+        {
+          "timestamp": "0:06:46",
+          "seconds": 406,
+          "map": "聖心病院",
+          "player": "Kamiʕo3oʔ",
+          "rank": "",
+          "character": "破輪"
         },
         {
           "timestamp": "0:14:44",
@@ -37472,7 +37728,7 @@
     {
       "video_id": "TsVFygjzPbE",
       "title": "オペラ歌手 #55 S42 達人観戦 Opera Singer 昼ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2026-05-02T06:17:35Z",
       "url": "https://www.youtube.com/watch?v=TsVFygjzPbE",
       "is_live_archive": true,
@@ -37988,7 +38244,7 @@
     {
       "video_id": "W8wUbzb1Lu8",
       "title": "オペラ歌手 #54 S41 達人観戦 Opera Singer 朝ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2026-04-08T10:50:03Z",
       "url": "https://www.youtube.com/watch?v=W8wUbzb1Lu8",
       "is_live_archive": true,
@@ -38866,6 +39122,14 @@
           "rank": "74位"
         },
         {
+          "timestamp": "0:43:33",
+          "seconds": 2613,
+          "map": "軍需工場",
+          "player": "るそちお",
+          "rank": "",
+          "character": "夢の魔女"
+        },
+        {
           "timestamp": "0:48:49",
           "seconds": 2929,
           "map": "軍需工場",
@@ -38947,7 +39211,7 @@
     {
       "video_id": "YPNEprsFg5E",
       "title": "オペラ歌手 #53 S41 達人観戦 Opera Singer 朝ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2026-04-02T22:17:09Z",
       "url": "https://www.youtube.com/watch?v=YPNEprsFg5E",
       "is_live_archive": true,
@@ -41224,7 +41488,7 @@
     {
       "video_id": "JwtWYgYPhb0",
       "title": "オペラ歌手 #52 S41 達人観戦 Opera Singer 昼ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2026-03-23T06:14:48Z",
       "url": "https://www.youtube.com/watch?v=JwtWYgYPhb0",
       "is_live_archive": true,
@@ -42468,7 +42732,7 @@
     {
       "video_id": "-KGhz3BimOY",
       "title": "オペラ歌手 #51 S41 達人観戦 Opera Singer 昼ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2026-03-14T06:17:46Z",
       "url": "https://www.youtube.com/watch?v=-KGhz3BimOY",
       "is_live_archive": true,
@@ -43055,6 +43319,14 @@
       "is_live_archive": true,
       "matches": [
         {
+          "timestamp": "0:00:37",
+          "seconds": 37,
+          "map": "軍需工場",
+          "player": "超回復kk",
+          "rank": "",
+          "character": "アン"
+        },
+        {
           "timestamp": "0:06:20",
           "seconds": 380,
           "map": "罪の森",
@@ -43109,6 +43381,14 @@
           "map": "赤の教会",
           "player": "JO智NI",
           "rank": "C"
+        },
+        {
+          "timestamp": "1:08:10",
+          "seconds": 4090,
+          "map": "月の河公園",
+          "player": "FO6GqVY",
+          "rank": "",
+          "character": "オペラ歌手"
         },
         {
           "timestamp": "1:14:21",
@@ -43686,7 +43966,7 @@
     {
       "video_id": "IcDhZJUyBv4",
       "title": "オペラ歌手 #50 S41 達人観戦 Opera Singer 朝ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2026-03-08T10:18:27Z",
       "url": "https://www.youtube.com/watch?v=IcDhZJUyBv4",
       "is_live_archive": true,
@@ -46488,7 +46768,7 @@
     {
       "video_id": "8LFJQAxmVDw",
       "title": "オペラ歌手 #49 S41 達人観戦 Opera Singer 朝ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2026-02-25T10:37:10Z",
       "url": "https://www.youtube.com/watch?v=8LFJQAxmVDw",
       "is_live_archive": true,
@@ -48530,7 +48810,7 @@
     {
       "video_id": "ztowdeXJXPw",
       "title": "オペラ歌手 #48 S41 達人観戦 Opera Singer 夜ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2026-02-17T03:38:53Z",
       "url": "https://www.youtube.com/watch?v=ztowdeXJXPw",
       "is_live_archive": true,
@@ -50571,7 +50851,7 @@
     {
       "video_id": "NxWPJRjn-kM",
       "title": "オペラ歌手 #47 S41 達人観戦 Opera Singer 朝ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2026-02-07T22:15:32Z",
       "url": "https://www.youtube.com/watch?v=NxWPJRjn-kM",
       "is_live_archive": true,
@@ -52087,6 +52367,14 @@
           "rank": "1位"
         },
         {
+          "timestamp": "0:27:09",
+          "seconds": 1629,
+          "map": "中華街",
+          "player": "プリプリヤード",
+          "rank": "",
+          "character": "キーガン"
+        },
+        {
           "timestamp": "0:34:11",
           "seconds": 2051,
           "map": "罪の森",
@@ -52162,6 +52450,22 @@
           "map": "月の河公園",
           "player": "恭迎小乖歆",
           "rank": "4位"
+        },
+        {
+          "timestamp": "1:47:44",
+          "seconds": 6464,
+          "map": "永眠町",
+          "player": "Kruger@YouTube",
+          "rank": "",
+          "character": "グレイス"
+        },
+        {
+          "timestamp": "1:54:26",
+          "seconds": 6866,
+          "map": "湖景村",
+          "player": "プリプリヤード",
+          "rank": "",
+          "character": "キーガン"
         }
       ]
     },
@@ -52300,7 +52604,7 @@
     {
       "video_id": "ZnNdxlZclt4",
       "title": "オペラ歌手 #46 S40 達人観戦 Opera Singer 夜ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2026-02-02T22:14:37Z",
       "url": "https://www.youtube.com/watch?v=ZnNdxlZclt4",
       "is_live_archive": true,
@@ -54885,7 +55189,7 @@
     {
       "video_id": "fmAXPZAHw7U",
       "title": "オペラ歌手 #45 S40 達人観戦 Opera Singer 昼ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2026-01-23T18:12:49Z",
       "url": "https://www.youtube.com/watch?v=fmAXPZAHw7U",
       "is_live_archive": true,
@@ -55635,6 +55939,14 @@
       "is_live_archive": true,
       "matches": [
         {
+          "timestamp": "0:00:29",
+          "seconds": 29,
+          "map": "軍需工場",
+          "player": "乖乖不哭喝奶奶",
+          "rank": "",
+          "character": "雑貨商"
+        },
+        {
           "timestamp": "0:05:37",
           "seconds": 337,
           "map": "聖心病院",
@@ -55959,7 +56271,7 @@
     {
       "video_id": "LdzpqCJCDlE",
       "title": "オペラ歌手 #44 S40 達人観戦 Opera Singer 昼ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2026-01-19T06:19:12Z",
       "url": "https://www.youtube.com/watch?v=LdzpqCJCDlE",
       "is_live_archive": true,
@@ -56268,6 +56580,14 @@
           "rank": "無徽章"
         },
         {
+          "timestamp": "0:11:06",
+          "seconds": 666,
+          "map": "永眠町",
+          "player": "KuR`^´＞A＜`^´i",
+          "rank": "",
+          "character": "女王蜂"
+        },
+        {
           "timestamp": "0:17:13",
           "seconds": 1033,
           "map": "聖心病院",
@@ -56453,6 +56773,14 @@
           "map": "軍需工場",
           "player": "おはむお",
           "rank": "12位"
+        },
+        {
+          "timestamp": "0:19:16",
+          "seconds": 1156,
+          "map": "中華街",
+          "player": "KuR`^´＞A＜`^´i",
+          "rank": "",
+          "character": "アイヴィ"
         },
         {
           "timestamp": "0:31:52",
@@ -57013,7 +57341,7 @@
     {
       "video_id": "ZaZeiH_uaFo",
       "title": "オペラ歌手 #43 S40 達人観戦 Opera Singer 夜ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2026-01-16T01:30:45Z",
       "url": "https://www.youtube.com/watch?v=ZaZeiH_uaFo",
       "is_live_archive": true,
@@ -57813,6 +58141,14 @@
       "is_live_archive": true,
       "matches": [
         {
+          "timestamp": "0:00:27",
+          "seconds": 27,
+          "map": "赤の教会",
+          "player": "lascookie",
+          "rank": "",
+          "character": "雑貨商"
+        },
+        {
           "timestamp": "0:05:15",
           "seconds": 315,
           "map": "聖心病院",
@@ -57922,7 +58258,7 @@
     {
       "video_id": "qv7qAvyf_PY",
       "title": "オペラ歌手 #42 S40 達人観戦 Opera Singer 昼ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2026-01-13T18:25:52Z",
       "url": "https://www.youtube.com/watch?v=qv7qAvyf_PY",
       "is_live_archive": true,
@@ -59215,7 +59551,7 @@
     {
       "video_id": "XGIzS2eTqx8",
       "title": "オペラ歌手 #41 S40 達人観戦 Opera Singer 夜ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2026-01-08T13:15:53Z",
       "url": "https://www.youtube.com/watch?v=XGIzS2eTqx8",
       "is_live_archive": true,
@@ -59941,6 +60277,14 @@
           "map": "レオの思い出",
           "player": "君主ω",
           "rank": "37位"
+        },
+        {
+          "timestamp": "1:15:45",
+          "seconds": 4545,
+          "map": "赤の教会",
+          "player": "KuR`^´＞A＜`^´i",
+          "rank": "",
+          "character": "オペラ歌手"
         },
         {
           "timestamp": "1:25:44",
@@ -60913,7 +61257,7 @@
     {
       "video_id": "qyVFjWTyoFI",
       "title": "オペラ歌手 #40 S40 達人観戦 Opera Singer 昼ラン #identityV #第五人格 ※音無し",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2025-12-30T06:20:00Z",
       "url": "https://www.youtube.com/watch?v=qyVFjWTyoFI",
       "is_live_archive": true,
@@ -61760,7 +62104,7 @@
     {
       "video_id": "R_2ZCq2PVsU",
       "title": "オペラ歌手 #39 S40 達人観戦 Opera Singer 朝ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2025-12-25T11:04:15Z",
       "url": "https://www.youtube.com/watch?v=R_2ZCq2PVsU",
       "is_live_archive": true,
@@ -62991,11 +63335,27 @@
       "is_live_archive": true,
       "matches": [
         {
+          "timestamp": "0:00:28",
+          "seconds": 28,
+          "map": "永眠町",
+          "player": "はろーちむ",
+          "rank": "",
+          "character": "グレイス"
+        },
+        {
           "timestamp": "0:08:29",
           "seconds": 509,
           "map": "聖心病院",
           "player": "clarenceliow",
           "rank": "C"
+        },
+        {
+          "timestamp": "0:15:21",
+          "seconds": 921,
+          "map": "湖景村",
+          "player": "てらドラゴン",
+          "rank": "",
+          "character": "夢の魔女"
         },
         {
           "timestamp": "0:21:50",
@@ -63543,6 +63903,14 @@
       "url": "https://www.youtube.com/watch?v=L4LoWVAefjM",
       "is_live_archive": true,
       "matches": [
+        {
+          "timestamp": "0:00:27",
+          "seconds": 27,
+          "map": "軍需工場",
+          "player": "進撃QuizMaster",
+          "rank": "",
+          "character": "キーガン"
+        },
         {
           "timestamp": "0:07:08",
           "seconds": 428,
@@ -65118,7 +65486,7 @@
     {
       "video_id": "O8t9mlhUxeU",
       "title": "オペラ歌手 #38 S40 達人観戦 Opera Singer 朝ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2025-12-10T22:14:12Z",
       "url": "https://www.youtube.com/watch?v=O8t9mlhUxeU",
       "is_live_archive": true,
@@ -67200,7 +67568,7 @@
     {
       "video_id": "xNKZlaIUpvU",
       "title": "オペラ歌手 #37 S40 達人観戦 Opera Singer 朝ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2025-12-03T10:50:07Z",
       "url": "https://www.youtube.com/watch?v=xNKZlaIUpvU",
       "is_live_archive": true,
@@ -68492,7 +68860,7 @@
     {
       "video_id": "hgrcyM-Yr94",
       "title": "オペラ歌手 #36 S40 達人観戦 Opera Singer 夜ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2025-11-29T13:17:44Z",
       "url": "https://www.youtube.com/watch?v=hgrcyM-Yr94",
       "is_live_archive": true,
@@ -70943,7 +71311,7 @@
     {
       "video_id": "Mj8nDeseGBY",
       "title": "オペラ歌手 #35 S39 達人観戦 Opera Singer 夜ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2025-11-20T13:15:06Z",
       "url": "https://www.youtube.com/watch?v=Mj8nDeseGBY",
       "is_live_archive": true,
@@ -71120,6 +71488,14 @@
           "rank": "C"
         },
         {
+          "timestamp": "0:42:35",
+          "seconds": 2555,
+          "map": "罪の森",
+          "player": "esmero:D",
+          "rank": "",
+          "character": "フラバルー"
+        },
+        {
           "timestamp": "0:49:28",
           "seconds": 2968,
           "map": "中華街",
@@ -71243,6 +71619,14 @@
           "map": "罪の森",
           "player": "寄宿のジュリ男",
           "rank": "無徽章"
+        },
+        {
+          "timestamp": "0:31:28",
+          "seconds": 1888,
+          "map": "永眠町",
+          "player": "しユう",
+          "rank": "",
+          "character": "白黒無常"
         },
         {
           "timestamp": "0:38:00",
@@ -75871,7 +76255,7 @@
     {
       "video_id": "sNknPJQ5B3Q",
       "title": "オペラ歌手 #34 S39 達人観戦 Opera Singer 夜ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2025-11-06T13:18:42Z",
       "url": "https://www.youtube.com/watch?v=sNknPJQ5B3Q",
       "is_live_archive": true,
@@ -76119,6 +76503,14 @@
           "map": "聖心病院",
           "player": "神之怒",
           "rank": "無徽章"
+        },
+        {
+          "timestamp": "1:29:18",
+          "seconds": 5358,
+          "map": "永眠町",
+          "player": "げんの極み",
+          "rank": "",
+          "character": "ルキノ"
         },
         {
           "timestamp": "1:34:39",
@@ -76770,6 +77162,14 @@
           "map": "軍需工場",
           "player": "まぐっまぐ",
           "rank": "1位"
+        },
+        {
+          "timestamp": "0:56:42",
+          "seconds": 3402,
+          "map": "レオの思い出",
+          "player": "未来へ歩み待つ",
+          "rank": "",
+          "character": "ジョゼフ"
         },
         {
           "timestamp": "1:04:04",
@@ -80349,7 +80749,7 @@
     {
       "video_id": "yVZYS3TlCFw",
       "title": "オペラ歌手 #33 S39 達人観戦 Opera Singer 朝ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2025-10-20T22:17:37Z",
       "url": "https://www.youtube.com/watch?v=yVZYS3TlCFw",
       "is_live_archive": true,
@@ -81007,6 +81407,14 @@
       "is_live_archive": true,
       "matches": [
         {
+          "timestamp": "0:00:30",
+          "seconds": 30,
+          "map": "赤の教会",
+          "player": "げんの極み",
+          "rank": "",
+          "character": "ルキノ"
+        },
+        {
           "timestamp": "0:07:39",
           "seconds": 459,
           "map": "永眠町",
@@ -81577,6 +81985,14 @@
           "map": "湖景村",
           "player": "目金一斗",
           "rank": "42位"
+        },
+        {
+          "timestamp": "0:25:43",
+          "seconds": 1543,
+          "map": "湖景村",
+          "player": "こんにちは1970",
+          "rank": "",
+          "character": "鹿"
         },
         {
           "timestamp": "0:34:04",
@@ -82480,6 +82896,14 @@
           "map": "赤の教会",
           "player": "汗汁たくま",
           "rank": "26位"
+        },
+        {
+          "timestamp": "0:13:43",
+          "seconds": 823,
+          "map": "聖心病院",
+          "player": "危機二髪",
+          "rank": "",
+          "character": "オペラ歌手"
         },
         {
           "timestamp": "0:19:55",
@@ -83434,6 +83858,14 @@
           "rank": "C"
         },
         {
+          "timestamp": "1:05:47",
+          "seconds": 3947,
+          "map": "中華街",
+          "player": "Yamiの悪魔",
+          "rank": "",
+          "character": "アイヴィ"
+        },
+        {
           "timestamp": "1:13:35",
           "seconds": 4415,
           "map": "赤の教会",
@@ -83773,7 +84205,7 @@
     {
       "video_id": "Jhxbj1BS8eE",
       "title": "オペラ歌手 #32 S39 達人観戦 Opera Singer 朝ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2025-10-04T22:20:16Z",
       "url": "https://www.youtube.com/watch?v=Jhxbj1BS8eE",
       "is_live_archive": true,
@@ -86875,7 +87307,7 @@
     {
       "video_id": "mY62XIcINBo",
       "title": "オペラ歌手 #31 S39 達人観戦 Opera Singer 夜ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2025-09-26T13:31:16Z",
       "url": "https://www.youtube.com/watch?v=mY62XIcINBo",
       "is_live_archive": true,
@@ -87009,6 +87441,14 @@
       "url": "https://www.youtube.com/watch?v=GgiKksUTyuA",
       "is_live_archive": true,
       "matches": [
+        {
+          "timestamp": "0:00:30",
+          "seconds": 30,
+          "map": "レオの思い出",
+          "player": "修行祭り開催",
+          "rank": "",
+          "character": "フラバルー"
+        },
         {
           "timestamp": "0:06:52",
           "seconds": 412,
@@ -87807,6 +88247,14 @@
       "url": "https://www.youtube.com/watch?v=25oAGmvG6i0",
       "is_live_archive": true,
       "matches": [
+        {
+          "timestamp": "0:00:21",
+          "seconds": 21,
+          "map": "赤の教会",
+          "player": "はくみろっぷ",
+          "rank": "",
+          "character": "グレイス"
+        },
         {
           "timestamp": "0:06:15",
           "seconds": 375,
@@ -89049,7 +89497,7 @@
     {
       "video_id": "YKVw7efIyhE",
       "title": "オペラ歌手 #30 S39 達人観戦 Opera Singer 夜ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2025-09-18T14:52:41Z",
       "url": "https://www.youtube.com/watch?v=YKVw7efIyhE",
       "is_live_archive": true,
@@ -89724,6 +90172,14 @@
           "rank": "68位"
         },
         {
+          "timestamp": "0:23:47",
+          "seconds": 1427,
+          "map": "軍需工場",
+          "player": "はろーぐち",
+          "rank": "",
+          "character": "グレイス"
+        },
+        {
           "timestamp": "0:31:49",
           "seconds": 1909,
           "map": "聖心病院",
@@ -89977,6 +90433,14 @@
       "url": "https://www.youtube.com/watch?v=9dsoEQ1ykHY",
       "is_live_archive": true,
       "matches": [
+        {
+          "timestamp": "0:00:23",
+          "seconds": 23,
+          "map": "月の河公園",
+          "player": "はむーぴー",
+          "rank": "",
+          "character": "アイヴィ"
+        },
         {
           "timestamp": "0:10:15",
           "seconds": 615,
@@ -91296,7 +91760,7 @@
     {
       "video_id": "3MkBqUgvm5Q",
       "title": "オペラ歌手 #29 S38 達人観戦 Opera Singer 夜ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2025-09-12T01:33:02Z",
       "url": "https://www.youtube.com/watch?v=3MkBqUgvm5Q",
       "is_live_archive": true,
@@ -91719,6 +92183,22 @@
       "url": "https://www.youtube.com/watch?v=Ep6nmnZvMI4",
       "is_live_archive": true,
       "matches": [
+        {
+          "timestamp": "0:00:25",
+          "seconds": 25,
+          "map": "聖心病院",
+          "player": "鹿乃子だおたん",
+          "rank": "",
+          "character": "鹿"
+        },
+        {
+          "timestamp": "0:06:15",
+          "seconds": 375,
+          "map": "軍需工場",
+          "player": "夏風のフェト",
+          "rank": "",
+          "character": "ボンボン"
+        },
         {
           "timestamp": "0:13:57",
           "seconds": 837,
@@ -92248,6 +92728,14 @@
           "map": "中華街",
           "player": "銀のプリム",
           "rank": "B"
+        },
+        {
+          "timestamp": "1:56:03",
+          "seconds": 6963,
+          "map": "湖景村",
+          "player": "あはまにゃ",
+          "rank": "",
+          "character": "フラバルー"
         }
       ]
     },
@@ -92259,6 +92747,14 @@
       "url": "https://www.youtube.com/watch?v=cYN6qYf6yL0",
       "is_live_archive": true,
       "matches": [
+        {
+          "timestamp": "0:00:23",
+          "seconds": 23,
+          "map": "レオの思い出",
+          "player": "はむーぴー",
+          "rank": "",
+          "character": "アン"
+        },
         {
           "timestamp": "0:07:01",
           "seconds": 421,
@@ -93232,6 +93728,14 @@
           "rank": "19位"
         },
         {
+          "timestamp": "0:29:36",
+          "seconds": 1776,
+          "map": "レオの思い出",
+          "player": "お前マヂヵ",
+          "rank": "",
+          "character": "オペラ歌手"
+        },
+        {
           "timestamp": "0:36:34",
           "seconds": 2194,
           "map": "軍需工場",
@@ -93251,6 +93755,14 @@
           "map": "月の河公園",
           "player": "MTのネコーレン",
           "rank": "B"
+        },
+        {
+          "timestamp": "0:53:52",
+          "seconds": 3232,
+          "map": "罪の森",
+          "player": "夏風のフェト",
+          "rank": "",
+          "character": "ボンボン"
         },
         {
           "timestamp": "0:59:51",
@@ -93728,7 +94240,7 @@
     {
       "video_id": "QAeFF24ITX0",
       "title": "オペラ歌手 #28 S38 達人観戦 Opera Singer 夜ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2025-09-04T13:18:59Z",
       "url": "https://www.youtube.com/watch?v=QAeFF24ITX0",
       "is_live_archive": true,
@@ -95655,7 +96167,7 @@
     {
       "video_id": "Z2hUmWdYpBY",
       "title": "オペラ歌手 #27 S38 達人観戦 Opera Singer 夜ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2025-08-31T01:17:20Z",
       "url": "https://www.youtube.com/watch?v=Z2hUmWdYpBY",
       "is_live_archive": true,
@@ -96107,6 +96619,14 @@
           "rank": "16位"
         },
         {
+          "timestamp": "0:53:22",
+          "seconds": 3202,
+          "map": "赤の教会",
+          "player": "大会最弱Hunter",
+          "rank": "",
+          "character": "オペラ歌手"
+        },
+        {
           "timestamp": "1:01:56",
           "seconds": 3716,
           "map": "月の河公園",
@@ -96322,6 +96842,14 @@
       "url": "https://www.youtube.com/watch?v=HuQMEYe9ilM",
       "is_live_archive": true,
       "matches": [
+        {
+          "timestamp": "0:00:22",
+          "seconds": 22,
+          "map": "月の河公園",
+          "player": "みにょぴ",
+          "rank": "",
+          "character": "アイヴィ"
+        },
         {
           "timestamp": "0:06:59",
           "seconds": 419,
@@ -97648,11 +98176,27 @@
           "rank": "4位"
         },
         {
+          "timestamp": "0:22:57",
+          "seconds": 1377,
+          "map": "中華街",
+          "player": "バフバフじみ",
+          "rank": "",
+          "character": "隠者"
+        },
+        {
           "timestamp": "0:32:16",
           "seconds": 1936,
           "map": "レオの思い出",
           "player": "七片海",
           "rank": "63位"
+        },
+        {
+          "timestamp": "0:39:23",
+          "seconds": 2363,
+          "map": "湖景村",
+          "player": "怒りを力にする",
+          "rank": "",
+          "character": "ピエロ"
         },
         {
           "timestamp": "0:48:23",
@@ -98457,6 +99001,14 @@
           "rank": "61位"
         },
         {
+          "timestamp": "0:44:23",
+          "seconds": 2663,
+          "map": "永眠町",
+          "player": "¿Kazoo?",
+          "rank": "",
+          "character": "ガラテア"
+        },
+        {
           "timestamp": "0:50:58",
           "seconds": 3058,
           "map": "レオの思い出",
@@ -98543,6 +99095,14 @@
       "url": "https://www.youtube.com/watch?v=bnJjj3TcxOo",
       "is_live_archive": true,
       "matches": [
+        {
+          "timestamp": "0:00:21",
+          "seconds": 21,
+          "map": "軍需工場",
+          "player": "バフバフじみ",
+          "rank": "",
+          "character": "隠者"
+        },
         {
           "timestamp": "0:08:30",
           "seconds": 510,
@@ -98654,13 +99214,21 @@
           "map": "中華街",
           "player": "HFL_Cookie^",
           "rank": "無徽章"
+        },
+        {
+          "timestamp": "1:52:07",
+          "seconds": 6727,
+          "map": "中華街",
+          "player": "バフバフじみ",
+          "rank": "",
+          "character": "隠者"
         }
       ]
     },
     {
       "video_id": "333W7Og_H-Y",
       "title": "オペラ歌手 #26 S38 達人観戦 昼ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2025-08-22T18:20:28Z",
       "url": "https://www.youtube.com/watch?v=333W7Og_H-Y",
       "is_live_archive": true,
@@ -98809,6 +99377,22 @@
           "rank": "無徽章"
         },
         {
+          "timestamp": "0:29:06",
+          "seconds": 1746,
+          "map": "永眠町",
+          "player": "怒りを力にする",
+          "rank": "",
+          "character": "蝋人形師"
+        },
+        {
+          "timestamp": "0:37:25",
+          "seconds": 2245,
+          "map": "月の河公園",
+          "player": "\"魂",
+          "rank": "",
+          "character": "泣き虫"
+        },
+        {
           "timestamp": "0:43:29",
           "seconds": 2609,
           "map": "軍需工場",
@@ -98821,6 +99405,14 @@
           "map": "レオの思い出",
           "player": "NINNMARIEZ",
           "rank": "28位"
+        },
+        {
+          "timestamp": "1:12:32",
+          "seconds": 4352,
+          "map": "罪の森",
+          "player": "バフバフじみ",
+          "rank": "",
+          "character": "隠者"
         },
         {
           "timestamp": "1:20:29",
@@ -99092,7 +99684,7 @@
     {
       "video_id": "vL1GnLWCW2A",
       "title": "オペラ歌手 #25 S38 達人観戦 Opera Singer 昼ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2025-08-16T06:31:14Z",
       "url": "https://www.youtube.com/watch?v=vL1GnLWCW2A",
       "is_live_archive": true,
@@ -99260,6 +99852,14 @@
           "map": "月の河公園",
           "player": "ONCHI^^",
           "rank": "72位"
+        },
+        {
+          "timestamp": "0:33:19",
+          "seconds": 1999,
+          "map": "湖景村",
+          "player": "大会最弱Hunter",
+          "rank": "",
+          "character": "アイヴィ"
         },
         {
           "timestamp": "0:40:01",
@@ -99437,7 +100037,7 @@
     {
       "video_id": "PZq8m5MTy1w",
       "title": "オペラ歌手 #24 S38 達人観戦 Opera Singer 朝ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2025-08-14T22:13:37Z",
       "url": "https://www.youtube.com/watch?v=PZq8m5MTy1w",
       "is_live_archive": true,
@@ -99570,6 +100170,14 @@
           "map": "聖心病院",
           "player": "憂鬱戦神",
           "rank": "C"
+        },
+        {
+          "timestamp": "0:16:26",
+          "seconds": 986,
+          "map": "レオの思い出",
+          "player": "大会最弱Hunter",
+          "rank": "",
+          "character": "アイヴィ"
         },
         {
           "timestamp": "0:26:49",
@@ -99816,11 +100424,27 @@
       "is_live_archive": true,
       "matches": [
         {
+          "timestamp": "0:00:31",
+          "seconds": 31,
+          "map": "軍需工場",
+          "player": "Mollyfantasy",
+          "rank": "",
+          "character": "アン"
+        },
+        {
           "timestamp": "0:05:52",
           "seconds": 352,
           "map": "中華街",
           "player": "あんあん失踪届",
           "rank": "無徽章"
+        },
+        {
+          "timestamp": "0:13:17",
+          "seconds": 797,
+          "map": "赤の教会",
+          "player": "葬送のフェト",
+          "rank": "",
+          "character": "ボンボン"
         },
         {
           "timestamp": "0:18:55",
@@ -99879,6 +100503,14 @@
           "rank": "94位"
         },
         {
+          "timestamp": "1:20:00",
+          "seconds": 4800,
+          "map": "レオの思い出",
+          "player": "DANZAI",
+          "rank": "",
+          "character": "鹿"
+        },
+        {
           "timestamp": "1:28:38",
           "seconds": 5318,
           "map": "レオの思い出",
@@ -99918,7 +100550,7 @@
     {
       "video_id": "eP4pnortkXI",
       "title": "オペラ歌手 #23 S38 達人観戦 Opera Singer 夜ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2025-08-13T13:25:57Z",
       "url": "https://www.youtube.com/watch?v=eP4pnortkXI",
       "is_live_archive": true,
@@ -100259,6 +100891,14 @@
           "rank": "25位"
         },
         {
+          "timestamp": "1:33:47",
+          "seconds": 5627,
+          "map": "赤の教会",
+          "player": "亡骸眠雄67",
+          "rank": "",
+          "character": "キーガン"
+        },
+        {
           "timestamp": "1:41:10",
           "seconds": 6070,
           "map": "永眠町",
@@ -100297,11 +100937,43 @@
           "rank": "B"
         },
         {
+          "timestamp": "0:26:16",
+          "seconds": 1576,
+          "map": "赤の教会",
+          "player": "葬送のフェト",
+          "rank": "",
+          "character": "ボンボン"
+        },
+        {
           "timestamp": "0:34:23",
           "seconds": 2063,
           "map": "赤の教会",
           "player": "ナンパ趣味おじ",
           "rank": "無徽章"
+        },
+        {
+          "timestamp": "0:41:53",
+          "seconds": 2513,
+          "map": "湖景村",
+          "player": "2434Luvちるpop",
+          "rank": "",
+          "character": "ガラテア"
+        },
+        {
+          "timestamp": "0:49:19",
+          "seconds": 2959,
+          "map": "赤の教会",
+          "player": "DANZAIさん",
+          "rank": "",
+          "character": "鹿"
+        },
+        {
+          "timestamp": "1:03:21",
+          "seconds": 3801,
+          "map": "軍需工場",
+          "player": "懺悔懺悔懺悔懺",
+          "rank": "",
+          "character": "ボンボン"
         },
         {
           "timestamp": "1:08:58",
@@ -100330,13 +101002,29 @@
           "map": "赤の教会",
           "player": "萎エミュー",
           "rank": "B"
+        },
+        {
+          "timestamp": "1:44:31",
+          "seconds": 6271,
+          "map": "罪の森",
+          "player": "Mollyfantasy",
+          "rank": "",
+          "character": "オペラ歌手"
+        },
+        {
+          "timestamp": "1:51:41",
+          "seconds": 6701,
+          "map": "レオの思い出",
+          "player": "大会最弱Hunter",
+          "rank": "",
+          "character": "アイヴィ"
         }
       ]
     },
     {
       "video_id": "br4fFgf5-Ss",
       "title": "オペラ歌手 #22 S38 達人観戦 Opera Singer 昼ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2025-08-12T06:28:10Z",
       "url": "https://www.youtube.com/watch?v=br4fFgf5-Ss",
       "is_live_archive": true,
@@ -100813,6 +101501,14 @@
           "rank": "C"
         },
         {
+          "timestamp": "1:24:51",
+          "seconds": 5091,
+          "map": "聖心病院",
+          "player": "DANZAIさん",
+          "rank": "",
+          "character": "鹿"
+        },
+        {
           "timestamp": "1:36:02",
           "seconds": 5762,
           "map": "中華街",
@@ -100838,7 +101534,7 @@
     {
       "video_id": "cqgSFmoYMQE",
       "title": "オペラ歌手 #21 S38 達人観戦 Opera Singer 朝ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2025-08-11T10:44:52Z",
       "url": "https://www.youtube.com/watch?v=cqgSFmoYMQE",
       "is_live_archive": true,
@@ -100960,7 +101656,7 @@
     {
       "video_id": "Mzoi2gkmhLg",
       "title": "オペラ歌手 #20 S38 達人観戦 Opera Singer 夜ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2025-08-10T13:17:29Z",
       "url": "https://www.youtube.com/watch?v=Mzoi2gkmhLg",
       "is_live_archive": true,
@@ -102463,7 +103159,7 @@
     {
       "video_id": "5Ypbm1ugfKI",
       "title": "オペラ歌手 #19 S38 達人観戦 Opera Singer 夜ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2025-08-07T01:20:06Z",
       "url": "https://www.youtube.com/watch?v=5Ypbm1ugfKI",
       "is_live_archive": true,
@@ -104175,7 +104871,7 @@
     {
       "video_id": "66UpOENE5QE",
       "title": "オペラ歌手 #18 S38 達人観戦 spectate the pros of Opera Singer 夜ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2025-08-03T01:21:07Z",
       "url": "https://www.youtube.com/watch?v=66UpOENE5QE",
       "is_live_archive": true,
@@ -106071,7 +106767,7 @@
     {
       "video_id": "15z6UzMTaeM",
       "title": "オペラ歌手 #17 S38 達人観戦 spectate the pros of Opera Singer 夜ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2025-07-28T13:17:18Z",
       "url": "https://www.youtube.com/watch?v=15z6UzMTaeM",
       "is_live_archive": true,
@@ -108668,7 +109364,7 @@
     {
       "video_id": "9Po8XLVPNs4",
       "title": "オペラ歌手 #16 S38 達人観戦 spectate the pros of Opera Singer 夜ラン #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2025-07-21T13:20:09Z",
       "url": "https://www.youtube.com/watch?v=9Po8XLVPNs4",
       "is_live_archive": true,
@@ -110714,7 +111410,7 @@
     {
       "video_id": "0TdZmUQO2XQ",
       "title": "オペラ歌手 #15 S38 達人観戦 spectate the pros of Opera Singer #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2025-07-16T18:07:28Z",
       "url": "https://www.youtube.com/watch?v=0TdZmUQO2XQ",
       "is_live_archive": true,
@@ -112168,7 +112864,7 @@
     {
       "video_id": "McgOg8t9yXw",
       "title": "オペラ歌手 #14 S38 達人観戦 spectate the pros of Opera Singer #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2025-07-12T22:13:42Z",
       "url": "https://www.youtube.com/watch?v=McgOg8t9yXw",
       "is_live_archive": true,
@@ -114413,7 +115109,7 @@
     {
       "video_id": "nuya_bNklEM",
       "title": "オペラ歌手 #13 S37 達人観戦 spectate the pros of Opera Singer #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2025-07-06T13:18:09Z",
       "url": "https://www.youtube.com/watch?v=nuya_bNklEM",
       "is_live_archive": true,
@@ -116396,7 +117092,7 @@
     {
       "video_id": "kwj0c-yaiFY",
       "title": "オペラ歌手 #12 S37 達人観戦 spectate the pros of Opera Singer #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2025-07-01T06:22:57Z",
       "url": "https://www.youtube.com/watch?v=kwj0c-yaiFY",
       "is_live_archive": true,
@@ -118296,7 +118992,7 @@
     {
       "video_id": "kssLfodh-4U",
       "title": "オペラ歌手 #11 S37 達人観戦 spectate the pros of Opera Singer #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2025-06-26T13:23:37Z",
       "url": "https://www.youtube.com/watch?v=kssLfodh-4U",
       "is_live_archive": true,
@@ -120081,7 +120777,7 @@
     {
       "video_id": "1rIMc6oo_q4",
       "title": "オペラ歌手 #10 S37 達人観戦 spectate the pros of Opera Singer #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2025-06-21T18:16:15Z",
       "url": "https://www.youtube.com/watch?v=1rIMc6oo_q4",
       "is_live_archive": true,
@@ -120921,7 +121617,7 @@
     {
       "video_id": "fkLW4OOTUzM",
       "title": "オペラ歌手 #9 S37 達人観戦 spectate the pros of Opera Singer #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2025-06-19T13:15:57Z",
       "url": "https://www.youtube.com/watch?v=fkLW4OOTUzM",
       "is_live_archive": true,
@@ -121579,7 +122275,7 @@
     {
       "video_id": "V0R41VDrcMs",
       "title": "オペラ歌手 #8 S37 達人観戦 spectate the pros of Opera Singer #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2025-06-17T13:22:32Z",
       "url": "https://www.youtube.com/watch?v=V0R41VDrcMs",
       "is_live_archive": true,
@@ -124002,7 +124698,7 @@
     {
       "video_id": "lmPEaKR81IU",
       "title": "オペラ歌手 #7 S37 達人観戦 spectate the pros of Opera Singer #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2025-06-10T22:15:52Z",
       "url": "https://www.youtube.com/watch?v=lmPEaKR81IU",
       "is_live_archive": true,
@@ -124830,7 +125526,7 @@
     {
       "video_id": "ycLzbc9mLWw",
       "title": "オペラ歌手 #6 S37 達人観戦 spectate the pros of Opera Singer #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2025-06-08T06:21:34Z",
       "url": "https://www.youtube.com/watch?v=ycLzbc9mLWw",
       "is_live_archive": true,
@@ -125446,7 +126142,7 @@
     {
       "video_id": "Rio9z5tKUDI",
       "title": "オペラ歌手 #5 S37 達人観戦 spectate the pros of Opera Singer #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2025-06-05T13:22:01Z",
       "url": "https://www.youtube.com/watch?v=Rio9z5tKUDI",
       "is_live_archive": true,
@@ -127204,7 +127900,7 @@
     {
       "video_id": "J8q6wwQ8DwM",
       "title": "オペラ歌手 #4 S37 達人観戦 spectate the pros of Opera Singer #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2025-05-31T13:16:30Z",
       "url": "https://www.youtube.com/watch?v=J8q6wwQ8DwM",
       "is_live_archive": true,
@@ -128168,7 +128864,7 @@
     {
       "video_id": "C6iceC7v7-Q",
       "title": "オペラ歌手 #3 S37 達人観戦 spectate the pros of Opera Singer #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2025-05-28T13:19:18Z",
       "url": "https://www.youtube.com/watch?v=C6iceC7v7-Q",
       "is_live_archive": true,
@@ -129212,7 +129908,7 @@
     {
       "video_id": "fZ7nm8ezIf8",
       "title": "オペラ歌手 #2 S37 達人観戦 spectate the pros of Opera Singer #identityV #第五人格",
-      "character": "オペラ",
+      "character": "オペラ歌手",
       "published_at": "2025-05-25T23:34:35Z",
       "url": "https://www.youtube.com/watch?v=fZ7nm8ezIf8",
       "is_live_archive": true,
