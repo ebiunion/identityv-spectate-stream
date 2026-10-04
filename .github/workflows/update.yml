@@ -2,8 +2,8 @@ name: Update matches data
 
 on:
   schedule:
-    - cron: "0 3 * * *"   # –ˆ“ú 12:00 JSTiUTC 03:00j
-  workflow_dispatch:       # è“®Às‚à‰Â”\
+    - cron: "0 3 * * *"   # æ¯æ—¥ 12:00 JSTï¼ˆUTC 03:00ï¼‰
+  workflow_dispatch:       # æ‰‹å‹•å®Ÿè¡Œã‚‚å¯èƒ½
 
 jobs:
   update:
