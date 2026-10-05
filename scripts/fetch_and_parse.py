@@ -156,15 +156,18 @@ def parse_description(description: str, title: str, log_lines: list) -> list[dic
                 ignored_lines.append(line)
             continue
 
-        # その他の「直後がかっこ」で始まる行はスキップ
+        # 直後が半角・全角かっこで始まる場合はスキップ
         if rest.startswith("(") or rest.startswith("（"):
-            ignored_lines.append(line)
+            # 「同じ試合」を含む行はログに出さない
+            if "同じ試合" not in line:
+                ignored_lines.append(line)
             continue
 
-        # ===== 通常形式: マップ/プレイヤー名/ランク =====
+        # 正常形式: マップ/プレイヤー名/ランク
         parts = rest.split("/")
         if len(parts) < 3:
-            ignored_lines.append(line)
+            if "同じ試合" not in line:
+                ignored_lines.append(line)
             continue
 
         map_name = parts[0].strip()
@@ -172,7 +175,8 @@ def parse_description(description: str, title: str, log_lines: list) -> list[dic
         rank = "/".join(parts[2:]).strip()
 
         if not map_name or not player:
-            ignored_lines.append(line)
+            if "同じ試合" not in line:
+                ignored_lines.append(line)
             continue
 
         matches.append({
@@ -185,7 +189,7 @@ def parse_description(description: str, title: str, log_lines: list) -> list[dic
         })
 
     if ignored_lines:
-        log_lines.append(f"[無視した行] {title}")
+        log_lines.append(f"{title}")
         for ignored in ignored_lines:
             log_lines.append(f"  → {ignored}")
         log_lines.append("")
