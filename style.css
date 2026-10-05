@@ -45,6 +45,35 @@ h1 {
   gap: 4px;
 }
 
+.rank-filter {
+  min-width: 200px;
+}
+
+.rank-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+  background: #121218;
+  border: 1px solid #333;
+  border-radius: 6px;
+  padding: 8px 10px;
+}
+
+.rank-option {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.85rem;
+  color: #ccc;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.rank-option input {
+  accent-color: #7aa2ff;
+  cursor: pointer;
+}
+
 label {
   font-size: 0.8rem;
   color: #aaa;

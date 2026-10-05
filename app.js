@@ -6,6 +6,32 @@ const PAGE_SIZE = 50;
 const WATCHED_VIDEOS_KEY = "watched_videos";
 const WATCHED_MATCHES_KEY = "watched_matches";
 
+function parseRankNumber(rankStr) {
+  if (!rankStr) return null;
+  const m = String(rankStr).match(/(\d+)/);
+  return m ? parseInt(m[1], 10) : null;
+}
+
+function getRankBand(rankStr) {
+  const n = parseRankNumber(rankStr);
+  if (n === null) return "other";
+  if (n >= 1 && n <= 3) return "1-3";
+  if (n >= 4 && n <= 10) return "4-10";
+  if (n >= 11 && n <= 20) return "11-20";
+  if (n >= 21 && n <= 50) return "21-50";
+  if (n >= 51 && n <= 100) return "51-100";
+  return "other";
+}
+
+function getSelectedRanks() {
+  return [...document.querySelectorAll("#rankFilter input:checked")].map(el => el.value);
+}
+
+function matchRankFilter(rankStr, selectedRanks) {
+  if (!selectedRanks.length) return true; // 未選択 = すべて
+  return selectedRanks.includes(getRankBand(rankStr));
+}
+
 function getWatchedVideos() {
   try {
     return JSON.parse(localStorage.getItem(WATCHED_VIDEOS_KEY) || "[]");
@@ -89,6 +115,7 @@ function applyFilter() {
   const char = document.getElementById("characterFilter").value;
   const map = document.getElementById("mapFilter").value;
   const player = document.getElementById("playerFilter").value.trim().toLowerCase();
+  const selectedRanks = getSelectedRanks();
 
   filteredVideos = allVideos.filter(video => {
     const matches = video.matches || [];
@@ -99,10 +126,12 @@ function applyFilter() {
       if (!videoCharMatch && !matchCharMatch) return false;
     }
 
-    if (map || player) {
+    // マップ・プレイヤー・順位のいずれかが指定されている場合
+    if (map || player || selectedRanks.length) {
       return matches.some(m => {
         if (map && m.map !== map) return false;
         if (player && !(m.player || "").toLowerCase().includes(player)) return false;
+        if (!matchRankFilter(m.rank, selectedRanks)) return false;
         return true;
       });
     }
@@ -137,6 +166,7 @@ function loadMore() {
     const char = document.getElementById("characterFilter").value;
     const map = document.getElementById("mapFilter").value;
     const player = document.getElementById("playerFilter").value.trim().toLowerCase();
+    const selectedRanks = getSelectedRanks();
 
     nextVideos.forEach(video => {
       const matches = video.matches || [];
@@ -148,11 +178,11 @@ function loadMore() {
         }
         if (map && m.map !== map) return false;
         if (player && !(m.player || "").toLowerCase().includes(player)) return false;
+        if (!matchRankFilter(m.rank, selectedRanks)) return false;
         return true;
       });
 
-      // フィルター中で1件も残らない場合はスキップ
-      if (visibleMatches.length === 0 && (char || map || player)) return;
+      if (visibleMatches.length === 0 && (char || map || player || selectedRanks.length)) return;
 
       const isVideoWatched = watchedVideos.includes(video.video_id);
       const isLive = video.is_live_archive === true;
@@ -270,7 +300,11 @@ document.getElementById("resetBtn").addEventListener("click", () => {
   document.getElementById("characterFilter").value = "";
   document.getElementById("mapFilter").value = "";
   document.getElementById("playerFilter").value = "";
+  document.querySelectorAll("#rankFilter input").forEach(el => { el.checked = false; });
   applyFilter();
 });
+
+// 順位チェックボックス
+document.getElementById("rankFilter").addEventListener("change", applyFilter);
 
 loadData();
