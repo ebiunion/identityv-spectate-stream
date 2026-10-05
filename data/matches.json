@@ -1,6 +1,271 @@
 {
-  "updated_at": "2026-10-04T05:29:48.559742+00:00",
+  "updated_at": "2026-10-05T03:18:47.670596+00:00",
   "videos": [
+    {
+      "video_id": "6tLIsdW-zvQ",
+      "title": "血の女王 #33 S44 達人観戦 Bloody Queen 夜ラン #identityV #第五人格",
+      "character": "血の女王",
+      "published_at": "2026-10-04T13:18:07Z",
+      "url": "https://www.youtube.com/watch?v=6tLIsdW-zvQ",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:32",
+          "seconds": 332,
+          "map": "月の河公園",
+          "player": "ピヨヨン2世",
+          "rank": "B"
+        },
+        {
+          "timestamp": "0:12:27",
+          "seconds": 747,
+          "map": "罪の森",
+          "player": "MrB_takuko",
+          "rank": "12位"
+        },
+        {
+          "timestamp": "0:20:09",
+          "seconds": 1209,
+          "map": "赤の教会",
+          "player": "にゃあちゃんず",
+          "rank": "9位"
+        },
+        {
+          "timestamp": "0:28:29",
+          "seconds": 1709,
+          "map": "聖心病院",
+          "player": "みあいむにだ",
+          "rank": "無徽章"
+        },
+        {
+          "timestamp": "0:33:33",
+          "seconds": 2013,
+          "map": "聖心病院",
+          "player": "キヌテヒョン",
+          "rank": "52位"
+        },
+        {
+          "timestamp": "0:40:32",
+          "seconds": 2432,
+          "map": "レオの思い出",
+          "player": "浅夏ノ蜜雪",
+          "rank": "14位"
+        },
+        {
+          "timestamp": "0:47:03",
+          "seconds": 2823,
+          "map": "軍需工場",
+          "player": "MrB_takuko",
+          "rank": "12位"
+        },
+        {
+          "timestamp": "0:56:14",
+          "seconds": 3374,
+          "map": "中華街",
+          "player": "些細な事だから",
+          "rank": "37位"
+        },
+        {
+          "timestamp": "1:03:02",
+          "seconds": 3782,
+          "map": "永眠町",
+          "player": "浅夏ノ蜜雪",
+          "rank": "14位"
+        },
+        {
+          "timestamp": "1:11:10",
+          "seconds": 4270,
+          "map": "罪の森",
+          "player": "風神さ",
+          "rank": "26位"
+        },
+        {
+          "timestamp": "1:16:25",
+          "seconds": 4585,
+          "map": "レオの思い出",
+          "player": "キヌテヒョン",
+          "rank": "52位"
+        },
+        {
+          "timestamp": "1:23:09",
+          "seconds": 4989,
+          "map": "湖景村",
+          "player": "にらねぎ太郎",
+          "rank": "98位"
+        },
+        {
+          "timestamp": "1:31:34",
+          "seconds": 5494,
+          "map": "中華街",
+          "player": "紅夫人ɞ",
+          "rank": "59位"
+        },
+        {
+          "timestamp": "1:37:54",
+          "seconds": 5874,
+          "map": "月の河公園",
+          "player": "ぷくぷくももち",
+          "rank": "78位"
+        },
+        {
+          "timestamp": "1:45:27",
+          "seconds": 6327,
+          "map": "聖心病院",
+          "player": "BóngCáiLẹo",
+          "rank": "無徽章"
+        },
+        {
+          "timestamp": "1:54:01",
+          "seconds": 6841,
+          "map": "レオの思い出",
+          "player": "小雞啄米奇",
+          "rank": "B"
+        },
+        {
+          "timestamp": "2:01:43",
+          "seconds": 7303,
+          "map": "レオの思い出",
+          "player": "自認チェ・サン",
+          "rank": "6位"
+        }
+      ]
+    },
+    {
+      "video_id": "iNW-AyGfz2w",
+      "title": "芸者 #32 S44 達人観戦 Geisha 朝ラン #identityV #第五人格",
+      "character": "芸者",
+      "published_at": "2026-10-04T11:34:26Z",
+      "url": "https://www.youtube.com/watch?v=iNW-AyGfz2w",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:00:24",
+          "seconds": 24,
+          "map": "レオの思い出",
+          "player": "sculricat",
+          "rank": "21位"
+        },
+        {
+          "timestamp": "0:07:21",
+          "seconds": 441,
+          "map": "中華街",
+          "player": "水Csa‵yankawee",
+          "rank": "34位"
+        },
+        {
+          "timestamp": "0:13:56",
+          "seconds": 836,
+          "map": "聖心病院",
+          "player": "蝶女子",
+          "rank": "8位"
+        },
+        {
+          "timestamp": "0:21:23",
+          "seconds": 1283,
+          "map": "罪の森",
+          "player": "ぽんぽこかき",
+          "rank": "7位"
+        },
+        {
+          "timestamp": "0:29:13",
+          "seconds": 1753,
+          "map": "月の河公園",
+          "player": "にゃぽねこ",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "0:34:30",
+          "seconds": 2070,
+          "map": "湖景村",
+          "player": "ʚあいすてぃーɞ",
+          "rank": "44位"
+        },
+        {
+          "timestamp": "0:41:55",
+          "seconds": 2515,
+          "map": "永眠町",
+          "player": "玉藻▭",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "0:46:14",
+          "seconds": 2774,
+          "map": "永眠町",
+          "player": "_おちゃちゃ",
+          "rank": "24位"
+        },
+        {
+          "timestamp": "0:53:45",
+          "seconds": 3225,
+          "map": "永眠町",
+          "player": "にゃぽねこ",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "1:00:05",
+          "seconds": 3605,
+          "map": "中華街",
+          "player": "おちゃざむさい",
+          "rank": "24位"
+        },
+        {
+          "timestamp": "1:08:12",
+          "seconds": 4092,
+          "map": "軍需工場",
+          "player": "玉藻▭",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "1:13:39",
+          "seconds": 4419,
+          "map": "中華街",
+          "player": "にゃぽねこ",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "1:21:39",
+          "seconds": 4899,
+          "map": "聖心病院",
+          "player": "蝶ちろるむりん",
+          "rank": "80位"
+        },
+        {
+          "timestamp": "1:28:37",
+          "seconds": 5317,
+          "map": "赤の教会",
+          "player": "sculricat",
+          "rank": "21位"
+        },
+        {
+          "timestamp": "1:37:13",
+          "seconds": 5833,
+          "map": "中華街",
+          "player": "玉藻▭",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "1:43:12",
+          "seconds": 6192,
+          "map": "聖心病院",
+          "player": "にゃぽねこ",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "1:47:35",
+          "seconds": 6455,
+          "map": "湖景村",
+          "player": "はぱにぇー",
+          "rank": "23位"
+        },
+        {
+          "timestamp": "1:52:39",
+          "seconds": 6759,
+          "map": "軍需工場",
+          "player": "sculricat",
+          "rank": "21位"
+        }
+      ]
+    },
     {
       "video_id": "d8d3INXpvWU",
       "title": "鹿 #32 S44 達人観戦 Gamekeeper 朝ラン #identityV #第五人格",
@@ -105523,11 +105788,26 @@
           "rank": "51位"
         },
         {
+          "timestamp": "1:43:18",
+          "seconds": 6198,
+          "map": "永眠町",
+          "player": "???????",
+          "rank": "B"
+        },
+        {
           "timestamp": "1:52:07",
           "seconds": 6727,
           "map": "永眠町",
           "player": "小日向美香",
           "rank": "19位"
+        },
+        {
+          "timestamp": "1:57:09",
+          "seconds": 7029,
+          "map": "聖心病院",
+          "player": "イト？",
+          "rank": "",
+          "character": "白黒無常"
         }
       ]
     },
@@ -105868,6 +106148,14 @@
           "rank": "43位"
         },
         {
+          "timestamp": "0:44:50",
+          "seconds": 2690,
+          "map": "赤の教会",
+          "player": "PEANUTS山田",
+          "rank": "",
+          "character": "アイヴィ"
+        },
+        {
           "timestamp": "0:51:09",
           "seconds": 3069,
           "map": "赤の教会",
@@ -105889,6 +106177,13 @@
           "rank": "40位"
         },
         {
+          "timestamp": "1:12:13",
+          "seconds": 4333,
+          "map": "罪の森",
+          "player": "???",
+          "rank": "41位"
+        },
+        {
           "timestamp": "1:18:29",
           "seconds": 4709,
           "map": "赤の教会",
@@ -105901,6 +106196,13 @@
           "map": "月の河公園",
           "player": "あられン",
           "rank": "29位"
+        },
+        {
+          "timestamp": "1:31:17",
+          "seconds": 5477,
+          "map": "罪の森",
+          "player": "??????",
+          "rank": "9位"
         },
         {
           "timestamp": "1:50:24",
@@ -106070,6 +106372,13 @@
           "rank": "2位"
         },
         {
+          "timestamp": "0:26:25",
+          "seconds": 1585,
+          "map": "湖景村",
+          "player": "亂打電爆潘毒奶",
+          "rank": "25位"
+        },
+        {
           "timestamp": "0:32:17",
           "seconds": 1937,
           "map": "軍需工場",
@@ -106082,6 +106391,13 @@
           "map": "中華街",
           "player": "Rs_TαPi",
           "rank": "70位"
+        },
+        {
+          "timestamp": "0:44:41",
+          "seconds": 2681,
+          "map": "軍需工場",
+          "player": "II????ITHA",
+          "rank": "24位"
         },
         {
           "timestamp": "0:54:09",
@@ -106145,6 +106461,13 @@
           "map": "湖景村",
           "player": "はむーしゅ",
           "rank": "1位"
+        },
+        {
+          "timestamp": "1:56:55",
+          "seconds": 7015,
+          "map": "永眠町",
+          "player": "所以放棄了守夜",
+          "rank": "22位"
         }
       ]
     },
@@ -106162,6 +106485,13 @@
           "map": "月の河公園",
           "player": "jas`Dulingo",
           "rank": "39位"
+        },
+        {
+          "timestamp": "0:07:44",
+          "seconds": 464,
+          "map": "軍需工場",
+          "player": "딸기나＞＜",
+          "rank": "B"
         },
         {
           "timestamp": "0:13:38",
@@ -106377,6 +106707,13 @@
           "rank": "2位"
         },
         {
+          "timestamp": "1:21:32",
+          "seconds": 4892,
+          "map": "中華街",
+          "player": "듀잠",
+          "rank": "63位"
+        },
+        {
           "timestamp": "1:28:27",
           "seconds": 5307,
           "map": "レオの思い出",
@@ -106457,6 +106794,13 @@
           "rank": "95位"
         },
         {
+          "timestamp": "0:38:04",
+          "seconds": 2284,
+          "map": "軍需工場",
+          "player": "พรเพชญ",
+          "rank": "7位"
+        },
+        {
           "timestamp": "0:43:34",
           "seconds": 2614,
           "map": "湖景村",
@@ -106464,11 +106808,25 @@
           "rank": "1位"
         },
         {
+          "timestamp": "0:48:15",
+          "seconds": 2895,
+          "map": "中華街",
+          "player": "พรเพชญ",
+          "rank": "7位"
+        },
+        {
           "timestamp": "0:53:25",
           "seconds": 3205,
           "map": "赤の教会",
           "player": "◦そわ◦",
           "rank": "31位"
+        },
+        {
+          "timestamp": "1:00:18",
+          "seconds": 3618,
+          "map": "聖心病院",
+          "player": "พรเพชญ",
+          "rank": "7位"
         },
         {
           "timestamp": "1:06:30",
@@ -106492,6 +106850,13 @@
           "rank": "31位"
         },
         {
+          "timestamp": "1:26:22",
+          "seconds": 5182,
+          "map": "罪の森",
+          "player": "พรเพชญ",
+          "rank": "7位"
+        },
+        {
           "timestamp": "1:32:22",
           "seconds": 5542,
           "map": "赤の教会",
@@ -106504,6 +106869,13 @@
           "map": "月の河公園",
           "player": "◦そわ◦",
           "rank": "31位"
+        },
+        {
+          "timestamp": "1:43:29",
+          "seconds": 6209,
+          "map": "赤の教会",
+          "player": "พรเพชญ",
+          "rank": "7位"
         },
         {
           "timestamp": "1:49:26",
@@ -106666,6 +107038,13 @@
           "rank": "1位"
         },
         {
+          "timestamp": "0:15:52",
+          "seconds": 952,
+          "map": "レオの思い出",
+          "player": "면봉쓰는",
+          "rank": "59位"
+        },
+        {
           "timestamp": "0:23:41",
           "seconds": 1421,
           "map": "月の河公園",
@@ -106769,6 +107148,13 @@
           "map": "赤の教会",
           "player": "初贝丶辰",
           "rank": "8位"
+        },
+        {
+          "timestamp": "1:56:17",
+          "seconds": 6977,
+          "map": "赤の教会",
+          "player": "면봉쓰는",
+          "rank": "59位"
         }
       ]
     },
@@ -106978,6 +107364,14 @@
           "map": "罪の森",
           "player": "金獨子集團團長",
           "rank": "17位"
+        },
+        {
+          "timestamp": "1:02:28",
+          "seconds": 3748,
+          "map": "永眠町",
+          "player": "ハムちゃん角煮",
+          "rank": "",
+          "character": "アン"
         },
         {
           "timestamp": "1:10:29",
@@ -130796,6 +131190,142 @@
       ]
     },
     {
+      "video_id": "KSjTTGWfLBo",
+      "title": "ルキノ #1 S37 達人観戦 spectate the pros of Evil Reptilian #identityV #第五人格",
+      "character": "ルキノ",
+      "published_at": "2025-05-09T13:19:30Z",
+      "url": "https://www.youtube.com/watch?v=KSjTTGWfLBo",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "04:25",
+          "seconds": 265,
+          "map": "聖心病院",
+          "player": "ออนแอ:",
+          "rank": "無徽章"
+        },
+        {
+          "timestamp": "09:28",
+          "seconds": 568,
+          "map": "レオの思い出",
+          "player": "Ralegh",
+          "rank": "5位"
+        },
+        {
+          "timestamp": "14:41",
+          "seconds": 881,
+          "map": "月の河公園",
+          "player": "ジュゴン995",
+          "rank": "57位"
+        },
+        {
+          "timestamp": "23:01",
+          "seconds": 1381,
+          "map": "月の河公園",
+          "player": "Mollyfantasy",
+          "rank": "6位"
+        },
+        {
+          "timestamp": "28:12",
+          "seconds": 1692,
+          "map": "聖心病院",
+          "player": "きよぼっと",
+          "rank": "79位"
+        },
+        {
+          "timestamp": "33:10",
+          "seconds": 1990,
+          "map": "湖景村",
+          "player": "神秘鞭屍男",
+          "rank": "22位"
+        },
+        {
+          "timestamp": "41:30",
+          "seconds": 2490,
+          "map": "中華街",
+          "player": "2xp18YZ",
+          "rank": "C"
+        },
+        {
+          "timestamp": "48:38",
+          "seconds": 2918,
+          "map": "レオの思い出",
+          "player": "Mollyfantasy",
+          "rank": "6位"
+        },
+        {
+          "timestamp": "55:54",
+          "seconds": 3354,
+          "map": "レオの思い出",
+          "player": "下凸鬼没紫烏頭",
+          "rank": "27位"
+        },
+        {
+          "timestamp": "1:02:34",
+          "seconds": 3754,
+          "map": "聖心病院",
+          "player": "ふろむちゃいな",
+          "rank": "63位"
+        },
+        {
+          "timestamp": "1:07:30",
+          "seconds": 4050,
+          "map": "中華街",
+          "player": "緑蜥蜴卿",
+          "rank": "B"
+        },
+        {
+          "timestamp": "1:13:59",
+          "seconds": 4439,
+          "map": "軍需工場",
+          "player": "異変のさんヌ",
+          "rank": "64位"
+        },
+        {
+          "timestamp": "1:19:41",
+          "seconds": 4781,
+          "map": "中華街",
+          "player": "的场",
+          "rank": "86位"
+        },
+        {
+          "timestamp": "1:28:06",
+          "seconds": 5286,
+          "map": "湖景村",
+          "player": "げんの極み",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "1:34:02",
+          "seconds": 5642,
+          "map": "聖心病院",
+          "player": "Mollyfantasy",
+          "rank": "6位"
+        },
+        {
+          "timestamp": "1:40:35",
+          "seconds": 6035,
+          "map": "罪の森",
+          "player": "SR_Rim",
+          "rank": "B"
+        },
+        {
+          "timestamp": "1:46:29",
+          "seconds": 6389,
+          "map": "赤の教会",
+          "player": "げんの極み",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "1:53:52",
+          "seconds": 6832,
+          "map": "赤の教会",
+          "player": "Ralegh",
+          "rank": "5位"
+        }
+      ]
+    },
+    {
       "video_id": "dniwmxoIjOY",
       "title": "【ダンディKakiri】 オペラ歌手 月の河公園 #第五人格 #identityV",
       "character": "オペラ歌手",
@@ -131834,7 +132364,7 @@
     },
     {
       "video_id": "ZuW5Q649ZOU",
-      "title": "【ダンディKakiri】 オペラ歌手  軍需工場  4吊勝利 #第五人格 #identityV",
+      "title": "【ダンディKakiri】オペラ歌手 軍需工場 4吊勝利 #第五人格 #identityV",
       "character": "オペラ歌手",
       "published_at": "2024-11-30T10:00:28Z",
       "url": "https://www.youtube.com/watch?v=ZuW5Q649ZOU",
