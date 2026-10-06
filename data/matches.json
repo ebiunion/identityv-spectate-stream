@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T13:42:59.204296+00:00",
+  "updated_at": "2026-10-06T03:17:04.500136+00:00",
   "videos": [
     {
       "video_id": "gtRyP8lv8vw",
@@ -106449,11 +106449,25 @@
           "rank": "9位"
         },
         {
+          "timestamp": "1:39:11",
+          "seconds": 5951,
+          "map": "レオの思い出",
+          "player": "轉鏡",
+          "rank": "23位"
+        },
+        {
           "timestamp": "1:50:24",
           "seconds": 6624,
           "map": "聖心病院",
           "player": "ニッポニア日本",
           "rank": "11位"
+        },
+        {
+          "timestamp": "1:57:22",
+          "seconds": 7042,
+          "map": "月の河公園",
+          "player": "??????",
+          "rank": "9位"
         }
       ]
     },
@@ -121370,6 +121384,13 @@
           "rank": "62位"
         },
         {
+          "timestamp": "0:18:15",
+          "seconds": 1095,
+          "map": "聖心病院",
+          "player": "沃美蓮・娜札勒",
+          "rank": "C"
+        },
+        {
           "timestamp": "0:23:42",
           "seconds": 1422,
           "map": "湖景村",
@@ -121473,6 +121494,13 @@
           "map": "レオの思い出",
           "player": "SW_Daru",
           "rank": "15位"
+        },
+        {
+          "timestamp": "1:54:36",
+          "seconds": 6876,
+          "map": "軍需工場",
+          "player": "외곡된망령",
+          "rank": "51位"
         }
       ]
     },
@@ -121555,6 +121583,13 @@
           "rank": "22位"
         },
         {
+          "timestamp": "1:10:39",
+          "seconds": 4239,
+          "map": "湖景村",
+          "player": "적후",
+          "rank": "8位"
+        },
+        {
           "timestamp": "1:18:48",
           "seconds": 4728,
           "map": "聖心病院",
@@ -121581,6 +121616,13 @@
           "map": "中華街",
           "player": "ぜにちゃん寝る",
           "rank": "14位"
+        },
+        {
+          "timestamp": "1:41:19",
+          "seconds": 6079,
+          "map": "赤の教会",
+          "player": "ИарFяаррё",
+          "rank": "2位"
         },
         {
           "timestamp": "1:47:45",
@@ -121656,6 +121698,13 @@
           "rank": "39位"
         },
         {
+          "timestamp": "0:46:37",
+          "seconds": 2797,
+          "map": "レオの思い出",
+          "player": "노루뉴비",
+          "rank": "48位"
+        },
+        {
           "timestamp": "0:52:29",
           "seconds": 3149,
           "map": "月の河公園",
@@ -121689,6 +121738,13 @@
           "map": "月の河公園",
           "player": "ナシーレン",
           "rank": "24位"
+        },
+        {
+          "timestamp": "1:26:37",
+          "seconds": 5197,
+          "map": "聖心病院",
+          "player": "노루뉴비",
+          "rank": "48位"
         },
         {
           "timestamp": "1:33:33",
@@ -121792,6 +121848,13 @@
           "rank": "29位"
         },
         {
+          "timestamp": "1:01:22",
+          "seconds": 3682,
+          "map": "聖心病院",
+          "player": "무너언제버프함",
+          "rank": "B"
+        },
+        {
           "timestamp": "1:07:29",
           "seconds": 4049,
           "map": "赤の教会",
@@ -121804,6 +121867,13 @@
           "map": "月の河公園",
           "player": "パキパキ油歌李",
           "rank": "2位"
+        },
+        {
+          "timestamp": "1:20:30",
+          "seconds": 4830,
+          "map": "中華街",
+          "player": "愛妳的天真單純",
+          "rank": "B"
         },
         {
           "timestamp": "1:26:20",
@@ -121858,6 +121928,13 @@
       "is_live_archive": true,
       "matches": [
         {
+          "timestamp": "0:00:30",
+          "seconds": 30,
+          "map": "レオの思い出",
+          "player": "强爱",
+          "rank": "B"
+        },
+        {
           "timestamp": "0:08:10",
           "seconds": 490,
           "map": "中華街",
@@ -121893,6 +121970,13 @@
           "rank": "無徽章"
         },
         {
+          "timestamp": "0:46:09",
+          "seconds": 2769,
+          "map": "レオの思い出",
+          "player": "强爱",
+          "rank": "B"
+        },
+        {
           "timestamp": "0:51:59",
           "seconds": 3119,
           "map": "レオの思い出",
@@ -121919,6 +122003,13 @@
           "map": "永眠町",
           "player": "くろス",
           "rank": "95位"
+        },
+        {
+          "timestamp": "1:18:10",
+          "seconds": 4690,
+          "map": "レオの思い出",
+          "player": "强爱",
+          "rank": "B"
         },
         {
           "timestamp": "1:25:30",
@@ -122076,6 +122167,13 @@
           "map": "永眠町",
           "player": "紅魔の魔女",
           "rank": "5位"
+        },
+        {
+          "timestamp": "1:54:55",
+          "seconds": 6895,
+          "map": "中華街",
+          "player": "??",
+          "rank": "B"
         }
       ]
     },
@@ -122135,6 +122233,13 @@
           "map": "罪の森",
           "player": "はなしのだぷん",
           "rank": "50位"
+        },
+        {
+          "timestamp": "0:53:39",
+          "seconds": 3219,
+          "map": "中華街",
+          "player": "叶宬",
+          "rank": "85位"
         },
         {
           "timestamp": "1:00:20",
@@ -122503,6 +122608,13 @@
           "rank": "19位"
         },
         {
+          "timestamp": "0:29:01",
+          "seconds": 1741,
+          "map": "月の河公園",
+          "player": "에루?",
+          "rank": "79位"
+        },
+        {
           "timestamp": "0:36:00",
           "seconds": 2160,
           "map": "レオの思い出",
@@ -122573,6 +122685,13 @@
           "rank": "B"
         },
         {
+          "timestamp": "1:40:25",
+          "seconds": 6025,
+          "map": "永眠町",
+          "player": "이게안맞네",
+          "rank": "B"
+        },
+        {
           "timestamp": "1:46:11",
           "seconds": 6371,
           "map": "永眠町",
@@ -122603,6 +122722,13 @@
       "url": "https://www.youtube.com/watch?v=r3YmXiCsl1Y",
       "is_live_archive": true,
       "matches": [
+        {
+          "timestamp": "0:00:24",
+          "seconds": 24,
+          "map": "聖心病院",
+          "player": "세나뿡~",
+          "rank": "無徽章"
+        },
         {
           "timestamp": "0:09:16",
           "seconds": 556,
@@ -122646,6 +122772,20 @@
           "rank": "53位"
         },
         {
+          "timestamp": "0:54:58",
+          "seconds": 3298,
+          "map": "レオの思い出",
+          "player": "한국산まる",
+          "rank": "11位"
+        },
+        {
+          "timestamp": "1:03:40",
+          "seconds": 3820,
+          "map": "永眠町",
+          "player": "拼圖當兵休息中",
+          "rank": "30位"
+        },
+        {
           "timestamp": "1:08:38",
           "seconds": 4118,
           "map": "永眠町",
@@ -122658,6 +122798,13 @@
           "map": "軍需工場",
           "player": "分析の時間",
           "rank": "67位"
+        },
+        {
+          "timestamp": "1:22:35",
+          "seconds": 4955,
+          "map": "聖心病院",
+          "player": "NWA",
+          "rank": "C"
         },
         {
           "timestamp": "1:28:37",
@@ -123154,6 +123301,13 @@
           "rank": "1位"
         },
         {
+          "timestamp": "0:53:14",
+          "seconds": 3194,
+          "map": "赤の教会",
+          "player": "枕梦在梦游Zzz",
+          "rank": "B"
+        },
+        {
           "timestamp": "1:01:05",
           "seconds": 3665,
           "map": "湖景村",
@@ -123180,6 +123334,13 @@
           "map": "レオの思い出",
           "player": "サトゥるヌス",
           "rank": "31位"
+        },
+        {
+          "timestamp": "1:23:36",
+          "seconds": 5016,
+          "map": "永眠町",
+          "player": "傑園教唯一真理",
+          "rank": "87位"
         },
         {
           "timestamp": "1:32:08",
@@ -123253,6 +123414,13 @@
           "map": "聖心病院",
           "player": "らいてふ86です",
           "rank": "50位"
+        },
+        {
+          "timestamp": "0:31:06",
+          "seconds": 1866,
+          "map": "月の河公園",
+          "player": "세이버?",
+          "rank": "13位"
         },
         {
           "timestamp": "0:37:08",
@@ -123454,6 +123622,13 @@
           "rank": "30位"
         },
         {
+          "timestamp": "1:34:59",
+          "seconds": 5699,
+          "map": "赤の教会",
+          "player": "渣你同赴風雨づ",
+          "rank": "4位"
+        },
+        {
           "timestamp": "1:41:22",
           "seconds": 6082,
           "map": "月の河公園",
@@ -123466,6 +123641,13 @@
           "map": "月の河公園",
           "player": "りく常務",
           "rank": "8位"
+        },
+        {
+          "timestamp": "1:57:12",
+          "seconds": 7032,
+          "map": "罪の森",
+          "player": "ฅ鯊鯊網又卡ฅ",
+          "rank": "45位"
         }
       ]
     },
@@ -123913,6 +124095,14 @@
           "rank": "B"
         },
         {
+          "timestamp": "0:12:48",
+          "seconds": 768,
+          "map": "湖景村",
+          "player": "しユう",
+          "rank": "",
+          "character": "白黒無常"
+        },
+        {
           "timestamp": "0:20:07",
           "seconds": 1207,
           "map": "中華街",
@@ -123927,6 +124117,14 @@
           "rank": "1位"
         },
         {
+          "timestamp": "0:38:14",
+          "seconds": 2294,
+          "map": "永眠町",
+          "player": "俺が怖いか?",
+          "rank": "",
+          "character": "キーガン"
+        },
+        {
           "timestamp": "0:53:39",
           "seconds": 3219,
           "map": "罪の森",
@@ -123939,6 +124137,13 @@
           "map": "湖景村",
           "player": "なだ＠3",
           "rank": "B"
+        },
+        {
+          "timestamp": "1:06:06",
+          "seconds": 3966,
+          "map": "湖景村",
+          "player": "愛吃草莓",
+          "rank": "C"
         },
         {
           "timestamp": "1:13:17",
@@ -123967,6 +124172,14 @@
           "map": "湖景村",
           "player": "なめち~",
           "rank": "23位"
+        },
+        {
+          "timestamp": "1:42:10",
+          "seconds": 6130,
+          "map": "湖景村",
+          "player": "フユニャン",
+          "rank": "",
+          "character": "フールズ・ゴールド"
         },
         {
           "timestamp": "1:49:09",
@@ -124019,6 +124232,13 @@
           "map": "聖心病院",
           "player": "梦相爱",
           "rank": "無徽章"
+        },
+        {
+          "timestamp": "0:25:45",
+          "seconds": 1545,
+          "map": "罪の森",
+          "player": "陳臻爸爸",
+          "rank": "22位"
         },
         {
           "timestamp": "0:31:55",
@@ -124223,11 +124443,25 @@
           "rank": "無徽章"
         },
         {
+          "timestamp": "1:19:53",
+          "seconds": 4793,
+          "map": "レオの思い出",
+          "player": "林琴醤OuO",
+          "rank": "81位"
+        },
+        {
           "timestamp": "1:25:31",
           "seconds": 5131,
           "map": "赤の教会",
           "player": "shota・",
           "rank": "3位"
+        },
+        {
+          "timestamp": "1:32:04",
+          "seconds": 5524,
+          "map": "レオの思い出",
+          "player": "툴랑?",
+          "rank": "C"
         }
       ]
     },
@@ -124322,6 +124556,20 @@
           "map": "中華街",
           "player": "takuma_twwf",
           "rank": "C"
+        },
+        {
+          "timestamp": "1:27:40",
+          "seconds": 5260,
+          "map": "軍需工場",
+          "player": "顺直男",
+          "rank": "34位"
+        },
+        {
+          "timestamp": "1:40:14",
+          "seconds": 6014,
+          "map": "月の河公園",
+          "player": "顺直男",
+          "rank": "34位"
         },
         {
           "timestamp": "1:47:34",
@@ -124933,6 +125181,22 @@
           "rank": "無徽章"
         },
         {
+          "timestamp": "0:33:58",
+          "seconds": 2038,
+          "map": "月の河公園",
+          "player": "yukiP@RC推し",
+          "rank": "",
+          "character": "オペラ歌手"
+        },
+        {
+          "timestamp": "0:39:06",
+          "seconds": 2346,
+          "map": "永眠町",
+          "player": "俺が怖いか?",
+          "rank": "",
+          "character": "キーガン"
+        },
+        {
           "timestamp": "0:47:37",
           "seconds": 2857,
           "map": "湖景村",
@@ -124987,6 +125251,14 @@
           "map": "赤の教会",
           "player": "のぐばるー",
           "rank": "C"
+        },
+        {
+          "timestamp": "1:52:56",
+          "seconds": 6776,
+          "map": "赤の教会",
+          "player": "ギアッチョ",
+          "rank": "",
+          "character": "アイヴィ"
         }
       ]
     },
@@ -125004,6 +125276,13 @@
           "map": "レオの思い出",
           "player": "サボテンひつじ",
           "rank": "B"
+        },
+        {
+          "timestamp": "0:06:32",
+          "seconds": 392,
+          "map": "レオの思い出",
+          "player": "她曾说我隐琴帅",
+          "rank": "43位"
         },
         {
           "timestamp": "0:13:54",
@@ -125034,6 +125313,13 @@
           "rank": "20位"
         },
         {
+          "timestamp": "0:46:14",
+          "seconds": 2774,
+          "map": "軍需工場",
+          "player": "ИарFяаррё",
+          "rank": "4位"
+        },
+        {
           "timestamp": "0:53:01",
           "seconds": 3181,
           "map": "湖景村",
@@ -125053,6 +125339,13 @@
           "map": "罪の森",
           "player": "TiMiNKo",
           "rank": "2位"
+        },
+        {
+          "timestamp": "1:20:08",
+          "seconds": 4808,
+          "map": "永眠町",
+          "player": "ИарFяаррё",
+          "rank": "4位"
         },
         {
           "timestamp": "1:25:44",
@@ -125260,6 +125553,14 @@
       "is_live_archive": true,
       "matches": [
         {
+          "timestamp": "0:00:25",
+          "seconds": 25,
+          "map": "湖景村",
+          "player": "ギアッチョ\"",
+          "rank": "",
+          "character": "アイヴィ"
+        },
+        {
           "timestamp": "0:15:23",
           "seconds": 923,
           "map": "軍需工場",
@@ -125438,6 +125739,13 @@
           "rank": "B"
         },
         {
+          "timestamp": "0:55:29",
+          "seconds": 3329,
+          "map": "月の河公園",
+          "player": "握緊妳手說再見",
+          "rank": "B"
+        },
+        {
           "timestamp": "1:01:47",
           "seconds": 3707,
           "map": "湖景村",
@@ -125567,11 +125875,25 @@
           "rank": "1位"
         },
         {
+          "timestamp": "0:55:11",
+          "seconds": 3311,
+          "map": "赤の教会",
+          "player": "존맛탱BreaD",
+          "rank": "18位"
+        },
+        {
           "timestamp": "1:01:07",
           "seconds": 3667,
           "map": "湖景村",
           "player": "KKの人",
           "rank": "58位"
+        },
+        {
+          "timestamp": "1:06:57",
+          "seconds": 4017,
+          "map": "聖心病院",
+          "player": "忏樱",
+          "rank": "B"
         },
         {
           "timestamp": "1:14:49",
@@ -125786,6 +126108,13 @@
           "rank": "B"
         },
         {
+          "timestamp": "0:08:14",
+          "seconds": 494,
+          "map": "月の河公園",
+          "player": "ฅ鯊鯊網又卡ฅ",
+          "rank": "39位"
+        },
+        {
           "timestamp": "0:14:56",
           "seconds": 896,
           "map": "聖心病院",
@@ -125828,6 +126157,13 @@
           "rank": "38位"
         },
         {
+          "timestamp": "0:57:45",
+          "seconds": 3465,
+          "map": "中華街",
+          "player": "求擱調虐教",
+          "rank": "無徽章"
+        },
+        {
           "timestamp": "1:05:05",
           "seconds": 3905,
           "map": "湖景村",
@@ -125847,6 +126183,13 @@
           "map": "赤の教会",
           "player": "ccx_x",
           "rank": "無徽章"
+        },
+        {
+          "timestamp": "1:26:40",
+          "seconds": 5200,
+          "map": "月の河公園",
+          "player": "ฅ鯊鯊網又卡ฅ",
+          "rank": "39位"
         },
         {
           "timestamp": "1:33:33",
@@ -125953,6 +126296,13 @@
           "rank": "12位"
         },
         {
+          "timestamp": "1:08:27",
+          "seconds": 4107,
+          "map": "湖景村",
+          "player": "奈奈丐幫幫主ɞ",
+          "rank": "11位"
+        },
+        {
           "timestamp": "1:14:13",
           "seconds": 4453,
           "map": "レオの思い出",
@@ -125965,6 +126315,13 @@
           "map": "永眠町",
           "player": "平飼い鶏",
           "rank": "38位"
+        },
+        {
+          "timestamp": "1:32:31",
+          "seconds": 5551,
+          "map": "レオの思い出",
+          "player": "神坠世一辅",
+          "rank": "77位"
         },
         {
           "timestamp": "1:38:13",
@@ -126256,6 +126613,14 @@
       "is_live_archive": true,
       "matches": [
         {
+          "timestamp": "0:00:22",
+          "seconds": 22,
+          "map": "月の河公園",
+          "player": "最強魔蜥蜴",
+          "rank": "",
+          "character": "ルキノ"
+        },
+        {
           "timestamp": "0:06:17",
           "seconds": 377,
           "map": "湖景村",
@@ -126268,6 +126633,13 @@
           "map": "赤の教会",
           "player": "愚かなみけ",
           "rank": "55位"
+        },
+        {
+          "timestamp": "0:21:05",
+          "seconds": 1265,
+          "map": "レオの思い出",
+          "player": "큐티클Ha1uka~",
+          "rank": "70位"
         },
         {
           "timestamp": "0:28:44",
@@ -126354,6 +126726,13 @@
           "rank": "C"
         },
         {
+          "timestamp": "1:46:20",
+          "seconds": 6380,
+          "map": "月の河公園",
+          "player": "큐티클Ha1uka~",
+          "rank": "70位"
+        },
+        {
           "timestamp": "1:51:48",
           "seconds": 6708,
           "map": "赤の教会",
@@ -126388,11 +126767,26 @@
       "is_live_archive": true,
       "matches": [
         {
+          "timestamp": "0:00:37",
+          "seconds": 37,
+          "map": "軍需工場",
+          "player": "50ü",
+          "rank": "",
+          "character": "フラバルー"
+        },
+        {
           "timestamp": "0:07:15",
           "seconds": 435,
           "map": "軍需工場",
           "player": "はくはく",
           "rank": "3位"
+        },
+        {
+          "timestamp": "0:13:44",
+          "seconds": 824,
+          "map": "永眠町",
+          "player": "엘퀴네스ω",
+          "rank": "52位"
         },
         {
           "timestamp": "0:19:10",
@@ -126409,11 +126803,39 @@
           "rank": "13位"
         },
         {
+          "timestamp": "0:31:41",
+          "seconds": 1901,
+          "map": "永眠町",
+          "player": "อบต_ครุม",
+          "rank": "38位"
+        },
+        {
+          "timestamp": "0:38:20",
+          "seconds": 2300,
+          "map": "湖景村",
+          "player": "나카무라재민",
+          "rank": "66位"
+        },
+        {
+          "timestamp": "0:44:01",
+          "seconds": 2641,
+          "map": "中華街",
+          "player": "엘퀴네스ω",
+          "rank": "52位"
+        },
+        {
           "timestamp": "0:51:20",
           "seconds": 3080,
           "map": "赤の教会",
           "player": "[DD]Icey",
           "rank": "55位"
+        },
+        {
+          "timestamp": "0:58:39",
+          "seconds": 3519,
+          "map": "レオの思い出",
+          "player": "อบต_ครุม",
+          "rank": "38位"
         },
         {
           "timestamp": "1:04:43",
@@ -126430,6 +126852,20 @@
           "rank": "13位"
         },
         {
+          "timestamp": "1:19:42",
+          "seconds": 4782,
+          "map": "罪の森",
+          "player": "=^＞v0^=",
+          "rank": "無徽章"
+        },
+        {
+          "timestamp": "1:27:27",
+          "seconds": 5247,
+          "map": "湖景村",
+          "player": "엘퀴네스ω",
+          "rank": "52位"
+        },
+        {
           "timestamp": "1:33:05",
           "seconds": 5585,
           "map": "赤の教会",
@@ -126442,6 +126878,13 @@
           "map": "赤の教会",
           "player": "絶対にメェ様",
           "rank": "22位"
+        },
+        {
+          "timestamp": "1:45:42",
+          "seconds": 6342,
+          "map": "軍需工場",
+          "player": "엘퀴네스ω",
+          "rank": "52位"
         },
         {
           "timestamp": "1:52:44",
@@ -126508,6 +126951,13 @@
           "map": "中華街",
           "player": "イタカの犬です",
           "rank": "34位"
+        },
+        {
+          "timestamp": "0:44:11",
+          "seconds": 2651,
+          "map": "聖心病院",
+          "player": "랴",
+          "rank": "B"
         },
         {
           "timestamp": "0:51:05",
@@ -126753,6 +127203,13 @@
           "rank": "無徽章"
         },
         {
+          "timestamp": "0:07:48",
+          "seconds": 468,
+          "map": "永眠町",
+          "player": "揀愛",
+          "rank": "58位"
+        },
+        {
           "timestamp": "0:15:03",
           "seconds": 903,
           "map": "レオの思い出",
@@ -126849,6 +127306,13 @@
           "map": "永眠町",
           "player": "ネギ星人^_^",
           "rank": "93位"
+        },
+        {
+          "timestamp": "1:56:45",
+          "seconds": 7005,
+          "map": "湖景村",
+          "player": "鶇_R_",
+          "rank": "C"
         }
       ]
     },
@@ -131846,6 +132310,135 @@
       ]
     },
     {
+      "video_id": "tcwPlMNOuuA",
+      "title": "雑貨商 #2 S37 達人観戦 spectate the pros of Peddler #identityV #第五人格",
+      "character": "雑貨商",
+      "published_at": "2025-05-10T13:14:36Z",
+      "url": "https://www.youtube.com/watch?v=tcwPlMNOuuA",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:00:24",
+          "seconds": 24,
+          "map": "罪の森",
+          "player": "桜庭まい花",
+          "rank": "?位"
+        },
+        {
+          "timestamp": "0:06:58",
+          "seconds": 418,
+          "map": "中華街",
+          "player": "ganbaru名tuki",
+          "rank": "?位"
+        },
+        {
+          "timestamp": "0:14:09",
+          "seconds": 849,
+          "map": "永眠町",
+          "player": "火威灯",
+          "rank": "?位"
+        },
+        {
+          "timestamp": "0:19:20",
+          "seconds": 1160,
+          "map": "聖心病院",
+          "player": "桜庭まい花",
+          "rank": "?位"
+        },
+        {
+          "timestamp": "0:25:35",
+          "seconds": 1535,
+          "map": "赤の教会",
+          "player": "火威灯",
+          "rank": "?位"
+        },
+        {
+          "timestamp": "0:31:49",
+          "seconds": 1909,
+          "map": "レオの思い出",
+          "player": "Loze_000",
+          "rank": "?位"
+        },
+        {
+          "timestamp": "0:38:20",
+          "seconds": 2300,
+          "map": "罪の森",
+          "player": "YIPPEE:D",
+          "rank": "?位"
+        },
+        {
+          "timestamp": "0:43:47",
+          "seconds": 2627,
+          "map": "聖心病院",
+          "player": "KisssHunter",
+          "rank": "?位"
+        },
+        {
+          "timestamp": "0:49:10",
+          "seconds": 2950,
+          "map": "軍需工場",
+          "player": "ペンギン壱号機",
+          "rank": "?位"
+        },
+        {
+          "timestamp": "0:55:39",
+          "seconds": 3339,
+          "map": "聖心病院",
+          "player": "ゆあ",
+          "rank": "?位"
+        },
+        {
+          "timestamp": "1:08:13",
+          "seconds": 4093,
+          "map": "月の河公園",
+          "player": "桜庭まい花",
+          "rank": "?位"
+        },
+        {
+          "timestamp": "1:22:05",
+          "seconds": 4925,
+          "map": "聖心病院",
+          "player": "ゆら＠YouTub",
+          "rank": "?位"
+        },
+        {
+          "timestamp": "1:30:27",
+          "seconds": 5427,
+          "map": "永眠町",
+          "player": "ゆら＠YouTub",
+          "rank": "?位"
+        },
+        {
+          "timestamp": "1:36:05",
+          "seconds": 5765,
+          "map": "聖心病院",
+          "player": "Chas花",
+          "rank": "?位"
+        },
+        {
+          "timestamp": "1:42:01",
+          "seconds": 6121,
+          "map": "赤の教会",
+          "player": "名誉家畜",
+          "rank": "?位"
+        },
+        {
+          "timestamp": "1:48:33",
+          "seconds": 6513,
+          "map": "湖景村",
+          "player": "I_wanna_Labubu",
+          "rank": "?位"
+        },
+        {
+          "timestamp": "1:54:29",
+          "seconds": 6869,
+          "map": "軍需工場",
+          "player": "I_wanna_Labubu",
+          "rank": "?位"
+        }
+      ]
+    },
+    {
       "video_id": "RqvDuu7aszg",
       "title": "【ダンディKakiri】 オペラ歌手 罪の森 #第五人格 #identityV",
       "character": "オペラ歌手",
@@ -131859,6 +132452,136 @@
           "map": "罪の森",
           "player": "Kakiri",
           "rank": ""
+        }
+      ]
+    },
+    {
+      "video_id": "tJZW2dVamFo",
+      "title": "フラバルー #1 S37 達人観戦 spectate the pros of \"Hullabaloo\" #identityV #第五人格",
+      "character": "フラバルー",
+      "published_at": "2025-05-09T18:05:24Z",
+      "url": "https://www.youtube.com/watch?v=tJZW2dVamFo",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:00:29",
+          "seconds": 29,
+          "map": "聖心病院",
+          "player": "てぃあまる_",
+          "rank": "26位"
+        },
+        {
+          "timestamp": "0:07:28",
+          "seconds": 448,
+          "map": "レオの思い出",
+          "player": "雪見っぴ＠RC推",
+          "rank": "4位"
+        },
+        {
+          "timestamp": "0:12:53",
+          "seconds": 773,
+          "map": "月の河公園",
+          "player": "Loze_000",
+          "rank": "無徽章"
+        },
+        {
+          "timestamp": "0:18:12",
+          "seconds": 1092,
+          "map": "月の河公園",
+          "player": "急接近バケモン",
+          "rank": "",
+          "character": "アンデッド"
+        },
+        {
+          "timestamp": "0:26:41",
+          "seconds": 1601,
+          "map": "聖心病院",
+          "player": "Sauleta",
+          "rank": "7位"
+        },
+        {
+          "timestamp": "0:33:38",
+          "seconds": 2018,
+          "map": "聖心病院",
+          "player": "剣士ガッツ",
+          "rank": "20位"
+        },
+        {
+          "timestamp": "0:41:01",
+          "seconds": 2461,
+          "map": "軍需工場",
+          "player": "Sauleta",
+          "rank": "7位"
+        },
+        {
+          "timestamp": "0:47:43",
+          "seconds": 2863,
+          "map": "月の河公園",
+          "player": "Sauleta",
+          "rank": "7位"
+        },
+        {
+          "timestamp": "0:54:20",
+          "seconds": 3260,
+          "map": "中華街",
+          "player": "頭痛にゃ",
+          "rank": "32位"
+        },
+        {
+          "timestamp": "0:59:57",
+          "seconds": 3597,
+          "map": "湖景村",
+          "player": "やみラミ",
+          "rank": "46位"
+        },
+        {
+          "timestamp": "1:05:15",
+          "seconds": 3915,
+          "map": "中華街",
+          "player": "Sauleta",
+          "rank": "7位"
+        },
+        {
+          "timestamp": "1:10:16",
+          "seconds": 4216,
+          "map": "レオの思い出",
+          "player": "| 猫 |",
+          "rank": "無徽章"
+        },
+        {
+          "timestamp": "1:15:42",
+          "seconds": 4542,
+          "map": "月の河公園",
+          "player": "Sauleta",
+          "rank": "7位"
+        },
+        {
+          "timestamp": "1:21:15",
+          "seconds": 4875,
+          "map": "湖景村",
+          "player": "剣士ガッツ",
+          "rank": "20位"
+        },
+        {
+          "timestamp": "1:27:27",
+          "seconds": 5247,
+          "map": "中華街",
+          "player": "やみラミ",
+          "rank": "46位"
+        },
+        {
+          "timestamp": "1:36:27",
+          "seconds": 5787,
+          "map": "聖心病院",
+          "player": "泰喬兄弟最高",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "1:41:23",
+          "seconds": 6083,
+          "map": "聖心病院",
+          "player": "ちぃの解放",
+          "rank": "30位"
         }
       ]
     },
