@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T14:53:59.234076+00:00",
+  "updated_at": "2026-10-06T15:11:30.359472+00:00",
   "videos": [
     {
       "video_id": "toSjwgzdkxw",
@@ -46238,6 +46238,121 @@
           "map": "中華街",
           "player": "Gouki_k",
           "rank": "8位"
+        }
+      ]
+    },
+    {
+      "video_id": "4Dzxm-nIs18",
+      "title": "キーガン #23 S41 達人観戦 Clerk 朝ラン #identityV #第五人格",
+      "character": "キーガン",
+      "published_at": "2026-02-28T22:16:20Z",
+      "url": "https://www.youtube.com/watch?v=4Dzxm-nIs18",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:00:39",
+          "seconds": 39,
+          "map": "軍需工場",
+          "player": "弓探鉱弱体化求",
+          "rank": "15位"
+        },
+        {
+          "timestamp": "0:08:20",
+          "seconds": 500,
+          "map": "永眠町",
+          "player": "のにえもんAI",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "0:15:15",
+          "seconds": 915,
+          "map": "聖心病院",
+          "player": "ながれぼし＞~＜",
+          "rank": "8位"
+        },
+        {
+          "timestamp": "0:25:47",
+          "seconds": 1547,
+          "map": "赤の教会",
+          "player": "るる＠下手",
+          "rank": "4位"
+        },
+        {
+          "timestamp": "0:33:00",
+          "seconds": 1980,
+          "map": "湖景村",
+          "player": "ながれぼし＞~＜",
+          "rank": "8位"
+        },
+        {
+          "timestamp": "0:41:58",
+          "seconds": 2518,
+          "map": "中華街",
+          "player": "弓探鉱弱体化求",
+          "rank": "15位"
+        },
+        {
+          "timestamp": "0:50:24",
+          "seconds": 3024,
+          "map": "永眠町",
+          "player": "宁秋水",
+          "rank": "B"
+        },
+        {
+          "timestamp": "0:56:59",
+          "seconds": 3419,
+          "map": "赤の教会",
+          "player": "ナマ足JK",
+          "rank": "29位"
+        },
+        {
+          "timestamp": "1:03:33",
+          "seconds": 3813,
+          "map": "中華街",
+          "player": "のにえもんAI",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "1:11:50",
+          "seconds": 4310,
+          "map": "赤の教会",
+          "player": "るる＠下手",
+          "rank": "4位"
+        },
+        {
+          "timestamp": "1:20:10",
+          "seconds": 4810,
+          "map": "赤の教会",
+          "player": "ばななピクミン",
+          "rank": "B"
+        },
+        {
+          "timestamp": "1:29:21",
+          "seconds": 5361,
+          "map": "レオの思い出",
+          "player": "のにえもんAI",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "1:38:44",
+          "seconds": 5924,
+          "map": "月の河公園",
+          "player": "ナマ足JK",
+          "rank": "29位"
+        },
+        {
+          "timestamp": "1:48:08",
+          "seconds": 6488,
+          "map": "月の河公園",
+          "player": "請喝可樂",
+          "rank": "12位"
+        },
+        {
+          "timestamp": "1:56:23",
+          "seconds": 6983,
+          "map": "軍需工場",
+          "player": "のにえもんAI",
+          "rank": "1位"
         }
       ]
     },
@@ -129908,6 +130023,13 @@
           "rank": "70位"
         },
         {
+          "timestamp": "0:22:27",
+          "seconds": 1347,
+          "map": "赤の教会",
+          "player": "Nham_천사_",
+          "rank": "21位"
+        },
+        {
           "timestamp": "0:29:10",
           "seconds": 1750,
           "map": "湖景村",
@@ -131202,7 +131324,7 @@
           "map": "湖景村",
           "player": "チョベリゲ武夫",
           "rank": "",
-          "character": "アイヴィー"
+          "character": "アイヴィ"
         },
         {
           "timestamp": "45:39",
@@ -132582,6 +132704,13 @@
           "map": "赤の教会",
           "player": "ぴぴにこり",
           "rank": "1位"
+        },
+        {
+          "timestamp": "1:45:32",
+          "seconds": 6332,
+          "map": "聖心病院",
+          "player": "나비보베따",
+          "rank": "43位"
         },
         {
           "timestamp": "1:51:12",
@@ -134580,6 +134709,13 @@
           "map": "湖景村",
           "player": "がんヴぁる_刈",
           "rank": "25位"
+        },
+        {
+          "timestamp": "1:24:10",
+          "seconds": 5050,
+          "map": "湖景村",
+          "player": "＠残飯",
+          "rank": "54位"
         },
         {
           "timestamp": "1:30:26",
@@ -138416,7 +138552,7 @@
     },
     {
       "video_id": "ZuW5Q649ZOU",
-      "title": "【ダンディKakiri】オペラ歌手 軍需工場 4吊勝利 #第五人格 #identityV",
+      "title": "【ダンディKakiri】 オペラ歌手 軍需工場 Opera Singer Arms Factory #第五人格 #identityv",
       "character": "オペラ歌手",
       "published_at": "2024-11-30T10:00:28Z",
       "url": "https://www.youtube.com/watch?v=ZuW5Q649ZOU",
