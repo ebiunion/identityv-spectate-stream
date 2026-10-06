@@ -59,6 +59,12 @@ h1 {
   padding: 8px 10px;
 }
 
+.hint {
+  color: #888;
+  font-size: 0.8rem;
+  margin: -8px 0 16px;
+}
+
 .rank-option {
   display: flex;
   align-items: center;

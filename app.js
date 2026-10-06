@@ -67,8 +67,11 @@ async function loadData() {
     const data = await res.json();
     allVideos = data.videos || [];
 
+    // 総試合数（全タイムスタンプ数）を集計
+    const totalMatches = allVideos.reduce((sum, v) => sum + (v.matches || []).length, 0);
+
     document.getElementById("updatedAt").textContent =
-      "最終更新: " + new Date(data.updated_at).toLocaleString("ja-JP");
+      `最終更新: ${new Date(data.updated_at).toLocaleString("ja-JP")} ／ 総試合数: ${totalMatches.toLocaleString()} 試合`;
 
     populateFilters();
     applyFilter();
