@@ -60,6 +60,15 @@ function matchKey(videoId, seconds) {
   return `${videoId}_${seconds}`;
 }
 
+function formatVideoHeading(video) {
+  const character = video.character || "";
+  const title = video.title || "";
+  if (!character) return title;
+  // タイトルがキャラ名で始まっていれば二重表示を避ける
+  if (title.startsWith(character)) return title;
+  return `${character} — ${title}`;
+}
+
 async function loadData() {
   try {
     const res = await fetch("./data/matches.json?" + Date.now());
@@ -203,7 +212,7 @@ function loadMore() {
           <div class="video-header">
             <input type="checkbox" class="video-checkbox" data-video-id="${video.video_id}" ${isVideoWatched ? "checked" : ""}>
             <div class="video-title-area">
-              <h2 class="video-title">${video.character || ""} — ${video.title || ""}</h2>
+              <h2 class="video-title">${formatVideoHeading(video)}</h2>
               <div class="video-meta">
                 ${date} ／
                 <span class="tag">${m.map || ""}</span>
@@ -219,7 +228,7 @@ function loadMore() {
         card.innerHTML = `
           <div class="video-header">
             <input type="checkbox" class="video-checkbox" data-video-id="${video.video_id}" ${isVideoWatched ? "checked" : ""}>
-            <h2 class="video-title">${video.character || ""} — ${video.title || ""}</h2>
+            <h2 class="video-title">${formatVideoHeading(video)}</h2>
           </div>
           <div class="video-meta">${date} ／ <a href="${video.url}" target="_blank">動画を開く</a></div>
           <ul class="match-list">
