@@ -1,34 +1,38 @@
 #!/usr/bin/env python3
 """
-Identity V 配信データを取得して matches.json を生成するスクリプト
+Identity V 配信データを取得して matches.json を生成するスクリプト（増分更新版）
+- 既存の matches.json を読み込む
+- 未登録の動画だけ API で詳細取得
+- 既存データとマージして保存
 """
 
 import os
 import re
 import json
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timezone
 from pathlib import Path
 
 # ===== 設定 =====
-CHANNEL_ID = "UCKj9i0wunjX5VX2pvLHoFaA"   # 例: UCxxxxxxxx
-API_KEY = os.environ.get("YOUTUBE_API_KEY")  # GitHub Secrets から取得
+CHANNEL_ID = "UCKj9i0wunjX5VX2pvLHoFaA"
+API_KEY = os.environ.get("YOUTUBE_API_KEY")
 OUTPUT_PATH = Path(__file__).parent.parent / "data" / "matches.json"
-LOG_PATH = Path(__file__).parent.parent / "logs" / "fetch_log.txt"  # 追加
+LOG_PATH = Path(__file__).parent.parent / "logs" / "fetch_log.txt"
 
-# キャラ名リスト（先頭一致用・必要に応じて追加）
+# プレイリスト走査時、既知IDがこの連続数に達したら打ち切り（日次更新の高速化）
+# 0 にすると全件スキャン（初回や取りこぼし確認時）
+STOP_AFTER_CONSECUTIVE_KNOWN = 30
+
 CHARACTERS = [
     "アイヴィ", "レオ", "ピエロ", "鹿", "ヴァイオリニスト", "芸者", "血の女王", "ガラテア", "キーガン",
-    "イタカ", "悪夢", "隠者", "グレイス", "蜘蛛", "ルキノ", "フルゴ", "フラバルー", "ハスター", "魔女", 
-    "アン", "破輪", "オペラ歌手", "泣き虫", "蝋人形師", "白黒無常", "ボンボン", "雑貨商", "女王蜂", "リッパー", 
-    "ジョゼフ", "バルク", "アンデッド", "足萎えの羊", "ビリヤードプレイヤー", "歯医者"
-    # 必要に応じて追加
+    "イタカ", "悪夢", "隠者", "グレイス", "蜘蛛", "ルキノ", "フルゴ", "フラバルー", "ハスター", "魔女",
+    "アン", "破輪", "オペラ歌手", "泣き虫", "蝋人形師", "白黒無常", "ボンボン", "雑貨商", "女王蜂", "リッパー",
+    "ジョゼフ", "バルク", "アンデッド", "足萎えの羊", "ビリヤードプレイヤー", "歯医者",
 ]
 
+
 def is_short(duration: str) -> bool:
-    """ISO 8601 duration が60秒以下なら Shorts と判定"""
     if not duration or not duration.startswith("PT"):
         return False
-    # 時間または分が含まれていれば Shorts ではない
     if "H" in duration or "M" in duration:
         return False
     m = re.search(r"(\d+)S", duration)
@@ -36,83 +40,57 @@ def is_short(duration: str) -> bool:
         return int(m.group(1)) <= 60
     return False
 
+
 def to_seconds(ts: str) -> int:
-    """0:27:21 → 1641"""
     parts = list(map(int, ts.split(":")))
     if len(parts) == 3:
         return parts[0] * 3600 + parts[1] * 60 + parts[2]
-    elif len(parts) == 2:
+    if len(parts) == 2:
         return parts[0] * 60 + parts[1]
     return 0
 
+
 def extract_character(title: str) -> str:
-    """タイトル先頭の単語をキャラ名として完全一致で取得"""
     title = title.strip()
     match = re.match(r"^([^\s#]+)", title)
     if not match:
         return "不明"
-
     token = match.group(1)
-
-    # CHARACTERS に完全一致するものがあればそれを使う
     if token in CHARACTERS:
         return token
-
-    # リストになくても先頭単語をそのまま返す
     return token
 
+
 def parse_video_title(title: str) -> dict | None:
-    """
-    通常動画のタイトルから試合情報を抽出する
-    戻り値: {"character", "player", "map", "rank"} または None
-    """
     title = title.strip()
 
-    # パターン1: 【...】 で始まる場合
     if title.startswith("【"):
-        # 】の位置を探す
         end = title.find("】")
         if end == -1:
             return None
-
         after = title[end + 1:].strip()
-        # 例: オペラ歌手 レオの思い出 神のレアキャラ試合 引分け #第五人格 ...
         parts = after.split()
-
         if len(parts) < 2:
             return None
-
-        character = parts[0]
-        map_name = parts[1]
-
         return {
-            "character": character,
+            "character": parts[0],
             "player": "Kakiri",
-            "map": map_name,
-            "rank": ""  # タイトルに順位がない場合は空
+            "map": parts[1],
+            "rank": "",
         }
 
-    # パターン2: 【 で始まらない場合
-    # 例: 女王蜂 1位 とまだよー 永眠町 S40 Queen Bee 1st Eversleeping Town #第五人格 ...
-    # 先頭4つを キャラ / 順位 / プレイヤー / マップ とみなす
     parts = title.split()
     if len(parts) < 4:
         return None
-
-    character = parts[0]
-    rank = parts[1]
-    player = parts[2]
-    map_name = parts[3]
-
     return {
-        "character": character,
-        "player": player,
-        "map": map_name,
-        "rank": rank
+        "character": parts[0],
+        "player": parts[2],
+        "map": parts[3],
+        "rank": parts[1],
     }
 
+
 def parse_description(description: str, title: str, log_lines: list) -> list[dict]:
-    """説明文から有効なタイムスタンプ行だけを抽出。無視した行も記録する"""
     matches = []
     ignored_lines = []
 
@@ -121,7 +99,6 @@ def parse_description(description: str, title: str, log_lines: list) -> list[dic
         if not line:
             continue
 
-        # タイムスタンプで始まるかチェック
         ts_match = re.match(r"^(\d{1,2}:\d{2}:\d{2}|\d{1,2}:\d{2})\s*(.*)$", line)
         if not ts_match:
             continue
@@ -129,41 +106,36 @@ def parse_description(description: str, title: str, log_lines: list) -> list[dic
         timestamp = ts_match.group(1)
         rest = ts_match.group(2).strip()
 
-        # 0:00:00 の行は完全に無視（ログにも出さない）
         if timestamp in ("0:00:00", "0:00", "00:00:00", "00:00"):
             continue
 
-        # ===== 特殊形式: （キャラ名）/マップ/プレイヤー  or  (キャラ名)/マップ/プレイヤー =====
         special = re.match(
             r"^[（(]([^）)]+)[）)]\s*/\s*([^/]+)\s*/\s*(.+)$",
-            rest
+            rest,
         )
         if special:
             char_name = special.group(1).strip()
             map_name = special.group(2).strip()
             player = special.group(3).strip()
-
             if char_name and map_name and player:
                 matches.append({
                     "timestamp": timestamp,
                     "seconds": to_seconds(timestamp),
                     "map": map_name,
                     "player": player,
-                    "rank": "",              # ランク不明のため空白
-                    "character": char_name   # 実際のキャラクター名
+                    "rank": "",
+                    "character": char_name,
                 })
             else:
-                ignored_lines.append(line)
+                if "同じ試合" not in line:
+                    ignored_lines.append(line)
             continue
 
-        # 直後が半角・全角かっこで始まる場合はスキップ
         if rest.startswith("(") or rest.startswith("（"):
-            # 「同じ試合」を含む行はログに出さない
             if "同じ試合" not in line:
                 ignored_lines.append(line)
             continue
 
-        # 正常形式: マップ/プレイヤー名/ランク
         parts = rest.split("/")
         if len(parts) < 3:
             if "同じ試合" not in line:
@@ -184,8 +156,7 @@ def parse_description(description: str, title: str, log_lines: list) -> list[dic
             "seconds": to_seconds(timestamp),
             "map": map_name,
             "player": player,
-            "rank": rank
-            # character は持たない（動画タイトルのキャラを使う）
+            "rank": rank,
         })
 
     if ignored_lines:
@@ -196,17 +167,87 @@ def parse_description(description: str, title: str, log_lines: list) -> list[dic
 
     return matches
 
-def fetch_videos():
-    """チャンネルの全アップロード動画を取得（playlistItems使用）+ ログ出力"""
+
+def load_existing() -> list[dict]:
+    """既存の matches.json を読み込む"""
+    if not OUTPUT_PATH.exists():
+        print("既存データなし（初回実行）")
+        return []
+    try:
+        with open(OUTPUT_PATH, encoding="utf-8") as f:
+            data = json.load(f)
+        videos = data.get("videos", [])
+        print(f"既存データ: {len(videos)} 本")
+        return videos
+    except Exception as e:
+        print(f"既存JSONの読み込みに失敗（空から開始）: {e}")
+        return []
+
+
+def process_video_item(item: dict, log_lines: list, no_timestamp_titles: list) -> dict | None:
+    """1本分の動画詳細をパースして結果dictを返す。対象外は None"""
+    duration = item.get("contentDetails", {}).get("duration", "")
+    if is_short(duration):
+        return None
+
+    snippet = item["snippet"]
+    video_id = item["id"]
+    title = snippet["title"]
+    description = snippet.get("description", "")
+    published_at = snippet["publishedAt"]
+    is_live_archive = "liveStreamingDetails" in item
+
+    if is_live_archive:
+        character = extract_character(title)
+        matches = parse_description(description, title, log_lines)
+        if not matches:
+            no_timestamp_titles.append(f"[配信] {title}")
+            return None
+        return {
+            "video_id": video_id,
+            "title": title,
+            "character": character,
+            "published_at": published_at,
+            "url": f"https://www.youtube.com/watch?v={video_id}",
+            "is_live_archive": True,
+            "matches": matches,
+        }
+
+    info = parse_video_title(title)
+    if not info:
+        no_timestamp_titles.append(f"[動画] {title}")
+        return None
+
+    return {
+        "video_id": video_id,
+        "title": title,
+        "character": info["character"],
+        "published_at": published_at,
+        "url": f"https://www.youtube.com/watch?v={video_id}",
+        "is_live_archive": False,
+        "matches": [{
+            "timestamp": "0:00",
+            "seconds": 0,
+            "map": info["map"],
+            "player": info["player"],
+            "rank": info["rank"],
+        }],
+    }
+
+
+def fetch_new_videos(existing_videos: list[dict]) -> list[dict]:
+    """未登録の動画だけ取得してパースする"""
     from googleapiclient.discovery import build
+
+    existing_ids = {v["video_id"] for v in existing_videos if "video_id" in v}
+    print(f"既知の video_id: {len(existing_ids)} 件")
 
     youtube = build("youtube", "v3", developerKey=API_KEY)
 
-    # 1. チャンネルの uploads プレイリストIDを取得
     print("チャンネル情報を取得中...")
     channel_response = youtube.channels().list(
         part="contentDetails",
-        id=CHANNEL_ID
+        id=CHANNEL_ID,
     ).execute()
 
     if not channel_response.get("items"):
@@ -215,110 +256,68 @@ def fetch_videos():
     uploads_playlist_id = channel_response["items"][0]["contentDetails"]["relatedPlaylists"]["uploads"]
     print(f"uploads プレイリストID: {uploads_playlist_id}")
 
-    # 2. プレイリストから全動画IDを取得
-    video_ids = []
+    # 新しい動画IDだけ集める（新しい順）
+    new_video_ids = []
     next_page_token = None
+    consecutive_known = 0
 
-    print("動画IDを取得中...")
+    print("新規動画IDを探索中...")
     while True:
         playlist_response = youtube.playlistItems().list(
             part="contentDetails",
             playlistId=uploads_playlist_id,
             maxResults=50,
-            pageToken=next_page_token
+            pageToken=next_page_token,
         ).execute()
 
         for item in playlist_response.get("items", []):
-            video_ids.append(item["contentDetails"]["videoId"])
+            vid = item["contentDetails"]["videoId"]
+            if vid in existing_ids:
+                consecutive_known += 1
+                if STOP_AFTER_CONSECUTIVE_KNOWN and consecutive_known >= STOP_AFTER_CONSECUTIVE_KNOWN:
+                    print(f"  既知IDが{STOP_AFTER_CONSECUTIVE_KNOWN}件連続したため探索を打ち切り")
+                    next_page_token = None
+                    break
+            else:
+                consecutive_known = 0
+                new_video_ids.append(vid)
 
-        next_page_token = playlist_response.get("nextPageToken")
-        print(f"  現在 {len(video_ids)} 本取得...")
+        else:
+            next_page_token = playlist_response.get("nextPageToken")
+            print(f"  新規候補: {len(new_video_ids)} 本 ...")
+            if next_page_token:
+                continue
 
-        if not next_page_token:
-            break
+        break
 
-    if not video_ids:
-        print("動画が1本も取得できませんでした。")
+    if not new_video_ids:
+        print("新規動画はありません")
         return []
 
-    # 3. 詳細情報取得 + ログ準備
-    print(f"詳細情報を取得中（全{len(video_ids)}本）...")
+    print(f"新規動画の詳細を取得中（{len(new_video_ids)}本）...")
     results = []
     log_lines = []
     no_timestamp_titles = []
 
     log_lines.append(f"実行日時: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-    log_lines.append(f"取得動画数: {len(video_ids)}")
+    log_lines.append(f"モード: 増分更新")
+    log_lines.append(f"既存: {len(existing_ids)} 本 / 新規候補: {len(new_video_ids)} 本")
     log_lines.append("=" * 60)
     log_lines.append("")
 
-    for i in range(0, len(video_ids), 50):
-        batch_ids = video_ids[i:i+50]
+    for i in range(0, len(new_video_ids), 50):
+        batch_ids = new_video_ids[i:i + 50]
         videos_response = youtube.videos().list(
             part="snippet,liveStreamingDetails,contentDetails",
-            id=",".join(batch_ids)
+            id=",".join(batch_ids),
         ).execute()
 
         for item in videos_response.get("items", []):
-            # Shorts 除外
-            duration = item.get("contentDetails", {}).get("duration", "")
-            if is_short(duration):
-                continue
+            parsed = process_video_item(item, log_lines, no_timestamp_titles)
+            if parsed:
+                results.append(parsed)
 
-            snippet = item["snippet"]
-            video_id = item["id"]
-            title = snippet["title"]
-            description = snippet.get("description", "")
-            published_at = snippet["publishedAt"]
-
-            is_live_archive = "liveStreamingDetails" in item
-
-            if is_live_archive:
-                # ===== 配信の場合 =====
-                character = extract_character(title)
-                matches = parse_description(description, title, log_lines)
-
-                if not matches:
-                    no_timestamp_titles.append(f"[配信] {title}")
-                    continue
-
-                results.append({
-                    "video_id": video_id,
-                    "title": title,
-                    "character": character,
-                    "published_at": published_at,
-                    "url": f"https://www.youtube.com/watch?v={video_id}",
-                    "is_live_archive": True,
-                    "matches": matches
-                })
-
-            else:
-                # ===== 通常動画の場合（タイトルのみ） =====
-                info = parse_video_title(title)
-
-                if not info:
-                    no_timestamp_titles.append(f"[動画] {title}")
-                    continue
-
-                matches = [{
-                    "timestamp": "0:00",
-                    "seconds": 0,
-                    "map": info["map"],
-                    "player": info["player"],
-                    "rank": info["rank"]
-                }]
-
-                results.append({
-                    "video_id": video_id,
-                    "title": title,
-                    "character": info["character"],
-                    "published_at": published_at,
-                    "url": f"https://www.youtube.com/watch?v={video_id}",
-                    "is_live_archive": False,
-                    "matches": matches
-                })
-
-        print(f"  詳細処理済み: {min(i+50, len(video_ids))} / {len(video_ids)}")
+        print(f"  詳細処理済み: {min(i + 50, len(new_video_ids))} / {len(new_video_ids)}")
 
     if no_timestamp_titles:
         log_lines.append("=" * 60)
@@ -328,34 +327,43 @@ def fetch_videos():
             log_lines.append(f"  - {t}")
         log_lines.append("")
 
-    # ログファイルに書き出し（毎回上書き）
     LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
     with open(LOG_PATH, "w", encoding="utf-8") as f:
         f.write("\n".join(log_lines))
 
     print(f"ログを書き出しました: {LOG_PATH}")
-    print(f"有効な動画数: {len(results)} 本")
-
-    results.sort(key=lambda x: x["published_at"], reverse=True)
+    print(f"新規に登録する動画: {len(results)} 本")
     return results
+
 
 def main():
     if not API_KEY:
         raise ValueError("YOUTUBE_API_KEY が設定されていません")
 
-    print("動画データを取得中...")
-    data = fetch_videos()
+    print("動画データを取得中（増分更新）...")
+    existing = load_existing()
+    new_videos = fetch_new_videos(existing)
+
+    # 新規を先頭側にマージ（ID重複は新規優先で排除）
+    existing_ids = {v["video_id"] for v in existing}
+    merged = list(new_videos)
+    for v in existing:
+        if v.get("video_id") not in {n["video_id"] for n in new_videos}:
+            merged.append(v)
+
+    merged.sort(key=lambda x: x.get("published_at", ""), reverse=True)
 
     output = {
         "updated_at": datetime.now(timezone.utc).isoformat(),
-        "videos": data
+        "videos": merged,
     }
 
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
-    print(f"完了: {len(data)} 本の動画を {OUTPUT_PATH} に保存しました")
+    print(f"完了: 新規 {len(new_videos)} 本追加 / 合計 {len(merged)} 本 → {OUTPUT_PATH}")
+
 
 if __name__ == "__main__":
     main()
