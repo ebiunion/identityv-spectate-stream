@@ -2,7 +2,7 @@ name: Update matches data
 
 on:
   schedule:
-    - cron: "0 3 * * *"   # 毎日 12:00 JST（UTC 03:00）
+    - cron: "0 20 * * *"   # 毎日 05:00 JST（UTC 20:00）
   workflow_dispatch:       # 手動実行も可能
 
 jobs:
