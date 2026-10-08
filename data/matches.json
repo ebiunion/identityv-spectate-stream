@@ -1,6 +1,414 @@
 {
-  "updated_at": "2026-10-07T20:02:39.943067+00:00",
+  "updated_at": "2026-10-08T20:04:48.575944+00:00",
   "videos": [
+    {
+      "video_id": "oBszdDBFylg",
+      "title": "フラバルー #60 S44 達人観戦 Hullabaroo 夜ラン #identityV #第五人格",
+      "character": "フラバルー",
+      "published_at": "2026-10-08T15:36:27Z",
+      "url": "https://www.youtube.com/watch?v=oBszdDBFylg",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:29",
+          "seconds": 329,
+          "map": "月の河公園",
+          "player": "雪滅べ",
+          "rank": "B"
+        },
+        {
+          "timestamp": "0:14:25",
+          "seconds": 865,
+          "map": "月の河公園",
+          "player": "ʚあさてぁɞ",
+          "rank": "18位"
+        },
+        {
+          "timestamp": "0:21:58",
+          "seconds": 1318,
+          "map": "赤の教会",
+          "player": "Hajoi",
+          "rank": "38位"
+        },
+        {
+          "timestamp": "0:30:25",
+          "seconds": 1825,
+          "map": "湖景村",
+          "player": "Lum1nous_",
+          "rank": "19位"
+        },
+        {
+          "timestamp": "0:37:06",
+          "seconds": 2226,
+          "map": "赤の教会",
+          "player": "うみんぐの番人",
+          "rank": "61位"
+        },
+        {
+          "timestamp": "0:43:46",
+          "seconds": 2626,
+          "map": "湖景村",
+          "player": "Hajoi",
+          "rank": "38位"
+        },
+        {
+          "timestamp": "0:51:54",
+          "seconds": 3114,
+          "map": "中華街",
+          "player": "국고뜨어계",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "0:59:14",
+          "seconds": 3554,
+          "map": "軍需工場",
+          "player": "詩音でありんす",
+          "rank": "7位"
+        },
+        {
+          "timestamp": "1:04:56",
+          "seconds": 3896,
+          "map": "月の河公園",
+          "player": "Furumoti＠hige",
+          "rank": "23位"
+        },
+        {
+          "timestamp": "1:13:25",
+          "seconds": 4405,
+          "map": "湖景村",
+          "player": "うみんぐの番人",
+          "rank": "61位"
+        },
+        {
+          "timestamp": "1:21:51",
+          "seconds": 4911,
+          "map": "罪の森",
+          "player": "ʚあさてぁɞ",
+          "rank": "18位"
+        },
+        {
+          "timestamp": "1:26:32",
+          "seconds": 5192,
+          "map": "中華街",
+          "player": "水戸ホグワーツ",
+          "rank": "32位"
+        },
+        {
+          "timestamp": "1:32:04",
+          "seconds": 5524,
+          "map": "赤の教会",
+          "player": "引退ななてゃ",
+          "rank": "59位"
+        },
+        {
+          "timestamp": "1:39:33",
+          "seconds": 5973,
+          "map": "罪の森",
+          "player": "詩音でありんす",
+          "rank": "7位"
+        },
+        {
+          "timestamp": "1:45:40",
+          "seconds": 6340,
+          "map": "湖景村",
+          "player": "砕星のしぐピー",
+          "rank": "36位"
+        },
+        {
+          "timestamp": "1:52:36",
+          "seconds": 6756,
+          "map": "赤の教会",
+          "player": "犬系いぬ",
+          "rank": "51位"
+        },
+        {
+          "timestamp": "1:59:25",
+          "seconds": 7165,
+          "map": "聖心病院",
+          "player": "カカシ屋みつお",
+          "rank": "57位"
+        }
+      ]
+    },
+    {
+      "video_id": "ra3msd0uhwM",
+      "title": "フールズ・ゴールド #29 S44 達人観戦 Fool's Gold 昼ラン #identityV #第五人格",
+      "character": "フールズ・ゴールド",
+      "published_at": "2026-10-08T06:24:35Z",
+      "url": "https://www.youtube.com/watch?v=ra3msd0uhwM",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:42",
+          "seconds": 342,
+          "map": "月の河公園",
+          "player": "ntpXpwW",
+          "rank": "B"
+        },
+        {
+          "timestamp": "0:13:42",
+          "seconds": 822,
+          "map": "聖心病院",
+          "player": "走る少年",
+          "rank": "37位"
+        },
+        {
+          "timestamp": "0:19:47",
+          "seconds": 1187,
+          "map": "軍需工場",
+          "player": "~333~",
+          "rank": "42位"
+        },
+        {
+          "timestamp": "0:25:57",
+          "seconds": 1557,
+          "map": "中華街",
+          "player": "袅袅都不鸟你",
+          "rank": "25位"
+        },
+        {
+          "timestamp": "0:31:28",
+          "seconds": 1888,
+          "map": "レオの思い出",
+          "player": "macaron非常食",
+          "rank": "B"
+        },
+        {
+          "timestamp": "0:38:36",
+          "seconds": 2316,
+          "map": "月の河公園",
+          "player": "真黒ふじ",
+          "rank": "17位"
+        },
+        {
+          "timestamp": "0:44:06",
+          "seconds": 2646,
+          "map": "月の河公園",
+          "player": "由比ヶ浜にだ男",
+          "rank": "20位"
+        },
+        {
+          "timestamp": "0:50:46",
+          "seconds": 3046,
+          "map": "聖心病院",
+          "player": "บญรอด=",
+          "rank": "49位"
+        },
+        {
+          "timestamp": "0:55:57",
+          "seconds": 3357,
+          "map": "聖心病院",
+          "player": "にゃいぼーい",
+          "rank": "9位"
+        },
+        {
+          "timestamp": "1:01:35",
+          "seconds": 3695,
+          "map": "赤の教会",
+          "player": "บญรอด=",
+          "rank": "49位"
+        },
+        {
+          "timestamp": "1:07:58",
+          "seconds": 4078,
+          "map": "湖景村",
+          "player": "刹那・ω・ฅ",
+          "rank": "52位"
+        },
+        {
+          "timestamp": "1:15:14",
+          "seconds": 4514,
+          "map": "月の河公園",
+          "player": "脳筋ツナ",
+          "rank": "81位"
+        },
+        {
+          "timestamp": "1:21:34",
+          "seconds": 4894,
+          "map": "中華街",
+          "player": "そけんဖ",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "1:28:57",
+          "seconds": 5337,
+          "map": "レオの思い出",
+          "player": "聖ケッツ笑くん",
+          "rank": "62位"
+        },
+        {
+          "timestamp": "1:34:46",
+          "seconds": 5686,
+          "map": "中華街",
+          "player": "ZERANE_",
+          "rank": "B"
+        },
+        {
+          "timestamp": "1:39:28",
+          "seconds": 5968,
+          "map": "月の河公園",
+          "player": "itttunnn",
+          "rank": "B"
+        },
+        {
+          "timestamp": "1:45:06",
+          "seconds": 6306,
+          "map": "中華街",
+          "player": "_hee^ะ_",
+          "rank": "59位"
+        },
+        {
+          "timestamp": "1:53:16",
+          "seconds": 6796,
+          "map": "永眠町",
+          "player": "ほしの_:",
+          "rank": "5位"
+        },
+        {
+          "timestamp": "2:02:37",
+          "seconds": 7357,
+          "map": "聖心病院",
+          "player": "刹那・ω・ฅ",
+          "rank": "52位"
+        }
+      ]
+    },
+    {
+      "video_id": "tIvNEzdgBEk",
+      "title": "ルキノ #39 S44 達人観戦 Evil Reptilian 朝ラン #identityV #第五人格",
+      "character": "ルキノ",
+      "published_at": "2026-10-07T22:19:59Z",
+      "url": "https://www.youtube.com/watch?v=tIvNEzdgBEk",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:48",
+          "seconds": 348,
+          "map": "軍需工場",
+          "player": "何以拥抱真心",
+          "rank": "C"
+        },
+        {
+          "timestamp": "0:11:32",
+          "seconds": 692,
+          "map": "月の河公園",
+          "player": "塩太郎",
+          "rank": "83位"
+        },
+        {
+          "timestamp": "0:17:29",
+          "seconds": 1049,
+          "map": "赤の教会",
+          "player": "イース人福井",
+          "rank": "9位"
+        },
+        {
+          "timestamp": "0:22:36",
+          "seconds": 1356,
+          "map": "軍需工場",
+          "player": "塩太郎",
+          "rank": "83位"
+        },
+        {
+          "timestamp": "0:28:02",
+          "seconds": 1682,
+          "map": "月の河公園",
+          "player": "何以拥抱真心",
+          "rank": "C"
+        },
+        {
+          "timestamp": "0:34:11",
+          "seconds": 2051,
+          "map": "湖景村",
+          "player": "イース人福井",
+          "rank": "9位"
+        },
+        {
+          "timestamp": "0:42:06",
+          "seconds": 2526,
+          "map": "聖心病院",
+          "player": "塩太郎",
+          "rank": "83位"
+        },
+        {
+          "timestamp": "0:53:19",
+          "seconds": 3199,
+          "map": "レオの思い出",
+          "player": "塩太郎",
+          "rank": "83位"
+        },
+        {
+          "timestamp": "0:59:50",
+          "seconds": 3590,
+          "map": "レオの思い出",
+          "player": "コマぴよ",
+          "rank": "B"
+        },
+        {
+          "timestamp": "1:06:16",
+          "seconds": 3976,
+          "map": "永眠町",
+          "player": "塩太郎",
+          "rank": "83位"
+        },
+        {
+          "timestamp": "1:13:24",
+          "seconds": 4404,
+          "map": "罪の森",
+          "player": "游戏戏大魔王▭",
+          "rank": "47位"
+        },
+        {
+          "timestamp": "1:20:28",
+          "seconds": 4828,
+          "map": "赤の教会",
+          "player": "ちょうやく",
+          "rank": "75位"
+        },
+        {
+          "timestamp": "1:26:54",
+          "seconds": 5214,
+          "map": "レオの思い出",
+          "player": "イース人福井",
+          "rank": "9位"
+        },
+        {
+          "timestamp": "1:35:40",
+          "seconds": 5740,
+          "map": "中華街",
+          "player": "游戏戏大魔王▭",
+          "rank": "47位"
+        },
+        {
+          "timestamp": "1:42:19",
+          "seconds": 6139,
+          "map": "レオの思い出",
+          "player": "Que_u_go",
+          "rank": "81位"
+        },
+        {
+          "timestamp": "1:48:33",
+          "seconds": 6513,
+          "map": "罪の森",
+          "player": "Luchislurpee",
+          "rank": "C"
+        },
+        {
+          "timestamp": "1:55:27",
+          "seconds": 6927,
+          "map": "月の河公園",
+          "player": "イース人福井",
+          "rank": "9位"
+        },
+        {
+          "timestamp": "2:03:02",
+          "seconds": 7382,
+          "map": "赤の教会",
+          "player": "CHIKUWA大明神",
+          "rank": "84位"
+        }
+      ]
+    },
     {
       "video_id": "Vb3z5ETmzYk",
       "title": "蜘蛛 #32 S44 達人観戦 Soul Weaver 夜ラン #identityV #第五人格",
