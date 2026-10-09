@@ -1,0 +1,31 @@
+name: Weekly hunter summary
+
+on:
+  schedule:
+    - cron: "0 21 * * 6"   # 日曜 07:00 JST（UTC 土曜 22:00）
+  workflow_dispatch:
+
+jobs:
+  summary:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate weekly summary
+        run: python scripts/weekly_summary.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add data/weekly_hunters.txt
+          git diff --staged --quiet || git commit -m "Weekly hunter summary $(date -u +%Y-%m-%d)"
+          git push
