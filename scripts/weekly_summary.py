@@ -58,7 +58,7 @@ def main():
         text = "今週は追加されたハンター配信がありませんでした。\n"
     else:
         text = (
-            "【定期】先週は以下のハンターを配信しました。\n"
+            "【定期】先週は以下のハンターを配信しましたのでサイトにも反映済です。\n"
             + "、".join(characters)
             + "\n"
             + "https://ebiunion.github.io/identityv-spectate-stream/"
