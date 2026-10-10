@@ -1,6 +1,257 @@
 {
-  "updated_at": "2026-10-08T20:04:48.575944+00:00",
+  "updated_at": "2026-10-09T20:02:14.376770+00:00",
   "videos": [
+    {
+      "video_id": "z4gCmAtNyck",
+      "title": "夢の魔女 #35 S44 達人観戦 Dream Witch 昼ラン #identityV #第五人格",
+      "character": "夢の魔女",
+      "published_at": "2026-10-09T06:14:56Z",
+      "url": "https://www.youtube.com/watch?v=z4gCmAtNyck",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:32",
+          "seconds": 332,
+          "map": "罪の森",
+          "player": "ウルベルト~",
+          "rank": "B"
+        },
+        {
+          "timestamp": "0:13:41",
+          "seconds": 821,
+          "map": "中華街",
+          "player": "ちょーんｗｗｗｗ",
+          "rank": "64位"
+        },
+        {
+          "timestamp": "0:18:32",
+          "seconds": 1112,
+          "map": "中華街",
+          "player": "JuBJ00",
+          "rank": "46位"
+        },
+        {
+          "timestamp": "0:23:19",
+          "seconds": 1399,
+          "map": "湖景村",
+          "player": "魔女封印絶対",
+          "rank": "71位"
+        },
+        {
+          "timestamp": "0:28:17",
+          "seconds": 1697,
+          "map": "聖心病院",
+          "player": "Not▭404",
+          "rank": "B"
+        },
+        {
+          "timestamp": "0:35:18",
+          "seconds": 2118,
+          "map": "聖心病院",
+          "player": "悖律",
+          "rank": "28位"
+        },
+        {
+          "timestamp": "0:43:51",
+          "seconds": 2631,
+          "map": "永眠町",
+          "player": "MEWdaEw",
+          "rank": "C"
+        },
+        {
+          "timestamp": "0:51:09",
+          "seconds": 3069,
+          "map": "赤の教会",
+          "player": "悖律",
+          "rank": "28位"
+        },
+        {
+          "timestamp": "0:59:46",
+          "seconds": 3586,
+          "map": "永眠町",
+          "player": "初遇时",
+          "rank": "43位"
+        },
+        {
+          "timestamp": "1:08:13",
+          "seconds": 4093,
+          "map": "罪の森",
+          "player": "悖律",
+          "rank": "28位"
+        },
+        {
+          "timestamp": "1:14:09",
+          "seconds": 4449,
+          "map": "中華街",
+          "player": "Ⅿαggⅼ",
+          "rank": "12位"
+        },
+        {
+          "timestamp": "1:20:19",
+          "seconds": 4819,
+          "map": "中華街",
+          "player": "{IRIS}",
+          "rank": "B"
+        },
+        {
+          "timestamp": "1:27:40",
+          "seconds": 5260,
+          "map": "レオの思い出",
+          "player": "Not▭404",
+          "rank": "B"
+        },
+        {
+          "timestamp": "1:34:41",
+          "seconds": 5681,
+          "map": "聖心病院",
+          "player": "初遇时",
+          "rank": "43位"
+        },
+        {
+          "timestamp": "1:43:14",
+          "seconds": 6194,
+          "map": "聖心病院",
+          "player": "Not▭404",
+          "rank": "B"
+        },
+        {
+          "timestamp": "1:53:22",
+          "seconds": 6802,
+          "map": "赤の教会",
+          "player": "未完の夢",
+          "rank": "44位"
+        },
+        {
+          "timestamp": "1:58:24",
+          "seconds": 7104,
+          "map": "湖景村",
+          "player": "あまにゃあ",
+          "rank": "19位"
+        }
+      ]
+    },
+    {
+      "video_id": "vsW8KI7R7tc",
+      "title": "ハスター #32 S44 達人観戦 The Feaster 朝ラン #identityV #第五人格",
+      "character": "ハスター",
+      "published_at": "2026-10-08T22:13:18Z",
+      "url": "https://www.youtube.com/watch?v=vsW8KI7R7tc",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:32",
+          "seconds": 332,
+          "map": "罪の森",
+          "player": "かるるの触手",
+          "rank": "B"
+        },
+        {
+          "timestamp": "0:20:53",
+          "seconds": 1253,
+          "map": "赤の教会",
+          "player": "HatoRa",
+          "rank": "17位"
+        },
+        {
+          "timestamp": "0:27:34",
+          "seconds": 1654,
+          "map": "聖心病院",
+          "player": "なるせうん",
+          "rank": "23位"
+        },
+        {
+          "timestamp": "0:34:32",
+          "seconds": 2072,
+          "map": "レオの思い出",
+          "player": "MviMigurdia",
+          "rank": "28位"
+        },
+        {
+          "timestamp": "0:40:32",
+          "seconds": 2432,
+          "map": "赤の教会",
+          "player": "米藏四季",
+          "rank": "B"
+        },
+        {
+          "timestamp": "0:45:58",
+          "seconds": 2758,
+          "map": "月の河公園",
+          "player": "米藏四季",
+          "rank": "B"
+        },
+        {
+          "timestamp": "0:51:45",
+          "seconds": 3105,
+          "map": "罪の森",
+          "player": "HatoRa",
+          "rank": "17位"
+        },
+        {
+          "timestamp": "0:56:23",
+          "seconds": 3383,
+          "map": "月の河公園",
+          "player": "Gaspardelanuit",
+          "rank": "83位"
+        },
+        {
+          "timestamp": "1:09:04",
+          "seconds": 4144,
+          "map": "軍需工場",
+          "player": "MviMigurdia",
+          "rank": "28位"
+        },
+        {
+          "timestamp": "1:15:29",
+          "seconds": 4529,
+          "map": "罪の森",
+          "player": "なるせうん",
+          "rank": "23位"
+        },
+        {
+          "timestamp": "1:21:24",
+          "seconds": 4884,
+          "map": "レオの思い出",
+          "player": "哇哈哈閃身步",
+          "rank": "6位"
+        },
+        {
+          "timestamp": "1:30:16",
+          "seconds": 5416,
+          "map": "聖心病院",
+          "player": "MviMigurdia",
+          "rank": "28位"
+        },
+        {
+          "timestamp": "1:37:29",
+          "seconds": 5849,
+          "map": "月の河公園",
+          "player": "哇哈哈閃身步",
+          "rank": "6位"
+        },
+        {
+          "timestamp": "1:44:30",
+          "seconds": 6270,
+          "map": "聖心病院",
+          "player": "なるせうん",
+          "rank": "23位"
+        },
+        {
+          "timestamp": "1:51:10",
+          "seconds": 6670,
+          "map": "月の河公園",
+          "player": "哇哈哈閃身步",
+          "rank": "6位"
+        },
+        {
+          "timestamp": "1:58:06",
+          "seconds": 7086,
+          "map": "聖心病院",
+          "player": "ψのこたん",
+          "rank": "62位"
+        }
+      ]
+    },
     {
       "video_id": "oBszdDBFylg",
       "title": "フラバルー #60 S44 達人観戦 Hullabaroo 夜ラン #identityV #第五人格",
