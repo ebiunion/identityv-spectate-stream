@@ -6,6 +6,16 @@ const PAGE_SIZE = 50;
 const WATCHED_VIDEOS_KEY = "watched_videos";
 const WATCHED_MATCHES_KEY = "watched_matches";
 
+function trackSearch({ character, map, player }) {
+  if (typeof gtag !== "function") return;
+
+  gtag("event", "filter_search", {
+    search_character: character || "(all)",
+    search_map: map || "(all)",
+    search_player: player || "(none)",
+  });
+}
+
 function parseRankNumber(rankStr) {
   if (!rankStr) return null;
   const m = String(rankStr).match(/(\d+)/);
@@ -128,6 +138,12 @@ function applyFilter() {
   const map = document.getElementById("mapFilter").value;
   const player = document.getElementById("playerFilter").value.trim().toLowerCase();
   const selectedRanks = getSelectedRanks();
+
+    trackSearch({
+    character: char,
+    map: map,
+    player: player,
+  });
 
   filteredVideos = allVideos.filter(video => {
     const matches = video.matches || [];
@@ -306,8 +322,12 @@ document.getElementById("results").addEventListener("change", (e) => {
 
 document.getElementById("characterFilter").addEventListener("change", applyFilter);
 document.getElementById("mapFilter").addEventListener("change", applyFilter);
-document.getElementById("playerFilter").addEventListener("input", applyFilter);
-
+// プレイヤー名は 600ms 待ってから（デバウンス）
+let playerTimer = null;
+document.getElementById("playerFilter").addEventListener("input", () => {
+  clearTimeout(playerTimer);
+  playerTimer = setTimeout(() => applyFilter(), 600);
+});
 document.getElementById("resetBtn").addEventListener("click", () => {
   document.getElementById("characterFilter").value = "";
   document.getElementById("mapFilter").value = "";
