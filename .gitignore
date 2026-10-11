@@ -1,2 +1,3 @@
 # ログファイル（ソース管理に含めない）
 logs/
+data/views_by_character.txt
