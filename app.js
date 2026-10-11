@@ -38,7 +38,7 @@ function getSelectedRanks() {
 }
 
 function matchRankFilter(rankStr, selectedRanks) {
-  if (!selectedRanks.length) return true; // 未選択 = すべて
+  if (!selectedRanks.length) return true;
   return selectedRanks.includes(getRankBand(rankStr));
 }
 
@@ -74,7 +74,6 @@ function formatVideoHeading(video) {
   const character = video.character || "";
   const title = video.title || "";
   if (!character) return title;
-  // タイトルがキャラ名で始まっていれば二重表示を避ける
   if (title.startsWith(character)) return title;
   return `${character} — ${title}`;
 }
@@ -86,7 +85,6 @@ async function loadData() {
     const data = await res.json();
     allVideos = data.videos || [];
 
-    // 総試合数（全タイムスタンプ数）を集計
     const totalMatches = allVideos.reduce((sum, v) => sum + (v.matches || []).length, 0);
 
     document.getElementById("updatedAt").textContent =
@@ -137,16 +135,25 @@ function applyFilter() {
   const char = document.getElementById("characterFilter").value;
   const map = document.getElementById("mapFilter").value;
   const player = document.getElementById("playerFilter").value.trim().toLowerCase();
+  const unwatchedOnly = document.getElementById("unwatchedOnly")?.checked === true;
   const selectedRanks = getSelectedRanks();
 
-    trackSearch({
+  trackSearch({
     character: char,
     map: map,
     player: player,
   });
 
+  const watchedVideos = getWatchedVideos();
+  const watchedMatches = getWatchedMatches();
+
   filteredVideos = allVideos.filter(video => {
     const matches = video.matches || [];
+
+    // 未視聴のみ：配信・動画本体が視聴済みなら除外
+    if (unwatchedOnly && watchedVideos.includes(video.video_id)) {
+      return false;
+    }
 
     if (char) {
       const videoCharMatch = video.character === char;
@@ -154,12 +161,20 @@ function applyFilter() {
       if (!videoCharMatch && !matchCharMatch) return false;
     }
 
-    // マップ・プレイヤー・順位のいずれかが指定されている場合
-    if (map || player || selectedRanks.length) {
+    if (map || player || selectedRanks.length || unwatchedOnly) {
+      if (!matches.length) {
+        return !(map || player || selectedRanks.length);
+      }
+
       return matches.some(m => {
         if (map && m.map !== map) return false;
         if (player && !(m.player || "").toLowerCase().includes(player)) return false;
         if (!matchRankFilter(m.rank, selectedRanks)) return false;
+        // 未視聴のみ：視聴済みの試合は「残試合あり」とみなさない
+        if (unwatchedOnly) {
+          const key = matchKey(video.video_id, m.seconds);
+          if (watchedMatches.includes(key)) return false;
+        }
         return true;
       });
     }
@@ -194,6 +209,7 @@ function loadMore() {
     const char = document.getElementById("characterFilter").value;
     const map = document.getElementById("mapFilter").value;
     const player = document.getElementById("playerFilter").value.trim().toLowerCase();
+    const unwatchedOnly = document.getElementById("unwatchedOnly")?.checked === true;
     const selectedRanks = getSelectedRanks();
 
     nextVideos.forEach(video => {
@@ -207,10 +223,19 @@ function loadMore() {
         if (map && m.map !== map) return false;
         if (player && !(m.player || "").toLowerCase().includes(player)) return false;
         if (!matchRankFilter(m.rank, selectedRanks)) return false;
+        if (unwatchedOnly) {
+          const key = matchKey(video.video_id, m.seconds);
+          if (watchedMatches.includes(key)) return false;
+        }
         return true;
       });
 
-      if (visibleMatches.length === 0 && (char || map || player || selectedRanks.length)) return;
+      if (
+        visibleMatches.length === 0 &&
+        (char || map || player || unwatchedOnly || selectedRanks.length)
+      ) {
+        return;
+      }
 
       const isVideoWatched = watchedVideos.includes(video.video_id);
       const isLive = video.is_live_archive === true;
@@ -222,7 +247,6 @@ function loadMore() {
       const date = new Date(video.published_at).toLocaleDateString("ja-JP");
 
       if (!isLive) {
-        // 通常動画
         const m = visibleMatches[0] || matches[0] || {};
         card.innerHTML = `
           <div class="video-header">
@@ -240,7 +264,6 @@ function loadMore() {
           </div>
         `;
       } else {
-        // 配信
         card.innerHTML = `
           <div class="video-header">
             <input type="checkbox" class="video-checkbox" data-video-id="${video.video_id}" ${isVideoWatched ? "checked" : ""}>
@@ -303,6 +326,11 @@ document.getElementById("results").addEventListener("change", (e) => {
       e.target.closest(".video-card").classList.remove("watched");
     }
     saveWatchedVideos(watched);
+
+    // 未視聴のみONのときは、チェック後に一覧を更新
+    if (document.getElementById("unwatchedOnly")?.checked) {
+      applyFilter();
+    }
   }
 
   if (e.target.classList.contains("match-checkbox")) {
@@ -317,26 +345,35 @@ document.getElementById("results").addEventListener("change", (e) => {
       e.target.closest(".match-item").classList.remove("watched");
     }
     saveWatchedMatches(watched);
+
+    if (document.getElementById("unwatchedOnly")?.checked) {
+      applyFilter();
+    }
   }
 });
 
 document.getElementById("characterFilter").addEventListener("change", applyFilter);
 document.getElementById("mapFilter").addEventListener("change", applyFilter);
-// プレイヤー名は 600ms 待ってから（デバウンス）
+
 let playerTimer = null;
 document.getElementById("playerFilter").addEventListener("input", () => {
   clearTimeout(playerTimer);
   playerTimer = setTimeout(() => applyFilter(), 600);
 });
+
 document.getElementById("resetBtn").addEventListener("click", () => {
   document.getElementById("characterFilter").value = "";
   document.getElementById("mapFilter").value = "";
   document.getElementById("playerFilter").value = "";
-  document.querySelectorAll("#rankFilter input").forEach(el => { el.checked = false; });
+  const unwatched = document.getElementById("unwatchedOnly");
+  if (unwatched) unwatched.checked = false;
+  document.querySelectorAll("#rankFilter input").forEach(el => {
+    el.checked = false;
+  });
   applyFilter();
 });
 
-// 順位チェックボックス
-document.getElementById("rankFilter").addEventListener("change", applyFilter);
+document.getElementById("rankFilter")?.addEventListener("change", applyFilter);
+document.getElementById("unwatchedOnly")?.addEventListener("change", applyFilter);
 
 loadData();
