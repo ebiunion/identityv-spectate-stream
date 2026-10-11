@@ -1,3 +1,4 @@
 # ログファイル（ソース管理に含めない）
 logs/
 data/views_by_character.txt
+scripts/analyze_views_by_character.py
