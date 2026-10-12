@@ -1,6 +1,293 @@
 {
-  "updated_at": "2026-10-10T20:01:30.664776+00:00",
+  "updated_at": "2026-10-11T22:47:22.625822+00:00",
   "videos": [
+    {
+      "video_id": "6bXMg6Eb2M4",
+      "title": "泣き虫 #32 S44 達人観戦 Axe Boy 昼ラン #identityV #第五人格",
+      "character": "泣き虫",
+      "published_at": "2026-10-11T06:16:59Z",
+      "url": "https://www.youtube.com/watch?v=6bXMg6Eb2M4",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:58",
+          "seconds": 358,
+          "map": "レオの思い出",
+          "player": "老舗:°Fりっぷ",
+          "rank": "B"
+        },
+        {
+          "timestamp": "0:12:09",
+          "seconds": 729,
+          "map": "聖心病院",
+          "player": "京都テディベア",
+          "rank": "7位"
+        },
+        {
+          "timestamp": "0:17:48",
+          "seconds": 1068,
+          "map": "聖心病院",
+          "player": "頭草草大魔王",
+          "rank": "5位"
+        },
+        {
+          "timestamp": "0:23:58",
+          "seconds": 1438,
+          "map": "罪の森",
+          "player": "魂の錬金術師",
+          "rank": "38位"
+        },
+        {
+          "timestamp": "0:29:06",
+          "seconds": 1746,
+          "map": "レオの思い出",
+          "player": "カモッシー",
+          "rank": "19位"
+        },
+        {
+          "timestamp": "0:34:32",
+          "seconds": 2072,
+          "map": "レオの思い出",
+          "player": "お前マヂヵ",
+          "rank": "",
+          "character": "足萎えの羊"
+        },
+        {
+          "timestamp": "0:42:56",
+          "seconds": 2576,
+          "map": "赤の教会",
+          "player": "こけしまる",
+          "rank": "4位"
+        },
+        {
+          "timestamp": "0:47:48",
+          "seconds": 2868,
+          "map": "月の河公園",
+          "player": "魂の錬金術師",
+          "rank": "38位"
+        },
+        {
+          "timestamp": "0:53:46",
+          "seconds": 3226,
+          "map": "レオの思い出",
+          "player": "2℃_",
+          "rank": "36位"
+        },
+        {
+          "timestamp": "1:00:02",
+          "seconds": 3602,
+          "map": "聖心病院",
+          "player": "拼圖想談戀愛",
+          "rank": "33位"
+        },
+        {
+          "timestamp": "1:06:39",
+          "seconds": 3999,
+          "map": "軍需工場",
+          "player": "京都テディベア",
+          "rank": "7位"
+        },
+        {
+          "timestamp": "1:12:03",
+          "seconds": 4323,
+          "map": "永眠町",
+          "player": "SecretQuest",
+          "rank": "15位"
+        },
+        {
+          "timestamp": "1:16:12",
+          "seconds": 4572,
+          "map": "湖景村",
+          "player": "BEllE_RAAM",
+          "rank": "B"
+        },
+        {
+          "timestamp": "1:22:30",
+          "seconds": 4950,
+          "map": "聖心病院",
+          "player": "むりっしぃぃぃ",
+          "rank": "47位"
+        },
+        {
+          "timestamp": "1:28:50",
+          "seconds": 5330,
+          "map": "赤の教会",
+          "player": "怨霊操術",
+          "rank": "16位"
+        },
+        {
+          "timestamp": "1:35:39",
+          "seconds": 5739,
+          "map": "聖心病院",
+          "player": "▭泪眼",
+          "rank": "87位"
+        },
+        {
+          "timestamp": "1:42:40",
+          "seconds": 6160,
+          "map": "聖心病院",
+          "player": "えぶりでぇい俺",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "1:47:35",
+          "seconds": 6455,
+          "map": "永眠町",
+          "player": "魂の錬金術師",
+          "rank": "38位"
+        },
+        {
+          "timestamp": "1:53:07",
+          "seconds": 6787,
+          "map": "レオの思い出",
+          "player": "拼圖想談戀愛",
+          "rank": "33位"
+        },
+        {
+          "timestamp": "1:58:14",
+          "seconds": 7094,
+          "map": "月の河公園",
+          "player": "2℃_",
+          "rank": "36位"
+        }
+      ]
+    },
+    {
+      "video_id": "NxuAJAar5N0",
+      "title": "オペラ歌手 #72 S44 達人観戦 Opera Singer 朝ラン #identityV #第五人格",
+      "character": "オペラ歌手",
+      "published_at": "2026-10-10T22:15:51Z",
+      "url": "https://www.youtube.com/watch?v=NxuAJAar5N0",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:39",
+          "seconds": 339,
+          "map": "湖景村",
+          "player": "塩と砂糖の違い",
+          "rank": "54位"
+        },
+        {
+          "timestamp": "0:11:20",
+          "seconds": 680,
+          "map": "赤の教会",
+          "player": "俺に挨拶しろ",
+          "rank": "50位"
+        },
+        {
+          "timestamp": "0:17:47",
+          "seconds": 1067,
+          "map": "月の河公園",
+          "player": "じじちゃまa",
+          "rank": "84位"
+        },
+        {
+          "timestamp": "0:23:49",
+          "seconds": 1429,
+          "map": "中華街",
+          "player": "俺に挨拶しろ",
+          "rank": "50位"
+        },
+        {
+          "timestamp": "0:29:12",
+          "seconds": 1752,
+          "map": "レオの思い出",
+          "player": "夏目ンアンア",
+          "rank": "6位"
+        },
+        {
+          "timestamp": "0:36:21",
+          "seconds": 2181,
+          "map": "赤の教会",
+          "player": "百キロともやん",
+          "rank": "21位"
+        },
+        {
+          "timestamp": "0:42:52",
+          "seconds": 2572,
+          "map": "レオの思い出",
+          "player": "俺に挨拶しろ",
+          "rank": "50位"
+        },
+        {
+          "timestamp": "0:50:24",
+          "seconds": 3024,
+          "map": "月の河公園",
+          "player": "にゃんにゃに²",
+          "rank": "15位"
+        },
+        {
+          "timestamp": "0:59:33",
+          "seconds": 3573,
+          "map": "永眠町",
+          "player": "夏目ンアンア",
+          "rank": "6位"
+        },
+        {
+          "timestamp": "1:07:25",
+          "seconds": 4045,
+          "map": "軍需工場",
+          "player": "塩と砂糖の違い",
+          "rank": "54位"
+        },
+        {
+          "timestamp": "1:14:31",
+          "seconds": 4471,
+          "map": "湖景村",
+          "player": "▭イタチ",
+          "rank": "16位"
+        },
+        {
+          "timestamp": "1:19:33",
+          "seconds": 4773,
+          "map": "軍需工場",
+          "player": "じじちゃまa",
+          "rank": "84位"
+        },
+        {
+          "timestamp": "1:25:27",
+          "seconds": 5127,
+          "map": "月の河公園",
+          "player": "俺に挨拶しろ",
+          "rank": "50位"
+        },
+        {
+          "timestamp": "1:32:00",
+          "seconds": 5520,
+          "map": "月の河公園",
+          "player": "rinoちゃん最強",
+          "rank": "18位"
+        },
+        {
+          "timestamp": "1:39:21",
+          "seconds": 5961,
+          "map": "永眠町",
+          "player": "久保渚沙",
+          "rank": "92位"
+        },
+        {
+          "timestamp": "1:44:21",
+          "seconds": 6261,
+          "map": "レオの思い出",
+          "player": "猫庭記最強伝説",
+          "rank": "B"
+        },
+        {
+          "timestamp": "1:50:12",
+          "seconds": 6612,
+          "map": "月の河公園",
+          "player": "塩と砂糖の違い",
+          "rank": "54位"
+        },
+        {
+          "timestamp": "1:59:10",
+          "seconds": 7150,
+          "map": "永眠町",
+          "player": "にゃんにゃに²",
+          "rank": "15位"
+        }
+      ]
+    },
     {
       "video_id": "m3_ZJ-4MPr0",
       "title": "足萎えの羊 #8 S44 達人観戦 \"Goatman\" 夜ラン #identityV #第五人格",
