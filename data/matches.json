@@ -1,6 +1,402 @@
 {
-  "updated_at": "2026-10-11T22:47:22.625822+00:00",
+  "updated_at": "2026-10-12T20:04:43.280214+00:00",
   "videos": [
+    {
+      "video_id": "cX4HTih4Q5E",
+      "title": "ビリヤードプレイヤー #6 S44 達人観戦 Cueist 夜ラン #identityV #第五人格",
+      "character": "ビリヤードプレイヤー",
+      "published_at": "2026-10-12T13:20:21Z",
+      "url": "https://www.youtube.com/watch?v=cX4HTih4Q5E",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:43",
+          "seconds": 343,
+          "map": "軍需工場",
+          "player": "ぽ애",
+          "rank": "88位"
+        },
+        {
+          "timestamp": "0:13:03",
+          "seconds": 783,
+          "map": "湖景村",
+          "player": "dan_llls",
+          "rank": "無徽章"
+        },
+        {
+          "timestamp": "0:20:17",
+          "seconds": 1217,
+          "map": "月の河公園",
+          "player": "丁寧に勝つ",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "0:26:59",
+          "seconds": 1619,
+          "map": "聖心病院",
+          "player": "超そーだ姫",
+          "rank": "17位"
+        },
+        {
+          "timestamp": "0:34:00",
+          "seconds": 2040,
+          "map": "永眠町",
+          "player": "iRis_海月",
+          "rank": "32位"
+        },
+        {
+          "timestamp": "0:40:11",
+          "seconds": 2411,
+          "map": "罪の森",
+          "player": "丁寧に勝つ",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "0:46:33",
+          "seconds": 2793,
+          "map": "軍需工場",
+          "player": "浣熊duke",
+          "rank": "12位"
+        },
+        {
+          "timestamp": "0:53:53",
+          "seconds": 3233,
+          "map": "軍需工場",
+          "player": "丁寧に勝つ",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "1:00:50",
+          "seconds": 3650,
+          "map": "軍需工場",
+          "player": "縄ーぶ",
+          "rank": "42位"
+        },
+        {
+          "timestamp": "1:07:19",
+          "seconds": 4039,
+          "map": "罪の森",
+          "player": "▭mikann",
+          "rank": "14位"
+        },
+        {
+          "timestamp": "1:15:23",
+          "seconds": 4523,
+          "map": "罪の森",
+          "player": "過去=消えない",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "1:20:13",
+          "seconds": 4813,
+          "map": "赤の教会",
+          "player": "タマ神",
+          "rank": "13位"
+        },
+        {
+          "timestamp": "1:27:28",
+          "seconds": 5248,
+          "map": "湖景村",
+          "player": "Peterpan:",
+          "rank": "B"
+        },
+        {
+          "timestamp": "1:34:42",
+          "seconds": 5682,
+          "map": "罪の森",
+          "player": "ゴツメ持ちです",
+          "rank": "36位"
+        },
+        {
+          "timestamp": "1:43:10",
+          "seconds": 6190,
+          "map": "聖心病院",
+          "player": "iRis_海月",
+          "rank": "32位"
+        },
+        {
+          "timestamp": "1:51:59",
+          "seconds": 6719,
+          "map": "永眠町",
+          "player": "ゴツメ持ちです",
+          "rank": "36位"
+        },
+        {
+          "timestamp": "2:00:53",
+          "seconds": 7253,
+          "map": "月の河公園",
+          "player": "右手鞭",
+          "rank": "C"
+        }
+      ]
+    },
+    {
+      "video_id": "q1E0DzIs7hk",
+      "title": "蝋人形師 #32 S44 達人観戦 Wax Artist 昼ラン #identityV #第五人格",
+      "character": "蝋人形師",
+      "published_at": "2026-10-12T06:18:52Z",
+      "url": "https://www.youtube.com/watch?v=q1E0DzIs7hk",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:40",
+          "seconds": 340,
+          "map": "軍需工場",
+          "player": "ハムちゃん角煮",
+          "rank": "",
+          "character": "アン"
+        },
+        {
+          "timestamp": "0:13:27",
+          "seconds": 807,
+          "map": "月の河公園",
+          "player": "九喇痲๑",
+          "rank": "B"
+        },
+        {
+          "timestamp": "0:20:03",
+          "seconds": 1203,
+          "map": "中華街",
+          "player": "やってけねぇよ",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "0:24:47",
+          "seconds": 1487,
+          "map": "聖心病院",
+          "player": "ぽんぽこかき▭",
+          "rank": "",
+          "character": "アイヴィ"
+        },
+        {
+          "timestamp": "0:33:34",
+          "seconds": 2014,
+          "map": "レオの思い出",
+          "player": "Lですさとう",
+          "rank": "51位"
+        },
+        {
+          "timestamp": "0:43:42",
+          "seconds": 2622,
+          "map": "永眠町",
+          "player": "用铝箔包裹",
+          "rank": "76位"
+        },
+        {
+          "timestamp": "0:48:39",
+          "seconds": 2919,
+          "map": "軍需工場",
+          "player": "M3OW_M3",
+          "rank": "22位"
+        },
+        {
+          "timestamp": "0:54:27",
+          "seconds": 3267,
+          "map": "永眠町",
+          "player": "せなたこbot",
+          "rank": "17位"
+        },
+        {
+          "timestamp": "1:03:05",
+          "seconds": 3785,
+          "map": "レオの思い出",
+          "player": "さっくさくさ",
+          "rank": "78位"
+        },
+        {
+          "timestamp": "1:09:32",
+          "seconds": 4172,
+          "map": "永眠町",
+          "player": "丁寧は心地ええ",
+          "rank": "97位"
+        },
+        {
+          "timestamp": "1:18:09",
+          "seconds": 4689,
+          "map": "湖景村",
+          "player": "▭えりす",
+          "rank": "5位"
+        },
+        {
+          "timestamp": "1:22:56",
+          "seconds": 4976,
+          "map": "赤の教会",
+          "player": "Lですさとう",
+          "rank": "51位"
+        },
+        {
+          "timestamp": "1:30:14",
+          "seconds": 5414,
+          "map": "レオの思い出",
+          "player": "神秘的ーガン",
+          "rank": "51位"
+        },
+        {
+          "timestamp": "1:36:36",
+          "seconds": 5796,
+          "map": "湖景村",
+          "player": "Lですさとう",
+          "rank": "51位"
+        },
+        {
+          "timestamp": "1:43:00",
+          "seconds": 6180,
+          "map": "永眠町",
+          "player": "やってけねぇよ",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "1:48:42",
+          "seconds": 6522,
+          "map": "赤の教会",
+          "player": "M3OW_M3",
+          "rank": "22位"
+        },
+        {
+          "timestamp": "1:57:30",
+          "seconds": 7050,
+          "map": "聖心病院",
+          "player": "じらいほねさん",
+          "rank": "58位"
+        },
+        {
+          "timestamp": "2:03:04",
+          "seconds": 7384,
+          "map": "永眠町",
+          "player": "アホ毛釜切り",
+          "rank": "10位"
+        }
+      ]
+    },
+    {
+      "video_id": "s46P3l3_mJ8",
+      "title": "歯医者 #6 S44 達人観戦 Dentist 朝ラン #identityV #第五人格",
+      "character": "歯医者",
+      "published_at": "2026-10-11T22:17:06Z",
+      "url": "https://www.youtube.com/watch?v=s46P3l3_mJ8",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:50",
+          "seconds": 350,
+          "map": "軍需工場",
+          "player": "ねぎとろ＠YouTu",
+          "rank": "",
+          "character": "女王蜂"
+        },
+        {
+          "timestamp": "0:11:34",
+          "seconds": 694,
+          "map": "湖景村",
+          "player": "Jaylarr``",
+          "rank": "17位"
+        },
+        {
+          "timestamp": "0:21:06",
+          "seconds": 1266,
+          "map": "永眠町",
+          "player": "Kýt_Kýt",
+          "rank": "42位"
+        },
+        {
+          "timestamp": "0:27:01",
+          "seconds": 1621,
+          "map": "聖心病院",
+          "player": "ぽんぽこかき▭",
+          "rank": "",
+          "character": "足萎えの羊"
+        },
+        {
+          "timestamp": "0:32:48",
+          "seconds": 1968,
+          "map": "湖景村",
+          "player": "もしかするとだ",
+          "rank": "無徽章"
+        },
+        {
+          "timestamp": "0:39:20",
+          "seconds": 2360,
+          "map": "軍需工場",
+          "player": "黒の剣士きよの",
+          "rank": "B"
+        },
+        {
+          "timestamp": "0:48:40",
+          "seconds": 2920,
+          "map": "レオの思い出",
+          "player": "ぽんぽこかき▭",
+          "rank": "",
+          "character": "アイヴィ"
+        },
+        {
+          "timestamp": "0:58:26",
+          "seconds": 3506,
+          "map": "永眠町",
+          "player": "叶落为词",
+          "rank": "7位"
+        },
+        {
+          "timestamp": "1:05:52",
+          "seconds": 3952,
+          "map": "湖景村",
+          "player": "Roseh′p",
+          "rank": "19位"
+        },
+        {
+          "timestamp": "1:12:55",
+          "seconds": 4375,
+          "map": "中華街",
+          "player": "変質者オレ",
+          "rank": "",
+          "character": "レオ"
+        },
+        {
+          "timestamp": "1:20:31",
+          "seconds": 4831,
+          "map": "永眠町",
+          "player": "ぽんぽこかき▭",
+          "rank": "",
+          "character": "アイヴィ"
+        },
+        {
+          "timestamp": "1:29:43",
+          "seconds": 5383,
+          "map": "軍需工場",
+          "player": "≪BE°s|Sterlin",
+          "rank": "57位"
+        },
+        {
+          "timestamp": "1:37:13",
+          "seconds": 5833,
+          "map": "中華街",
+          "player": "≪BE°s|Sterlin",
+          "rank": "57位"
+        },
+        {
+          "timestamp": "1:45:11",
+          "seconds": 6311,
+          "map": "中華街",
+          "player": "ぽんぽこかき▭",
+          "rank": "",
+          "character": "オペラ歌手"
+        },
+        {
+          "timestamp": "1:53:53",
+          "seconds": 6833,
+          "map": "聖心病院",
+          "player": "ねぎちくん",
+          "rank": "",
+          "character": "アイヴィ"
+        },
+        {
+          "timestamp": "1:59:56",
+          "seconds": 7196,
+          "map": "赤の教会",
+          "player": "イガッチー",
+          "rank": "45位"
+        }
+      ]
+    },
     {
       "video_id": "6bXMg6Eb2M4",
       "title": "泣き虫 #32 S44 達人観戦 Axe Boy 昼ラン #identityV #第五人格",
