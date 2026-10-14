@@ -1,6 +1,285 @@
 {
-  "updated_at": "2026-10-13T20:15:22.184732+00:00",
+  "updated_at": "2026-10-14T20:17:04.125729+00:00",
   "videos": [
+    {
+      "video_id": "0MsBC61fqz8",
+      "title": "リッパー #10 S44 達人観戦 The Ripper 昼ラン #identityV #第五人格",
+      "character": "リッパー",
+      "published_at": "2026-10-14T06:16:14Z",
+      "url": "https://www.youtube.com/watch?v=0MsBC61fqz8",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:29",
+          "seconds": 329,
+          "map": "永眠町",
+          "player": "チキ05",
+          "rank": "47位"
+        },
+        {
+          "timestamp": "0:11:10",
+          "seconds": 670,
+          "map": "永眠町",
+          "player": "泥沼厨リキ",
+          "rank": "75位"
+        },
+        {
+          "timestamp": "0:17:57",
+          "seconds": 1077,
+          "map": "湖景村",
+          "player": "神鐮8787",
+          "rank": "13位"
+        },
+        {
+          "timestamp": "0:24:13",
+          "seconds": 1453,
+          "map": "中華街",
+          "player": "わ▭▭▭ん",
+          "rank": "36位"
+        },
+        {
+          "timestamp": "0:29:13",
+          "seconds": 1753,
+          "map": "永眠町",
+          "player": "vλ黒狐さんvλ",
+          "rank": "10位"
+        },
+        {
+          "timestamp": "0:37:07",
+          "seconds": 2227,
+          "map": "聖心病院",
+          "player": "チキ05",
+          "rank": "47位"
+        },
+        {
+          "timestamp": "0:43:05",
+          "seconds": 2585,
+          "map": "軍需工場",
+          "player": "Aizennieを",
+          "rank": "68位"
+        },
+        {
+          "timestamp": "0:48:35",
+          "seconds": 2915,
+          "map": "湖景村",
+          "player": "仁王霽色",
+          "rank": "17位"
+        },
+        {
+          "timestamp": "0:55:41",
+          "seconds": 3341,
+          "map": "レオの思い出",
+          "player": "はにぱみゅ",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "1:01:33",
+          "seconds": 3693,
+          "map": "レオの思い出",
+          "player": "vλ黒狐さんvλ",
+          "rank": "10位"
+        },
+        {
+          "timestamp": "1:07:58",
+          "seconds": 4078,
+          "map": "永眠町",
+          "player": "IZANAIZUKI",
+          "rank": "23位"
+        },
+        {
+          "timestamp": "1:14:04",
+          "seconds": 4444,
+          "map": "月の河公園",
+          "player": "わ▭▭▭ん",
+          "rank": "36位"
+        },
+        {
+          "timestamp": "1:20:56",
+          "seconds": 4856,
+          "map": "永眠町",
+          "player": "はにぱみゅ",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "1:28:08",
+          "seconds": 5288,
+          "map": "湖景村",
+          "player": "チキ05",
+          "rank": "47位"
+        },
+        {
+          "timestamp": "1:35:24",
+          "seconds": 5724,
+          "map": "中華街",
+          "player": "爪楊枝ッパー",
+          "rank": "6位"
+        },
+        {
+          "timestamp": "1:40:47",
+          "seconds": 6047,
+          "map": "中華街",
+          "player": "わ▭▭▭ん",
+          "rank": "36位"
+        },
+        {
+          "timestamp": "1:46:18",
+          "seconds": 6378,
+          "map": "聖心病院",
+          "player": "ふく浪",
+          "rank": "44位"
+        },
+        {
+          "timestamp": "1:51:49",
+          "seconds": 6709,
+          "map": "中華街",
+          "player": "はにぱみゅ",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "1:57:51",
+          "seconds": 7071,
+          "map": "湖景村",
+          "player": "わ▭▭▭ん",
+          "rank": "36位"
+        }
+      ]
+    },
+    {
+      "video_id": "Y1qF0polyss",
+      "title": "女王蜂 #25 S44 達人観戦 Queen Bee 朝ラン #identityV #第五人格",
+      "character": "女王蜂",
+      "published_at": "2026-10-13T22:15:59Z",
+      "url": "https://www.youtube.com/watch?v=Y1qF0polyss",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:42",
+          "seconds": 342,
+          "map": "罪の森",
+          "player": "とまだよー",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "0:13:35",
+          "seconds": 815,
+          "map": "中華街",
+          "player": "鈴木光郎",
+          "rank": "無徽章"
+        },
+        {
+          "timestamp": "0:19:50",
+          "seconds": 1190,
+          "map": "永眠町",
+          "player": "æ冬子",
+          "rank": "無徽章"
+        },
+        {
+          "timestamp": "0:26:31",
+          "seconds": 1591,
+          "map": "湖景村",
+          "player": "D@だぶち",
+          "rank": "71位"
+        },
+        {
+          "timestamp": "0:32:21",
+          "seconds": 1941,
+          "map": "中華街",
+          "player": "MrBakumaruEz",
+          "rank": "65位"
+        },
+        {
+          "timestamp": "0:40:04",
+          "seconds": 2404,
+          "map": "聖心病院",
+          "player": "D@だぶち",
+          "rank": "71位"
+        },
+        {
+          "timestamp": "0:45:43",
+          "seconds": 2743,
+          "map": "永眠町",
+          "player": "ぴえん_souta",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "0:53:30",
+          "seconds": 3210,
+          "map": "聖心病院",
+          "player": "MrBakumaruEz",
+          "rank": "65位"
+        },
+        {
+          "timestamp": "0:59:47",
+          "seconds": 3587,
+          "map": "赤の教会",
+          "player": "ちぃず▭",
+          "rank": "25位"
+        },
+        {
+          "timestamp": "1:06:41",
+          "seconds": 4001,
+          "map": "軍需工場",
+          "player": "D@だぶち",
+          "rank": "71位"
+        },
+        {
+          "timestamp": "1:14:26",
+          "seconds": 4466,
+          "map": "湖景村",
+          "player": "MrBakumaruEz",
+          "rank": "65位"
+        },
+        {
+          "timestamp": "1:21:47",
+          "seconds": 4907,
+          "map": "永眠町",
+          "player": "E_สีวsาsา",
+          "rank": "無徽章"
+        },
+        {
+          "timestamp": "1:26:52",
+          "seconds": 5212,
+          "map": "永眠町",
+          "player": "ちゅにちゅニ",
+          "rank": "4位"
+        },
+        {
+          "timestamp": "1:34:19",
+          "seconds": 5659,
+          "map": "軍需工場",
+          "player": "百子・旅立ち",
+          "rank": "無徽章"
+        },
+        {
+          "timestamp": "1:39:04",
+          "seconds": 5944,
+          "map": "永眠町",
+          "player": "MrBakumaruEz",
+          "rank": "65位"
+        },
+        {
+          "timestamp": "1:45:34",
+          "seconds": 6334,
+          "map": "永眠町",
+          "player": "ちぃず▭",
+          "rank": "25位"
+        },
+        {
+          "timestamp": "1:53:20",
+          "seconds": 6800,
+          "map": "軍需工場",
+          "player": "とまだよー",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "2:01:37",
+          "seconds": 7297,
+          "map": "月の河公園",
+          "player": "MrBakumaruEz",
+          "rank": "65位"
+        }
+      ]
+    },
     {
       "video_id": "ELYitpZe2V8",
       "title": "雑貨商 #43 S44 達人観戦 Peddler 夜ラン #identityV #第五人格",
