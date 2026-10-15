@@ -1,6 +1,258 @@
 {
-  "updated_at": "2026-10-14T20:17:04.125729+00:00",
+  "updated_at": "2026-10-15T20:13:48.173368+00:00",
   "videos": [
+    {
+      "video_id": "yIKilYeTSEs",
+      "title": "足萎えの羊 #9 S44 達人観戦 \"Goatman\" 昼ラン #identityV #第五人格",
+      "character": "足萎えの羊",
+      "published_at": "2026-10-15T06:12:19Z",
+      "url": "https://www.youtube.com/watch?v=yIKilYeTSEs",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:06:07",
+          "seconds": 367,
+          "map": "レオの思い出",
+          "player": "Kuröにゃ~ฅ",
+          "rank": "C"
+        },
+        {
+          "timestamp": "0:14:00",
+          "seconds": 840,
+          "map": "月の河公園",
+          "player": "うぉまめ",
+          "rank": "72位"
+        },
+        {
+          "timestamp": "0:21:51",
+          "seconds": 1311,
+          "map": "赤の教会",
+          "player": "やみんと",
+          "rank": "36位"
+        },
+        {
+          "timestamp": "0:29:11",
+          "seconds": 1751,
+          "map": "湖景村",
+          "player": "ニワリバチ",
+          "rank": "10位"
+        },
+        {
+          "timestamp": "0:35:21",
+          "seconds": 2121,
+          "map": "聖心病院",
+          "player": "樋口奈央",
+          "rank": "29位"
+        },
+        {
+          "timestamp": "0:41:28",
+          "seconds": 2488,
+          "map": "永眠町",
+          "player": "ニワリバチ",
+          "rank": "10位"
+        },
+        {
+          "timestamp": "0:49:31",
+          "seconds": 2971,
+          "map": "永眠町",
+          "player": "うめぼーー",
+          "rank": "15位"
+        },
+        {
+          "timestamp": "0:57:55",
+          "seconds": 3475,
+          "map": "聖心病院",
+          "player": "Repa_finalboss",
+          "rank": "25位"
+        },
+        {
+          "timestamp": "1:05:18",
+          "seconds": 3918,
+          "map": "軍需工場",
+          "player": "やみんと",
+          "rank": "36位"
+        },
+        {
+          "timestamp": "1:11:18",
+          "seconds": 4278,
+          "map": "軍需工場",
+          "player": "キルア＠精通",
+          "rank": "75位"
+        },
+        {
+          "timestamp": "1:16:56",
+          "seconds": 4616,
+          "map": "湖景村",
+          "player": "ニワリバチ",
+          "rank": "10位"
+        },
+        {
+          "timestamp": "1:23:57",
+          "seconds": 5037,
+          "map": "罪の森",
+          "player": "だらだら又李",
+          "rank": "43位"
+        },
+        {
+          "timestamp": "1:31:04",
+          "seconds": 5464,
+          "map": "罪の森",
+          "player": "ぽんぽこかき▭",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "1:36:46",
+          "seconds": 5806,
+          "map": "月の河公園",
+          "player": "Repa_finalboss",
+          "rank": "25位"
+        },
+        {
+          "timestamp": "1:42:53",
+          "seconds": 6173,
+          "map": "レオの思い出",
+          "player": "困於夢",
+          "rank": "100位"
+        },
+        {
+          "timestamp": "1:51:06",
+          "seconds": 6666,
+          "map": "湖景村",
+          "player": "ないのかにゃ",
+          "rank": "3位"
+        },
+        {
+          "timestamp": "1:56:22",
+          "seconds": 6982,
+          "map": "永眠町",
+          "player": "ニワリバチ",
+          "rank": "10位"
+        }
+      ]
+    },
+    {
+      "video_id": "jFuxJErk4g4",
+      "title": "アンデッド #6 S44 達人観戦 Undead 朝ラン #identityV #第五人格",
+      "character": "アンデッド",
+      "published_at": "2026-10-14T22:10:33Z",
+      "url": "https://www.youtube.com/watch?v=jFuxJErk4g4",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:41",
+          "seconds": 341,
+          "map": "レオの思い出",
+          "player": "ニワリバチ",
+          "rank": "",
+          "character": "足萎えの羊"
+        },
+        {
+          "timestamp": "0:11:42",
+          "seconds": 702,
+          "map": "聖心病院",
+          "player": "pingハネ大魔王",
+          "rank": "5位"
+        },
+        {
+          "timestamp": "0:21:35",
+          "seconds": 1295,
+          "map": "永眠町",
+          "player": "安犯マン",
+          "rank": "59位"
+        },
+        {
+          "timestamp": "0:28:53",
+          "seconds": 1733,
+          "map": "聖心病院",
+          "player": "フクロウくん＠S",
+          "rank": "38位"
+        },
+        {
+          "timestamp": "0:35:34",
+          "seconds": 2134,
+          "map": "レオの思い出",
+          "player": "F90うた",
+          "rank": "B"
+        },
+        {
+          "timestamp": "0:43:46",
+          "seconds": 2626,
+          "map": "湖景村",
+          "player": "きりまん:",
+          "rank": "71位"
+        },
+        {
+          "timestamp": "0:53:18",
+          "seconds": 3198,
+          "map": "軍需工場",
+          "player": "ロイドฅ・ω・",
+          "rank": "95位"
+        },
+        {
+          "timestamp": "1:01:50",
+          "seconds": 3710,
+          "map": "永眠町",
+          "player": "安犯マン",
+          "rank": "59位"
+        },
+        {
+          "timestamp": "1:08:06",
+          "seconds": 4086,
+          "map": "レオの思い出",
+          "player": "pingハネ大魔王",
+          "rank": "5位"
+        },
+        {
+          "timestamp": "1:14:45",
+          "seconds": 4485,
+          "map": "永眠町",
+          "player": "きりまん:",
+          "rank": "71位"
+        },
+        {
+          "timestamp": "1:23:27",
+          "seconds": 5007,
+          "map": "軍需工場",
+          "player": "だる絡みねぐせ",
+          "rank": "24位"
+        },
+        {
+          "timestamp": "1:30:37",
+          "seconds": 5437,
+          "map": "月の河公園",
+          "player": "pingハネ大魔王",
+          "rank": "5位"
+        },
+        {
+          "timestamp": "1:36:44",
+          "seconds": 5804,
+          "map": "月の河公園",
+          "player": "だる絡みねぐせ",
+          "rank": "24位"
+        },
+        {
+          "timestamp": "1:43:13",
+          "seconds": 6193,
+          "map": "湖景村",
+          "player": "▭博士▭",
+          "rank": "80位"
+        },
+        {
+          "timestamp": "1:51:03",
+          "seconds": 6663,
+          "map": "月の河公園",
+          "player": "MARU^_^^_^",
+          "rank": "10位"
+        },
+        {
+          "timestamp": "1:58:20",
+          "seconds": 7100,
+          "map": "レオの思い出",
+          "player": "ほんの6秒",
+          "rank": "32位"
+        }
+      ]
+    },
     {
       "video_id": "0MsBC61fqz8",
       "title": "リッパー #10 S44 達人観戦 The Ripper 昼ラン #identityV #第五人格",
