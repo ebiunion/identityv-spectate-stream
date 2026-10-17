@@ -1,6 +1,234 @@
 {
-  "updated_at": "2026-10-16T20:10:15.715456+00:00",
+  "updated_at": "2026-10-17T20:06:38.041801+00:00",
   "videos": [
+    {
+      "video_id": "55fDisQjAX0",
+      "title": "レオ #14 S44 達人観戦 Hell Ember 昼ラン #identityV #第五人格",
+      "character": "レオ",
+      "published_at": "2026-10-17T06:13:03Z",
+      "url": "https://www.youtube.com/watch?v=55fDisQjAX0",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:29",
+          "seconds": 329,
+          "map": "レオの思い出",
+          "player": "把妹我僕",
+          "rank": "B"
+        },
+        {
+          "timestamp": "0:10:36",
+          "seconds": 636,
+          "map": "軍需工場",
+          "player": "帝；",
+          "rank": "54位"
+        },
+        {
+          "timestamp": "0:16:10",
+          "seconds": 970,
+          "map": "月の河公園",
+          "player": "リーフフルル",
+          "rank": "23位"
+        },
+        {
+          "timestamp": "0:25:55",
+          "seconds": 1555,
+          "map": "赤の教会",
+          "player": "鳥の人AO",
+          "rank": "21位"
+        },
+        {
+          "timestamp": "0:29:29",
+          "seconds": 1769,
+          "map": "永眠町",
+          "player": "檀仙",
+          "rank": "86位"
+        },
+        {
+          "timestamp": "0:35:41",
+          "seconds": 2141,
+          "map": "赤の教会",
+          "player": "水族館に行こう",
+          "rank": "31位"
+        },
+        {
+          "timestamp": "0:43:09",
+          "seconds": 2589,
+          "map": "月の河公園",
+          "player": "変質者オレ",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "0:49:53",
+          "seconds": 2993,
+          "map": "湖景村",
+          "player": "水族館に行こう",
+          "rank": "31位"
+        },
+        {
+          "timestamp": "0:57:09",
+          "seconds": 3429,
+          "map": "湖景村",
+          "player": "板割り業者",
+          "rank": "5位"
+        },
+        {
+          "timestamp": "1:03:32",
+          "seconds": 3812,
+          "map": "永眠町",
+          "player": "変質者オレ",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "1:13:48",
+          "seconds": 4428,
+          "map": "軍需工場",
+          "player": "帝；",
+          "rank": "54位"
+        },
+        {
+          "timestamp": "1:21:34",
+          "seconds": 4894,
+          "map": "罪の森",
+          "player": "防不勝蝗",
+          "rank": "75位"
+        },
+        {
+          "timestamp": "1:28:59",
+          "seconds": 5339,
+          "map": "湖景村",
+          "player": "追尾式霧刃おぢ",
+          "rank": "12位"
+        },
+        {
+          "timestamp": "1:34:22",
+          "seconds": 5662,
+          "map": "レオの思い出",
+          "player": "変質者オレ",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "1:41:56",
+          "seconds": 6116,
+          "map": "月の河公園",
+          "player": "水族館に行こう",
+          "rank": "31位"
+        },
+        {
+          "timestamp": "1:49:21",
+          "seconds": 6561,
+          "map": "レオの思い出",
+          "player": "帝；",
+          "rank": "54位"
+        },
+        {
+          "timestamp": "1:56:11",
+          "seconds": 6971,
+          "map": "聖心病院",
+          "player": "変質者オレ",
+          "rank": "1位"
+        }
+      ]
+    },
+    {
+      "video_id": "VVvn_7GMjvI",
+      "title": "歯医者 #7 S44 達人観戦 The Dentist 朝ラン #identityV #第五人格",
+      "character": "歯医者",
+      "published_at": "2026-10-16T22:12:50Z",
+      "url": "https://www.youtube.com/watch?v=VVvn_7GMjvI",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:13:26",
+          "seconds": 806,
+          "map": "レオの思い出",
+          "player": "荊薔薇棘",
+          "rank": "",
+          "character": "オペラ歌手"
+        },
+        {
+          "timestamp": "0:21:25",
+          "seconds": 1285,
+          "map": "中華街",
+          "player": "とまだよー",
+          "rank": "",
+          "character": "女王蜂"
+        },
+        {
+          "timestamp": "0:28:41",
+          "seconds": 1721,
+          "map": "レオの思い出",
+          "player": "やみんと",
+          "rank": "",
+          "character": "アイヴィ"
+        },
+        {
+          "timestamp": "0:40:01",
+          "seconds": 2401,
+          "map": "湖景村",
+          "player": "world＠poko",
+          "rank": "無徽章"
+        },
+        {
+          "timestamp": "0:52:38",
+          "seconds": 3158,
+          "map": "軍需工場",
+          "player": "やみんと",
+          "rank": "",
+          "character": "アイヴィ"
+        },
+        {
+          "timestamp": "1:05:48",
+          "seconds": 3948,
+          "map": "聖心病院",
+          "player": "Trần~Đạt",
+          "rank": "34位"
+        },
+        {
+          "timestamp": "1:11:36",
+          "seconds": 4296,
+          "map": "永眠町",
+          "player": "DsNG6UG",
+          "rank": "10位"
+        },
+        {
+          "timestamp": "1:30:17",
+          "seconds": 5417,
+          "map": "聖心病院",
+          "player": "Trần~Đạt",
+          "rank": "34位"
+        },
+        {
+          "timestamp": "1:36:43",
+          "seconds": 5803,
+          "map": "中華街",
+          "player": "Tuần~Đạt",
+          "rank": "無徽章"
+        },
+        {
+          "timestamp": "1:42:28",
+          "seconds": 6148,
+          "map": "中華街",
+          "player": "みこにゃɞ",
+          "rank": "",
+          "character": "ガラテア"
+        },
+        {
+          "timestamp": "1:51:27",
+          "seconds": 6687,
+          "map": "レオの思い出",
+          "player": "«BE°s|Sterlin",
+          "rank": "29位"
+        },
+        {
+          "timestamp": "1:56:55",
+          "seconds": 7015,
+          "map": "永眠町",
+          "player": "«BE°s|Sterlin",
+          "rank": "29位"
+        }
+      ]
+    },
     {
       "video_id": "K_0qp5mDaSk",
       "title": "アイヴィ #25 S44 達人観戦 The Shadow 昼ラン #identityV #第五人格",
