@@ -1,6 +1,393 @@
 {
-  "updated_at": "2026-10-18T20:06:37.103541+00:00",
+  "updated_at": "2026-10-19T20:17:52.860793+00:00",
   "videos": [
+    {
+      "video_id": "wRx1oDSdZH8",
+      "title": "キーガン #41 S44 達人観戦 Clerk 夜ラン #identityV #第五人格",
+      "character": "キーガン",
+      "published_at": "2026-10-19T13:16:56Z",
+      "url": "https://www.youtube.com/watch?v=wRx1oDSdZH8",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:39",
+          "seconds": 339,
+          "map": "レオの思い出",
+          "player": "揚げで全部美味",
+          "rank": "68位"
+        },
+        {
+          "timestamp": "0:12:56",
+          "seconds": 776,
+          "map": "湖景村",
+          "player": "조향사s",
+          "rank": "B"
+        },
+        {
+          "timestamp": "0:21:01",
+          "seconds": 1261,
+          "map": "軍需工場",
+          "player": "ビリプレ教えて",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "0:26:53",
+          "seconds": 1613,
+          "map": "軍需工場",
+          "player": "自己批判",
+          "rank": "24位"
+        },
+        {
+          "timestamp": "0:33:55",
+          "seconds": 2035,
+          "map": "湖景村",
+          "player": "あちゃあちゃー",
+          "rank": "32位"
+        },
+        {
+          "timestamp": "0:44:35",
+          "seconds": 2675,
+          "map": "湖景村",
+          "player": "MONANOIA",
+          "rank": "51位"
+        },
+        {
+          "timestamp": "0:51:21",
+          "seconds": 3081,
+          "map": "永眠町",
+          "player": "あちゃあちゃー",
+          "rank": "32位"
+        },
+        {
+          "timestamp": "0:58:09",
+          "seconds": 3489,
+          "map": "赤の教会",
+          "player": "自己批判",
+          "rank": "24位"
+        },
+        {
+          "timestamp": "1:05:03",
+          "seconds": 3903,
+          "map": "聖心病院",
+          "player": "MONANOIA",
+          "rank": "51位"
+        },
+        {
+          "timestamp": "1:12:48",
+          "seconds": 4368,
+          "map": "聖心病院",
+          "player": "ビリプレ教えて",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "1:23:02",
+          "seconds": 4982,
+          "map": "中華街",
+          "player": "獎勵指南",
+          "rank": "30位"
+        },
+        {
+          "timestamp": "1:29:17",
+          "seconds": 5357,
+          "map": "月の河公園",
+          "player": "這糖果真甜",
+          "rank": "57位"
+        },
+        {
+          "timestamp": "1:37:22",
+          "seconds": 5842,
+          "map": "聖心病院",
+          "player": "lekusu",
+          "rank": "10位"
+        },
+        {
+          "timestamp": "1:45:15",
+          "seconds": 6315,
+          "map": "月の河公園",
+          "player": "獎勵指南",
+          "rank": "30位"
+        },
+        {
+          "timestamp": "1:51:16",
+          "seconds": 6676,
+          "map": "永眠町",
+          "player": "自己批判",
+          "rank": "24位"
+        },
+        {
+          "timestamp": "1:59:30",
+          "seconds": 7170,
+          "map": "聖心病院",
+          "player": "モチネコヤマト",
+          "rank": "16位"
+        }
+      ]
+    },
+    {
+      "video_id": "Xqc9--gROg8",
+      "title": "血の女王 #34 S44 達人観戦 Bloody Queen 昼ラン #identityV #第五人格",
+      "character": "血の女王",
+      "published_at": "2026-10-19T06:17:37Z",
+      "url": "https://www.youtube.com/watch?v=Xqc9--gROg8",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:58",
+          "seconds": 358,
+          "map": "赤の教会",
+          "player": "Earl°Grey",
+          "rank": "B"
+        },
+        {
+          "timestamp": "0:12:44",
+          "seconds": 764,
+          "map": "永眠町",
+          "player": "Rosalyneツ",
+          "rank": "86位"
+        },
+        {
+          "timestamp": "0:21:17",
+          "seconds": 1277,
+          "map": "赤の教会",
+          "player": "贝丝史密斯",
+          "rank": "54位"
+        },
+        {
+          "timestamp": "0:28:10",
+          "seconds": 1690,
+          "map": "レオの思い出",
+          "player": "Rosalyneツ",
+          "rank": "86位"
+        },
+        {
+          "timestamp": "0:35:50",
+          "seconds": 2150,
+          "map": "聖心病院",
+          "player": "PINKYe",
+          "rank": "73位"
+        },
+        {
+          "timestamp": "0:45:53",
+          "seconds": 2753,
+          "map": "軍需工場",
+          "player": "かむた島なべち",
+          "rank": "22位"
+        },
+        {
+          "timestamp": "0:52:22",
+          "seconds": 3142,
+          "map": "罪の森",
+          "player": "ぽんこつぱすた",
+          "rank": "72位"
+        },
+        {
+          "timestamp": "0:59:36",
+          "seconds": 3576,
+          "map": "湖景村",
+          "player": "PINKYe",
+          "rank": "73位"
+        },
+        {
+          "timestamp": "1:10:43",
+          "seconds": 4243,
+          "map": "湖景村",
+          "player": "かむた島なべち",
+          "rank": "22位"
+        },
+        {
+          "timestamp": "1:18:14",
+          "seconds": 4694,
+          "map": "レオの思い出",
+          "player": "ぱいん²",
+          "rank": "40位"
+        },
+        {
+          "timestamp": "1:25:58",
+          "seconds": 5158,
+          "map": "レオの思い出",
+          "player": "なむ猫",
+          "rank": "44位"
+        },
+        {
+          "timestamp": "1:31:22",
+          "seconds": 5482,
+          "map": "聖心病院",
+          "player": "ぱいん²",
+          "rank": "40位"
+        },
+        {
+          "timestamp": "1:38:55",
+          "seconds": 5935,
+          "map": "軍需工場",
+          "player": "なむ猫",
+          "rank": "44位"
+        },
+        {
+          "timestamp": "1:45:23",
+          "seconds": 6323,
+          "map": "聖心病院",
+          "player": "teyanDay",
+          "rank": "66位"
+        },
+        {
+          "timestamp": "1:53:51",
+          "seconds": 6831,
+          "map": "レオの思い出",
+          "player": "ぱいん²",
+          "rank": "40位"
+        },
+        {
+          "timestamp": "2:00:39",
+          "seconds": 7239,
+          "map": "月の河公園",
+          "player": "teyanDay",
+          "rank": "66位"
+        }
+      ]
+    },
+    {
+      "video_id": "9jUGmHXzgjA",
+      "title": "ガラテア #34 S44 達人観戦 Sculptor 朝ラン #identityV #第五人格",
+      "character": "ガラテア",
+      "published_at": "2026-10-18T22:13:58Z",
+      "url": "https://www.youtube.com/watch?v=9jUGmHXzgjA",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:40",
+          "seconds": 340,
+          "map": "軍需工場",
+          "player": "みこにゃɞ",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "0:10:50",
+          "seconds": 650,
+          "map": "湖景村",
+          "player": "もちもちすぷ",
+          "rank": "63位"
+        },
+        {
+          "timestamp": "0:17:50",
+          "seconds": 1070,
+          "map": "罪の森",
+          "player": "Nevermore",
+          "rank": "B"
+        },
+        {
+          "timestamp": "0:24:15",
+          "seconds": 1455,
+          "map": "赤の教会",
+          "player": "イース人竹若",
+          "rank": "4位"
+        },
+        {
+          "timestamp": "0:30:16",
+          "seconds": 1816,
+          "map": "聖心病院",
+          "player": "みこにゃɞ",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "0:35:41",
+          "seconds": 2141,
+          "map": "月の河公園",
+          "player": "みるくま~",
+          "rank": "34位"
+        },
+        {
+          "timestamp": "0:41:27",
+          "seconds": 2487,
+          "map": "聖心病院",
+          "player": "もちもちすぷ",
+          "rank": "63位"
+        },
+        {
+          "timestamp": "0:50:31",
+          "seconds": 3031,
+          "map": "月の河公園",
+          "player": "みこにゃɞ",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "0:56:11",
+          "seconds": 3371,
+          "map": "軍需工場",
+          "player": "DYNIFHb",
+          "rank": "55位"
+        },
+        {
+          "timestamp": "1:02:18",
+          "seconds": 3738,
+          "map": "軍需工場",
+          "player": "Sorameomeo",
+          "rank": "無徽章"
+        },
+        {
+          "timestamp": "1:08:06",
+          "seconds": 4086,
+          "map": "レオの思い出",
+          "player": "イース人竹若",
+          "rank": "4位"
+        },
+        {
+          "timestamp": "1:14:46",
+          "seconds": 4486,
+          "map": "赤の教会",
+          "player": "BLUEocean",
+          "rank": "27位"
+        },
+        {
+          "timestamp": "1:19:43",
+          "seconds": 4783,
+          "map": "湖景村",
+          "player": "DALLA^^DALLA",
+          "rank": "37位"
+        },
+        {
+          "timestamp": "1:27:01",
+          "seconds": 5221,
+          "map": "聖心病院",
+          "player": "みこにゃɞ",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "1:35:50",
+          "seconds": 5750,
+          "map": "軍需工場",
+          "player": "イース人竹若",
+          "rank": "4位"
+        },
+        {
+          "timestamp": "1:40:30",
+          "seconds": 6030,
+          "map": "中華街",
+          "player": "BLUEocean",
+          "rank": "27位"
+        },
+        {
+          "timestamp": "1:46:06",
+          "seconds": 6366,
+          "map": "軍需工場",
+          "player": "みこにゃɞ",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "1:52:48",
+          "seconds": 6768,
+          "map": "赤の教会",
+          "player": "イース人竹若",
+          "rank": "4位"
+        },
+        {
+          "timestamp": "2:00:17",
+          "seconds": 7217,
+          "map": "赤の教会",
+          "player": "ふfjx",
+          "rank": "75位"
+        }
+      ]
+    },
     {
       "video_id": "xpSd8n-KeqM",
       "title": "芸者 #33 S44 達人観戦 Geisha 夜ラン #identityV #第五人格",
