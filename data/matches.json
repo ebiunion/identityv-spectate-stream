@@ -1,6 +1,379 @@
 {
-  "updated_at": "2026-10-19T20:17:52.860793+00:00",
+  "updated_at": "2026-10-20T20:14:48.724253+00:00",
   "videos": [
+    {
+      "video_id": "Ps0bJQtmIfI",
+      "title": "隠者 #31 S44 達人観戦 Hermit 夜ラン #identityV #第五人格",
+      "character": "隠者",
+      "published_at": "2026-10-20T16:15:00Z",
+      "url": "https://www.youtube.com/watch?v=Ps0bJQtmIfI",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:39",
+          "seconds": 339,
+          "map": "永眠町",
+          "player": "高菜明太卵焼き",
+          "rank": "50位"
+        },
+        {
+          "timestamp": "0:11:10",
+          "seconds": 670,
+          "map": "軍需工場",
+          "player": "虹色ココア",
+          "rank": "27位"
+        },
+        {
+          "timestamp": "0:20:37",
+          "seconds": 1237,
+          "map": "聖心病院",
+          "player": "赫い彗星_",
+          "rank": "43位"
+        },
+        {
+          "timestamp": "0:28:38",
+          "seconds": 1718,
+          "map": "湖景村",
+          "player": "oiドラムー",
+          "rank": "37位"
+        },
+        {
+          "timestamp": "0:36:57",
+          "seconds": 2217,
+          "map": "罪の森",
+          "player": "エコーがな隠者",
+          "rank": "10位"
+        },
+        {
+          "timestamp": "0:43:50",
+          "seconds": 2630,
+          "map": "永眠町",
+          "player": "秦姐",
+          "rank": "40位"
+        },
+        {
+          "timestamp": "0:52:45",
+          "seconds": 3165,
+          "map": "永眠町",
+          "player": "エコーがな隠者",
+          "rank": "10位"
+        },
+        {
+          "timestamp": "1:00:13",
+          "seconds": 3613,
+          "map": "月の河公園",
+          "player": "oiドラムー",
+          "rank": "37位"
+        },
+        {
+          "timestamp": "1:10:20",
+          "seconds": 4220,
+          "map": "中華街",
+          "player": "高菜明太卵焼き",
+          "rank": "50位"
+        },
+        {
+          "timestamp": "1:15:20",
+          "seconds": 4520,
+          "map": "レオの思い出",
+          "player": "おーふーろー",
+          "rank": "59位"
+        },
+        {
+          "timestamp": "1:20:46",
+          "seconds": 4846,
+          "map": "レオの思い出",
+          "player": "高菜明太卵焼き",
+          "rank": "50位"
+        },
+        {
+          "timestamp": "1:28:36",
+          "seconds": 5316,
+          "map": "聖心病院",
+          "player": "超丁寧",
+          "rank": "5位"
+        },
+        {
+          "timestamp": "1:37:42",
+          "seconds": 5862,
+          "map": "中華街",
+          "player": "弓引きミジンコ",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "1:44:51",
+          "seconds": 6291,
+          "map": "湖景村",
+          "player": "oiドラムー",
+          "rank": "37位"
+        },
+        {
+          "timestamp": "1:54:13",
+          "seconds": 6853,
+          "map": "レオの思い出",
+          "player": "ておどーる錠",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "2:02:14",
+          "seconds": 7334,
+          "map": "レオの思い出",
+          "player": "นราปอีช",
+          "rank": "61位"
+        }
+      ]
+    },
+    {
+      "video_id": "rlhETm0zjew",
+      "title": "悪夢 #32 S44 達人観戦 Nightmare 昼ラン #identityV #第五人格",
+      "character": "悪夢",
+      "published_at": "2026-10-20T06:17:10Z",
+      "url": "https://www.youtube.com/watch?v=rlhETm0zjew",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:06:01",
+          "seconds": 361,
+          "map": "月の河公園",
+          "player": "ふぉね",
+          "rank": "59位"
+        },
+        {
+          "timestamp": "0:15:37",
+          "seconds": 937,
+          "map": "中華街",
+          "player": "義務卒大学生",
+          "rank": "42位"
+        },
+        {
+          "timestamp": "0:21:42",
+          "seconds": 1302,
+          "map": "中華街",
+          "player": "한겨다학생",
+          "rank": "9位"
+        },
+        {
+          "timestamp": "0:29:07",
+          "seconds": 1747,
+          "map": "軍需工場",
+          "player": "Slow02",
+          "rank": "34位"
+        },
+        {
+          "timestamp": "0:37:26",
+          "seconds": 2246,
+          "map": "永眠町",
+          "player": "フクロウOWL",
+          "rank": "18位"
+        },
+        {
+          "timestamp": "0:45:22",
+          "seconds": 2722,
+          "map": "聖心病院",
+          "player": "都是為了王女",
+          "rank": "16位"
+        },
+        {
+          "timestamp": "0:54:05",
+          "seconds": 3245,
+          "map": "湖景村",
+          "player": "kinzFool",
+          "rank": "30位"
+        },
+        {
+          "timestamp": "0:59:32",
+          "seconds": 3572,
+          "map": "赤の教会",
+          "player": "義務卒大学生",
+          "rank": "42位"
+        },
+        {
+          "timestamp": "1:04:57",
+          "seconds": 3897,
+          "map": "赤の教会",
+          "player": "한겨다학생",
+          "rank": "9位"
+        },
+        {
+          "timestamp": "1:16:30",
+          "seconds": 4590,
+          "map": "レオの思い出",
+          "player": "ムロツヨ氏",
+          "rank": "10位"
+        },
+        {
+          "timestamp": "1:25:11",
+          "seconds": 5111,
+          "map": "月の河公園",
+          "player": "AKa_but_good",
+          "rank": "80位"
+        },
+        {
+          "timestamp": "1:33:34",
+          "seconds": 5614,
+          "map": "月の河公園",
+          "player": "都是為了王女",
+          "rank": "16位"
+        },
+        {
+          "timestamp": "1:45:19",
+          "seconds": 6319,
+          "map": "レオの思い出",
+          "player": "CheckMatE",
+          "rank": "83位"
+        },
+        {
+          "timestamp": "1:53:33",
+          "seconds": 6813,
+          "map": "湖景村",
+          "player": "AKa_but_good",
+          "rank": "80位"
+        },
+        {
+          "timestamp": "2:00:35",
+          "seconds": 7235,
+          "map": "聖心病院",
+          "player": "都是為了王女",
+          "rank": "16位"
+        }
+      ]
+    },
+    {
+      "video_id": "iD8daUNsW4Y",
+      "title": "イタカ #33 S44 達人観戦 Night Watch 朝ラン #identityV #第五人格",
+      "character": "イタカ",
+      "published_at": "2026-10-19T22:13:45Z",
+      "url": "https://www.youtube.com/watch?v=iD8daUNsW4Y",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:39",
+          "seconds": 339,
+          "map": "軍需工場",
+          "player": "鬼姫▭",
+          "rank": "40位"
+        },
+        {
+          "timestamp": "0:12:01",
+          "seconds": 721,
+          "map": "永眠町",
+          "player": "ハチミツ_XwO",
+          "rank": "48位"
+        },
+        {
+          "timestamp": "0:19:15",
+          "seconds": 1155,
+          "map": "中華街",
+          "player": "生の執政",
+          "rank": "C"
+        },
+        {
+          "timestamp": "0:27:15",
+          "seconds": 1635,
+          "map": "月の河公園",
+          "player": "ハチミツ_XwO",
+          "rank": "48位"
+        },
+        {
+          "timestamp": "0:38:31",
+          "seconds": 2311,
+          "map": "軍需工場",
+          "player": "ハチミツ_XwO",
+          "rank": "48位"
+        },
+        {
+          "timestamp": "0:45:49",
+          "seconds": 2749,
+          "map": "レオの思い出",
+          "player": "||Mommy~Itha||",
+          "rank": "38位"
+        },
+        {
+          "timestamp": "0:50:59",
+          "seconds": 3059,
+          "map": "中華街",
+          "player": "ハチミツ_XwO",
+          "rank": "48位"
+        },
+        {
+          "timestamp": "0:56:47",
+          "seconds": 3407,
+          "map": "罪の森",
+          "player": "生の執政",
+          "rank": "C"
+        },
+        {
+          "timestamp": "1:03:14",
+          "seconds": 3794,
+          "map": "湖景村",
+          "player": "||Mommy~Itha||",
+          "rank": "38位"
+        },
+        {
+          "timestamp": "1:08:43",
+          "seconds": 4123,
+          "map": "レオの思い出",
+          "player": "生の執政",
+          "rank": "C"
+        },
+        {
+          "timestamp": "1:15:05",
+          "seconds": 4505,
+          "map": "軍需工場",
+          "player": "ろぐろグま",
+          "rank": "無徽章"
+        },
+        {
+          "timestamp": "1:19:52",
+          "seconds": 4792,
+          "map": "聖心病院",
+          "player": "||Mommy~Itha||",
+          "rank": "38位"
+        },
+        {
+          "timestamp": "1:26:18",
+          "seconds": 5178,
+          "map": "月の河公園",
+          "player": "いたちま＠夜番",
+          "rank": "91位"
+        },
+        {
+          "timestamp": "1:31:52",
+          "seconds": 5512,
+          "map": "レオの思い出",
+          "player": "鬼姫▭",
+          "rank": "40位"
+        },
+        {
+          "timestamp": "1:37:39",
+          "seconds": 5859,
+          "map": "赤の教会",
+          "player": "ハチミツ_XwO",
+          "rank": "48位"
+        },
+        {
+          "timestamp": "1:44:23",
+          "seconds": 6263,
+          "map": "月の河公園",
+          "player": "けっきもり",
+          "rank": "64位"
+        },
+        {
+          "timestamp": "1:52:26",
+          "seconds": 6746,
+          "map": "軍需工場",
+          "player": "右上異常イタカ",
+          "rank": "79位"
+        },
+        {
+          "timestamp": "1:58:50",
+          "seconds": 7130,
+          "map": "月の河公園",
+          "player": "IthaNatha夜骨~",
+          "rank": "4位"
+        }
+      ]
+    },
     {
       "video_id": "wRx1oDSdZH8",
       "title": "キーガン #41 S44 達人観戦 Clerk 夜ラン #identityV #第五人格",
