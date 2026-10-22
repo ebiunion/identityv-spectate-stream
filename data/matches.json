@@ -1,6 +1,156 @@
 {
-  "updated_at": "2026-10-21T20:14:51.334240+00:00",
+  "updated_at": "2026-10-22T20:16:14.455131+00:00",
   "videos": [
+    {
+      "video_id": "rNZE7bCGgmw",
+      "title": "フールズ・ゴールド #30 S44 達人観戦 Fool's Gold 朝ラン #identityV #第五人格",
+      "character": "フールズ・ゴールド",
+      "published_at": "2026-10-21T22:28:47Z",
+      "url": "https://www.youtube.com/watch?v=rNZE7bCGgmw",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:06:15",
+          "seconds": 375,
+          "map": "中華街",
+          "player": ":Selenophile",
+          "rank": "22位"
+        },
+        {
+          "timestamp": "0:11:34",
+          "seconds": 694,
+          "map": "軍需工場",
+          "player": "RJPGT",
+          "rank": "35位"
+        },
+        {
+          "timestamp": "0:19:06",
+          "seconds": 1146,
+          "map": "レオの思い出",
+          "player": "ねこざむらい極",
+          "rank": "35位"
+        },
+        {
+          "timestamp": "0:25:01",
+          "seconds": 1501,
+          "map": "罪の森",
+          "player": "Mr・carrot",
+          "rank": "39位"
+        },
+        {
+          "timestamp": "0:31:14",
+          "seconds": 1874,
+          "map": "中華街",
+          "player": "RJPGT",
+          "rank": "35位"
+        },
+        {
+          "timestamp": "0:36:25",
+          "seconds": 2185,
+          "map": "赤の教会",
+          "player": "ระกพะบ",
+          "rank": "93位"
+        },
+        {
+          "timestamp": "0:41:29",
+          "seconds": 2489,
+          "map": "月の河公園",
+          "player": "gwCRind",
+          "rank": "20位"
+        },
+        {
+          "timestamp": "0:49:48",
+          "seconds": 2988,
+          "map": "罪の森",
+          "player": ":Selenophile",
+          "rank": "22位"
+        },
+        {
+          "timestamp": "0:55:37",
+          "seconds": 3337,
+          "map": "聖心病院",
+          "player": "ระกพะบ",
+          "rank": "93位"
+        },
+        {
+          "timestamp": "1:02:10",
+          "seconds": 3730,
+          "map": "軍需工場",
+          "player": "RJPGT",
+          "rank": "35位"
+        },
+        {
+          "timestamp": "1:08:21",
+          "seconds": 4101,
+          "map": "赤の教会",
+          "player": ":Selenophile",
+          "rank": "22位"
+        },
+        {
+          "timestamp": "1:15:40",
+          "seconds": 4540,
+          "map": "軍需工場",
+          "player": "OMZAYT",
+          "rank": "14位"
+        },
+        {
+          "timestamp": "1:22:26",
+          "seconds": 4946,
+          "map": "中華街",
+          "player": "gwCRind",
+          "rank": "20位"
+        },
+        {
+          "timestamp": "1:28:04",
+          "seconds": 5284,
+          "map": "湖景村",
+          "player": ":Selenophile",
+          "rank": "22位"
+        },
+        {
+          "timestamp": "1:33:51",
+          "seconds": 5631,
+          "map": "罪の森",
+          "player": "OMZAYT",
+          "rank": "14位"
+        },
+        {
+          "timestamp": "1:40:32",
+          "seconds": 6032,
+          "map": "湖景村",
+          "player": "gwCRind",
+          "rank": "20位"
+        },
+        {
+          "timestamp": "1:46:03",
+          "seconds": 6363,
+          "map": "月の河公園",
+          "player": ":Selenophile",
+          "rank": "22位"
+        },
+        {
+          "timestamp": "1:52:08",
+          "seconds": 6728,
+          "map": "罪の森",
+          "player": "たいちゃTiktok",
+          "rank": "7位"
+        },
+        {
+          "timestamp": "1:57:38",
+          "seconds": 7058,
+          "map": "永眠町",
+          "player": "OMZAYT",
+          "rank": "14位"
+        },
+        {
+          "timestamp": "2:02:46",
+          "seconds": 7366,
+          "map": "レオの思い出",
+          "player": "gwCRind",
+          "rank": "20位"
+        }
+      ]
+    },
     {
       "video_id": "yAVlVYCgptE",
       "title": "ルキノ #40 S44 達人観戦 Evil Reptilian 夜ラン #identityV #第五人格",
