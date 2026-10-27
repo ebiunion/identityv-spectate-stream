@@ -20,7 +20,7 @@ LOG_PATH = Path(__file__).parent.parent / "logs" / "fetch_log.txt"
 
 # プレイリスト走査時、既知IDがこの連続数に達したら打ち切り（日次更新の高速化）
 # 0 にすると全件スキャン（初回や取りこぼし確認時）
-STOP_AFTER_CONSECUTIVE_KNOWN = 30
+STOP_AFTER_CONSECUTIVE_KNOWN = 0
 
 CHARACTERS = [
     "アイヴィ", "レオ", "ピエロ", "鹿", "ヴァイオリニスト", "芸者", "血の女王", "ガラテア", "キーガン",
