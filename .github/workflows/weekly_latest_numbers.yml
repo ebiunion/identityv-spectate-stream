@@ -1,0 +1,41 @@
+name: Weekly latest numbers
+
+on:
+  schedule:
+    - cron: "0 22 * * 0"   # 月曜 07:00 JST
+  workflow_dispatch:
+
+jobs:
+  weekly-numbers:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Run weekly latest numbers
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python scripts/weekly_latest_numbers.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add data/weekly_latest_numbers.tsv data/weekly_latest_numbers_duplicates.tsv
+          if git diff --staged --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          git commit -m "Weekly latest numbers $(date -u +%Y-%m-%d)"
+          git pull --rebase origin main || true
+          git push
