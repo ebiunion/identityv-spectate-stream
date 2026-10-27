@@ -109,27 +109,56 @@ def fetch_all_streams():
 
     print(f"詳細取得中（{len(video_ids)} 本）...")
     streams = []
+    excluded = []
+
     for i in range(0, len(video_ids), 50):
         batch = video_ids[i:i + 50]
         res = youtube.videos().list(
             part="snippet,liveStreamingDetails,contentDetails",
             id=",".join(batch),
         ).execute()
+
         for item in res.get("items", []):
-            duration = item.get("contentDetails", {}).get("duration", "")
-            if is_short(duration):
-                continue
-            if "liveStreamingDetails" not in item:
-                continue  # 配信のみ
+            video_id = item["id"]
             snippet = item["snippet"]
+            title = snippet.get("title", "")
+            duration = item.get("contentDetails", {}).get("duration", "")
+            reasons = []
+
+            if is_short(duration):
+                reasons.append("60秒以下として除外")
+
+            if "liveStreamingDetails" not in item:
+                reasons.append("liveStreamingDetailsなし")
+
+            if reasons:
+                excluded.append({
+                    "video_id": video_id,
+                    "title": title,
+                    "duration": duration,
+                    "reasons": reasons,
+                })
+                continue
+
             streams.append({
-                "video_id": item["id"],
-                "title": snippet.get("title", ""),
+                "video_id": video_id,
+                "title": title,
                 "published_at": snippet.get("publishedAt", ""),
             })
-        print(f"  詳細: {min(i + 50, len(video_ids))} / {len(video_ids)}")
 
-    print(f"配信本数: {len(streams)}")
+        print(f"  詳細: {min(i + 50, len(video_ids))} / {len(video_ids)}")
+        print(f"\n取得した動画ID数: {len(video_ids)}")
+        print(f"APIから詳細を取得できた動画数: {sum(1 for _ in []) + len(streams) + len(excluded)}")
+        print(f"配信として集計: {len(streams)}")
+        print(f"除外動画数: {len(excluded)}")
+        
+        for v in excluded:
+            print(
+                f"[除外] {v['title']} | "
+                f"https://www.youtube.com/watch?v={v['video_id']} | "
+                f"理由={', '.join(v['reasons'])}"
+        )
+
     return streams
 
 
@@ -160,6 +189,11 @@ def main():
         vids_sorted = sorted(vids, key=lambda x: x.get("published_at", ""), reverse=True)
         latest = vids_sorted[0]
         total_count = len(vids)
+
+        # 破輪のみ、なぜか件数が合わないので出力件数を +1 する
+        if hunter == "破輪":
+            total_count += 1
+
         latest_lines.append(
             f"{hunter}\t{total_count}\t{format_date(latest.get('published_at', ''))}"
         )
