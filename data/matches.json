@@ -1,6 +1,372 @@
 {
-  "updated_at": "2026-10-28T20:26:13.680074+00:00",
+  "updated_at": "2026-10-29T20:27:47.757900+00:00",
   "videos": [
+    {
+      "video_id": "wRiYvTbo1XA",
+      "title": "鹿 #34 S44 達人観戦 Gamekeeper 夜ラン #identityV #第五人格",
+      "character": "鹿",
+      "published_at": "2026-10-29T16:31:51Z",
+      "url": "https://www.youtube.com/watch?v=wRiYvTbo1XA",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:29",
+          "seconds": 329,
+          "map": "湖景村",
+          "player": "是非愛",
+          "rank": "B"
+        },
+        {
+          "timestamp": "0:11:00",
+          "seconds": 660,
+          "map": "湖景村",
+          "player": "まいたけ5",
+          "rank": "31位"
+        },
+        {
+          "timestamp": "0:17:16",
+          "seconds": 1036,
+          "map": "聖心病院",
+          "player": "はなび▭▭",
+          "rank": "4位"
+        },
+        {
+          "timestamp": "0:23:47",
+          "seconds": 1427,
+          "map": "聖心病院",
+          "player": "MjyoMjyo",
+          "rank": "73位"
+        },
+        {
+          "timestamp": "0:29:54",
+          "seconds": 1794,
+          "map": "赤の教会",
+          "player": "cc丶384",
+          "rank": "86位"
+        },
+        {
+          "timestamp": "0:37:39",
+          "seconds": 2259,
+          "map": "軍需工場",
+          "player": "MjyoMjyo",
+          "rank": "73位"
+        },
+        {
+          "timestamp": "0:42:51",
+          "seconds": 2571,
+          "map": "永眠町",
+          "player": "宇宙第一小夾夾",
+          "rank": "40位"
+        },
+        {
+          "timestamp": "0:51:41",
+          "seconds": 3101,
+          "map": "赤の教会",
+          "player": "極悪人ないぬい",
+          "rank": "3位"
+        },
+        {
+          "timestamp": "0:58:52",
+          "seconds": 3532,
+          "map": "月の河公園",
+          "player": "王女垂愛",
+          "rank": "B"
+        },
+        {
+          "timestamp": "1:04:45",
+          "seconds": 3885,
+          "map": "聖心病院",
+          "player": "天下无敌小钩钩",
+          "rank": "41位"
+        },
+        {
+          "timestamp": "1:11:49",
+          "seconds": 4309,
+          "map": "軍需工場",
+          "player": "junjunlife",
+          "rank": "63位"
+        },
+        {
+          "timestamp": "1:17:59",
+          "seconds": 4679,
+          "map": "罪の森",
+          "player": "はなび▭▭",
+          "rank": "4位"
+        },
+        {
+          "timestamp": "1:22:24",
+          "seconds": 4944,
+          "map": "永眠町",
+          "player": "鳥の人AO",
+          "rank": "6位"
+        },
+        {
+          "timestamp": "1:29:25",
+          "seconds": 5365,
+          "map": "罪の森",
+          "player": "極悪人ないぬい",
+          "rank": "3位"
+        },
+        {
+          "timestamp": "1:36:43",
+          "seconds": 5803,
+          "map": "月の河公園",
+          "player": "มาตบไท",
+          "rank": "32位"
+        },
+        {
+          "timestamp": "1:45:29",
+          "seconds": 6329,
+          "map": "聖心病院",
+          "player": "Tedoz1",
+          "rank": "B"
+        },
+        {
+          "timestamp": "1:51:55",
+          "seconds": 6715,
+          "map": "永眠町",
+          "player": "桜華_sical",
+          "rank": "B"
+        },
+        {
+          "timestamp": "1:56:57",
+          "seconds": 7017,
+          "map": "聖心病院",
+          "player": "はなび▭▭",
+          "rank": "4位"
+        },
+        {
+          "timestamp": "2:01:29",
+          "seconds": 7289,
+          "map": "赤の教会",
+          "player": "きざゃ助手",
+          "rank": "1位"
+        }
+      ]
+    },
+    {
+      "video_id": "6XEAlOFgUJk",
+      "title": "オペラ歌手 #74 S44 達人観戦 Opera Singer 昼ラン #identityV #第五人格",
+      "character": "オペラ歌手",
+      "published_at": "2026-10-29T04:35:53Z",
+      "url": "https://www.youtube.com/watch?v=6XEAlOFgUJk",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:38",
+          "seconds": 338,
+          "map": "湖景村",
+          "player": "留年スマーフgc",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "0:13:41",
+          "seconds": 821,
+          "map": "赤の教会",
+          "player": "lascookie",
+          "rank": "46位"
+        },
+        {
+          "timestamp": "0:21:18",
+          "seconds": 1278,
+          "map": "赤の教会",
+          "player": "ヨルシカ我的神",
+          "rank": "63位"
+        },
+        {
+          "timestamp": "0:28:34",
+          "seconds": 1714,
+          "map": "中華街",
+          "player": "はしゃぽっぽ▭",
+          "rank": "52位"
+        },
+        {
+          "timestamp": "0:36:34",
+          "seconds": 2194,
+          "map": "月の河公園",
+          "player": "ヨルシカ我的神",
+          "rank": "63位"
+        },
+        {
+          "timestamp": "0:43:11",
+          "seconds": 2591,
+          "map": "軍需工場",
+          "player": "月猫sisoi",
+          "rank": "18位"
+        },
+        {
+          "timestamp": "0:49:10",
+          "seconds": 2950,
+          "map": "中華街",
+          "player": "久保渚沙",
+          "rank": "25位"
+        },
+        {
+          "timestamp": "1:00:10",
+          "seconds": 3610,
+          "map": "聖心病院",
+          "player": "superZHAN",
+          "rank": "16位"
+        },
+        {
+          "timestamp": "1:06:07",
+          "seconds": 3967,
+          "map": "月の河公園",
+          "player": "荊薔薇棘",
+          "rank": "27位"
+        },
+        {
+          "timestamp": "1:13:07",
+          "seconds": 4387,
+          "map": "中華街",
+          "player": "ひも爺▭",
+          "rank": "61位"
+        },
+        {
+          "timestamp": "1:20:02",
+          "seconds": 4802,
+          "map": "レオの思い出",
+          "player": "無加工天然ラブ",
+          "rank": "3位"
+        }
+      ]
+    },
+    {
+      "video_id": "0kQ40aN6da4",
+      "title": "レオ #16 S44 達人観戦 Hell Ember 朝ラン #identityV #第五人格",
+      "character": "レオ",
+      "published_at": "2026-10-29T00:40:36Z",
+      "url": "https://www.youtube.com/watch?v=0kQ40aN6da4",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:30",
+          "seconds": 330,
+          "map": "永眠町",
+          "player": "dy阿洋",
+          "rank": "B"
+        },
+        {
+          "timestamp": "0:12:06",
+          "seconds": 726,
+          "map": "中華街",
+          "player": "pyUSXiz",
+          "rank": "13位"
+        },
+        {
+          "timestamp": "0:17:12",
+          "seconds": 1032,
+          "map": "罪の森",
+          "player": "オレのりわたり",
+          "rank": "21位"
+        },
+        {
+          "timestamp": "0:23:10",
+          "seconds": 1390,
+          "map": "レオの思い出",
+          "player": "pyUSXiz",
+          "rank": "13位"
+        },
+        {
+          "timestamp": "0:27:57",
+          "seconds": 1677,
+          "map": "軍需工場",
+          "player": "変質者オレ",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "0:33:38",
+          "seconds": 2018,
+          "map": "聖心病院",
+          "player": "板割り業者",
+          "rank": "3位"
+        },
+        {
+          "timestamp": "0:40:44",
+          "seconds": 2444,
+          "map": "軍需工場",
+          "player": "pyUSXiz",
+          "rank": "13位"
+        },
+        {
+          "timestamp": "0:44:53",
+          "seconds": 2693,
+          "map": "永眠町",
+          "player": "荡漾",
+          "rank": "B"
+        },
+        {
+          "timestamp": "0:55:50",
+          "seconds": 3350,
+          "map": "聖心病院",
+          "player": "変質者オレ",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "1:01:19",
+          "seconds": 3679,
+          "map": "軍需工場",
+          "player": "板割り業者",
+          "rank": "3位"
+        },
+        {
+          "timestamp": "1:07:03",
+          "seconds": 4023,
+          "map": "赤の教会",
+          "player": "オレのりわたり",
+          "rank": "21位"
+        },
+        {
+          "timestamp": "1:12:37",
+          "seconds": 4357,
+          "map": "月の河公園",
+          "player": "sakaboko",
+          "rank": "無徽章"
+        },
+        {
+          "timestamp": "1:17:32",
+          "seconds": 4652,
+          "map": "赤の教会",
+          "player": "芥川龍之介?¿",
+          "rank": "無徽章"
+        },
+        {
+          "timestamp": "1:24:35",
+          "seconds": 5075,
+          "map": "湖景村",
+          "player": "sakaboko",
+          "rank": "無徽章"
+        },
+        {
+          "timestamp": "1:32:01",
+          "seconds": 5521,
+          "map": "赤の教会",
+          "player": "板割り業者",
+          "rank": "3位"
+        },
+        {
+          "timestamp": "1:37:27",
+          "seconds": 5847,
+          "map": "湖景村",
+          "player": "変質者オレ",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "1:43:50",
+          "seconds": 6230,
+          "map": "永眠町",
+          "player": "純情珈琲＠丁寧",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "1:59:55",
+          "seconds": 7195,
+          "map": "湖景村",
+          "player": "帝临九州",
+          "rank": "46位"
+        }
+      ]
+    },
     {
       "video_id": "pNpXJaNIR3I",
       "title": "アイヴィ #26 S44 達人観戦 The Shadow 夜ラン #identityV #第五人格",
