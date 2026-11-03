@@ -1,6 +1,281 @@
 {
-  "updated_at": "2026-11-01T20:17:42.327612+00:00",
+  "updated_at": "2026-11-03T01:53:49.036768+00:00",
   "videos": [
+    {
+      "video_id": "uIoFhjG4Y54",
+      "title": "ルキノ #41 S44 達人観戦 Evil Reptilian 夜ラン #identityV #第五人格",
+      "character": "ルキノ",
+      "published_at": "2026-11-02T14:52:47Z",
+      "url": "https://www.youtube.com/watch?v=uIoFhjG4Y54",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:33",
+          "seconds": 333,
+          "map": "赤の教会",
+          "player": "言葉狩リのゾロ",
+          "rank": "3位"
+        },
+        {
+          "timestamp": "0:11:52",
+          "seconds": 712,
+          "map": "赤の教会",
+          "player": "かみかぜ十",
+          "rank": "B"
+        },
+        {
+          "timestamp": "0:17:30",
+          "seconds": 1050,
+          "map": "月の河公園",
+          "player": "西風冷雨",
+          "rank": "97位"
+        },
+        {
+          "timestamp": "0:23:35",
+          "seconds": 1415,
+          "map": "レオの思い出",
+          "player": "じゃこ",
+          "rank": "29位"
+        },
+        {
+          "timestamp": "0:28:56",
+          "seconds": 1736,
+          "map": "月の河公園",
+          "player": "ゆうゆぅじてき",
+          "rank": "7位"
+        },
+        {
+          "timestamp": "0:34:39",
+          "seconds": 2079,
+          "map": "永眠町",
+          "player": "吻上唇3",
+          "rank": "99位"
+        },
+        {
+          "timestamp": "0:41:47",
+          "seconds": 2507,
+          "map": "赤の教会",
+          "player": "▭プチョヘンザ",
+          "rank": "25位"
+        },
+        {
+          "timestamp": "0:48:18",
+          "seconds": 2898,
+          "map": "聖心病院",
+          "player": "ゆうゆぅじてき",
+          "rank": "7位"
+        },
+        {
+          "timestamp": "0:53:29",
+          "seconds": 3209,
+          "map": "罪の森",
+          "player": "±ぽんぽん",
+          "rank": "37位"
+        },
+        {
+          "timestamp": "1:01:14",
+          "seconds": 3674,
+          "map": "中華街",
+          "player": "見情",
+          "rank": "80位"
+        },
+        {
+          "timestamp": "1:09:20",
+          "seconds": 4160,
+          "map": "聖心病院",
+          "player": "Afa_shinnsaku",
+          "rank": "58位"
+        },
+        {
+          "timestamp": "1:15:52",
+          "seconds": 4552,
+          "map": "聖心病院",
+          "player": "▭きょろ",
+          "rank": "13位"
+        },
+        {
+          "timestamp": "1:21:38",
+          "seconds": 4898,
+          "map": "軍需工場",
+          "player": "？？？",
+          "rank": "21位"
+        },
+        {
+          "timestamp": "1:28:19",
+          "seconds": 5299,
+          "map": "中華街",
+          "player": "辞典2",
+          "rank": "19位"
+        },
+        {
+          "timestamp": "1:33:27",
+          "seconds": 5607,
+          "map": "レオの思い出",
+          "player": "じゃこ",
+          "rank": "29位"
+        },
+        {
+          "timestamp": "1:39:44",
+          "seconds": 5984,
+          "map": "湖景村",
+          "player": "Afa_shinnsaku",
+          "rank": "58位"
+        },
+        {
+          "timestamp": "1:46:36",
+          "seconds": 6396,
+          "map": "月の河公園",
+          "player": "？？？",
+          "rank": "21位"
+        },
+        {
+          "timestamp": "1:54:44",
+          "seconds": 6884,
+          "map": "聖心病院",
+          "player": "げんの極み",
+          "rank": "50位"
+        },
+        {
+          "timestamp": "2:03:00",
+          "seconds": 7380,
+          "map": "湖景村",
+          "player": "もやしおん2号",
+          "rank": "22位"
+        }
+      ]
+    },
+    {
+      "video_id": "6t5kJTVs1u4",
+      "title": "蜘蛛 #34 S44 達人観戦 Soul Weaver 朝ラン #identityV #第五人格",
+      "character": "蜘蛛",
+      "published_at": "2026-11-01T23:21:18Z",
+      "url": "https://www.youtube.com/watch?v=6t5kJTVs1u4",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:52",
+          "seconds": 352,
+          "map": "レオの思い出",
+          "player": "六_根_清_浄",
+          "rank": "B"
+        },
+        {
+          "timestamp": "0:14:31",
+          "seconds": 871,
+          "map": "湖景村",
+          "player": "哲人石",
+          "rank": "",
+          "character": "イタカ"
+        },
+        {
+          "timestamp": "0:22:15",
+          "seconds": 1335,
+          "map": "レオの思い出",
+          "player": "水上りり",
+          "rank": "77位"
+        },
+        {
+          "timestamp": "0:28:35",
+          "seconds": 1715,
+          "map": "レオの思い出",
+          "player": "六_根_清_浄",
+          "rank": "B"
+        },
+        {
+          "timestamp": "0:35:35",
+          "seconds": 2135,
+          "map": "中華街",
+          "player": "nuuya",
+          "rank": "7位"
+        },
+        {
+          "timestamp": "0:42:41",
+          "seconds": 2561,
+          "map": "罪の森",
+          "player": "六_根_清_浄",
+          "rank": "B"
+        },
+        {
+          "timestamp": "0:49:58",
+          "seconds": 2998,
+          "map": "月の河公園",
+          "player": "哲人石",
+          "rank": "",
+          "character": "イタカ"
+        },
+        {
+          "timestamp": "0:56:23",
+          "seconds": 3383,
+          "map": "永眠町",
+          "player": "Junju1y",
+          "rank": "11位"
+        },
+        {
+          "timestamp": "1:01:57",
+          "seconds": 3717,
+          "map": "永眠町",
+          "player": "水上りり",
+          "rank": "77位"
+        },
+        {
+          "timestamp": "1:09:09",
+          "seconds": 4149,
+          "map": "聖心病院",
+          "player": "Junju1y",
+          "rank": "11位"
+        },
+        {
+          "timestamp": "1:16:47",
+          "seconds": 4607,
+          "map": "罪の森",
+          "player": "ぺぺにゃあ裏垢",
+          "rank": "3位"
+        },
+        {
+          "timestamp": "1:22:34",
+          "seconds": 4954,
+          "map": "レオの思い出",
+          "player": "六_根_清_浄",
+          "rank": "B"
+        },
+        {
+          "timestamp": "1:31:38",
+          "seconds": 5498,
+          "map": "レオの思い出",
+          "player": "Pitchblue",
+          "rank": "B"
+        },
+        {
+          "timestamp": "1:37:32",
+          "seconds": 5852,
+          "map": "永眠町",
+          "player": "ぺぺにゃあ裏垢",
+          "rank": "3位"
+        },
+        {
+          "timestamp": "1:46:17",
+          "seconds": 6377,
+          "map": "湖景村",
+          "player": "3ランクマ男",
+          "rank": "",
+          "character": "フラバルー"
+        },
+        {
+          "timestamp": "1:52:56",
+          "seconds": 6776,
+          "map": "レオの思い出",
+          "player": "六_根_清_浄",
+          "rank": "B"
+        },
+        {
+          "timestamp": "2:00:07",
+          "seconds": 7207,
+          "map": "レオの思い出",
+          "player": "ぺぺにゃあ裏垢",
+          "rank": "3位"
+        }
+      ]
+    },
     {
       "video_id": "940BQjhatHA",
       "title": "グレイス #41 S44 達人観戦 Naiad 夜ラン #identityV #第五人格",
