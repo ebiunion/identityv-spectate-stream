@@ -1,6 +1,407 @@
 {
-  "updated_at": "2026-11-04T00:14:47.085629+00:00",
+  "updated_at": "2026-11-05T00:34:47.462247+00:00",
   "videos": [
+    {
+      "video_id": "iOJEUeBrZyc",
+      "title": "破輪 #56 S44 達人観戦 The Breaking Wheel 夜ラン #identityV #第五人格",
+      "character": "破輪",
+      "published_at": "2026-11-04T14:55:03Z",
+      "url": "https://www.youtube.com/watch?v=iOJEUeBrZyc",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:41",
+          "seconds": 341,
+          "map": "聖心病院",
+          "player": "血与淚",
+          "rank": "53位"
+        },
+        {
+          "timestamp": "0:11:57",
+          "seconds": 717,
+          "map": "湖景村",
+          "player": "Finally:rastX",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "0:17:34",
+          "seconds": 1054,
+          "map": "湖景村",
+          "player": "用户404",
+          "rank": "3位"
+        },
+        {
+          "timestamp": "0:26:41",
+          "seconds": 1601,
+          "map": "永眠町",
+          "player": "hibiすけ",
+          "rank": "21位"
+        },
+        {
+          "timestamp": "0:31:49",
+          "seconds": 1909,
+          "map": "レオの思い出",
+          "player": "Finally:rastX",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "0:39:12",
+          "seconds": 2352,
+          "map": "永眠町",
+          "player": "Kamiʕo3oʔ",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "0:44:59",
+          "seconds": 2699,
+          "map": "レオの思い出",
+          "player": "あいるー123",
+          "rank": "50位"
+        },
+        {
+          "timestamp": "0:54:57",
+          "seconds": 3297,
+          "map": "聖心病院",
+          "player": "用户404",
+          "rank": "3位"
+        },
+        {
+          "timestamp": "1:01:56",
+          "seconds": 3716,
+          "map": "中華街",
+          "player": "破輪脱輪俺死亡",
+          "rank": "4位"
+        },
+        {
+          "timestamp": "1:07:50",
+          "seconds": 4070,
+          "map": "永眠町",
+          "player": "ArEWeCoolYeT",
+          "rank": "25位"
+        },
+        {
+          "timestamp": "1:18:57",
+          "seconds": 4737,
+          "map": "聖心病院",
+          "player": "Kamiʕo3oʔ",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "1:24:38",
+          "seconds": 5078,
+          "map": "永眠町",
+          "player": "破輪脱輪俺死亡",
+          "rank": "4位"
+        },
+        {
+          "timestamp": "1:34:18",
+          "seconds": 5658,
+          "map": "レオの思い出",
+          "player": "Finally:rastX",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "1:40:37",
+          "seconds": 6037,
+          "map": "赤の教会",
+          "player": "LioN2004",
+          "rank": "B"
+        },
+        {
+          "timestamp": "1:46:05",
+          "seconds": 6365,
+          "map": "中華街",
+          "player": "のあいしかわ",
+          "rank": "87位"
+        },
+        {
+          "timestamp": "1:55:29",
+          "seconds": 6929,
+          "map": "軍需工場",
+          "player": "零国",
+          "rank": "62位"
+        },
+        {
+          "timestamp": "2:01:01",
+          "seconds": 7261,
+          "map": "中華街",
+          "player": "Kamiʕo3oʔ",
+          "rank": "1位"
+        }
+      ]
+    },
+    {
+      "video_id": "km4qLKOiOWU",
+      "title": "アン #44 S44 達人観戦 Disciple 昼ラン #identityV #第五人格",
+      "character": "アン",
+      "published_at": "2026-11-04T09:58:09Z",
+      "url": "https://www.youtube.com/watch?v=km4qLKOiOWU",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:52",
+          "seconds": 352,
+          "map": "永眠町",
+          "player": "おでやてぃた",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "0:11:39",
+          "seconds": 699,
+          "map": "軍需工場",
+          "player": "殘月ｏωｏ",
+          "rank": "36位"
+        },
+        {
+          "timestamp": "0:19:57",
+          "seconds": 1197,
+          "map": "聖心病院",
+          "player": "しなもんの下僕",
+          "rank": "25位"
+        },
+        {
+          "timestamp": "0:26:04",
+          "seconds": 1564,
+          "map": "赤の教会",
+          "player": "正義の神",
+          "rank": "50位"
+        },
+        {
+          "timestamp": "0:32:36",
+          "seconds": 1956,
+          "map": "聖心病院",
+          "player": "おでやてぃた",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "0:39:46",
+          "seconds": 2386,
+          "map": "レオの思い出",
+          "player": "SoundEuphonium",
+          "rank": "5位"
+        },
+        {
+          "timestamp": "0:45:16",
+          "seconds": 2716,
+          "map": "永眠町",
+          "player": "S46殻本垢開始",
+          "rank": "22位"
+        },
+        {
+          "timestamp": "0:51:34",
+          "seconds": 3094,
+          "map": "中華街",
+          "player": "GB_いちご飴",
+          "rank": "4位"
+        },
+        {
+          "timestamp": "0:56:50",
+          "seconds": 3410,
+          "map": "月の河公園",
+          "player": "おでやてぃた",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "1:02:27",
+          "seconds": 3747,
+          "map": "月の河公園",
+          "player": "SoundEuphonium",
+          "rank": "5位"
+        },
+        {
+          "timestamp": "1:07:12",
+          "seconds": 4032,
+          "map": "月の河公園",
+          "player": "S46殻本垢開始",
+          "rank": "22位"
+        },
+        {
+          "timestamp": "1:13:35",
+          "seconds": 4415,
+          "map": "聖心病院",
+          "player": "さみだれー",
+          "rank": "B"
+        },
+        {
+          "timestamp": "1:20:03",
+          "seconds": 4803,
+          "map": "聖心病院",
+          "player": "輪廻ねる_YT",
+          "rank": "73位"
+        },
+        {
+          "timestamp": "1:27:17",
+          "seconds": 5237,
+          "map": "湖景村",
+          "player": "使徒ラン",
+          "rank": "C"
+        },
+        {
+          "timestamp": "1:36:41",
+          "seconds": 5801,
+          "map": "赤の教会",
+          "player": "輪廻ねる_YT",
+          "rank": "73位"
+        },
+        {
+          "timestamp": "1:42:09",
+          "seconds": 6129,
+          "map": "月の河公園",
+          "player": "おでやてぃた",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "1:48:16",
+          "seconds": 6496,
+          "map": "月の河公園",
+          "player": "しなもんの下僕",
+          "rank": "25位"
+        },
+        {
+          "timestamp": "1:53:41",
+          "seconds": 6821,
+          "map": "聖心病院",
+          "player": "Dr_Latency_",
+          "rank": "51位"
+        },
+        {
+          "timestamp": "1:59:11",
+          "seconds": 7151,
+          "map": "レオの思い出",
+          "player": "輪廻ねる_YT",
+          "rank": "73位"
+        }
+      ]
+    },
+    {
+      "video_id": "gfPU3VhU2Go",
+      "title": "夢の魔女 #36 S44 達人観戦 Dream Witch 朝ラン #identityV #第五人格",
+      "character": "夢の魔女",
+      "published_at": "2026-11-04T00:31:15Z",
+      "url": "https://www.youtube.com/watch?v=gfPU3VhU2Go",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:33",
+          "seconds": 333,
+          "map": "罪の森",
+          "player": "cihu",
+          "rank": "B"
+        },
+        {
+          "timestamp": "0:11:14",
+          "seconds": 674,
+          "map": "レオの思い出",
+          "player": "快乐滴王叽",
+          "rank": "C"
+        },
+        {
+          "timestamp": "0:27:33",
+          "seconds": 1653,
+          "map": "罪の森",
+          "player": "スカイver~β",
+          "rank": "11位"
+        },
+        {
+          "timestamp": "0:33:17",
+          "seconds": 1997,
+          "map": "永眠町",
+          "player": "あまにゃあ",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "0:41:54",
+          "seconds": 2514,
+          "map": "月の河公園",
+          "player": "恶魔神丶",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "0:47:08",
+          "seconds": 2828,
+          "map": "中華街",
+          "player": "ヤMINX",
+          "rank": "17位"
+        },
+        {
+          "timestamp": "0:52:31",
+          "seconds": 3151,
+          "map": "軍需工場",
+          "player": "あまにゃあ",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "1:01:33",
+          "seconds": 3693,
+          "map": "中華街",
+          "player": "スカイver~β",
+          "rank": "11位"
+        },
+        {
+          "timestamp": "1:06:33",
+          "seconds": 3993,
+          "map": "永眠町",
+          "player": "反面教師Ray＠YT",
+          "rank": "63位"
+        },
+        {
+          "timestamp": "1:15:36",
+          "seconds": 4536,
+          "map": "聖心病院",
+          "player": "はしゃぽっぽ▭",
+          "rank": "57位"
+        },
+        {
+          "timestamp": "1:21:12",
+          "seconds": 4872,
+          "map": "聖心病院",
+          "player": "スカイver~β",
+          "rank": "11位"
+        },
+        {
+          "timestamp": "1:26:15",
+          "seconds": 5175,
+          "map": "赤の教会",
+          "player": "恶魔神丶",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "1:34:06",
+          "seconds": 5646,
+          "map": "湖景村",
+          "player": "Vanessa2525",
+          "rank": "13位"
+        },
+        {
+          "timestamp": "1:39:24",
+          "seconds": 5964,
+          "map": "湖景村",
+          "player": "あまにゃあ",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "1:46:36",
+          "seconds": 6396,
+          "map": "湖景村",
+          "player": "スカイver~β",
+          "rank": "11位"
+        },
+        {
+          "timestamp": "1:51:27",
+          "seconds": 6687,
+          "map": "罪の森",
+          "player": "lilx▭",
+          "rank": "7位"
+        },
+        {
+          "timestamp": "1:57:28",
+          "seconds": 7048,
+          "map": "罪の森",
+          "player": "はしゃぽっぽ▭",
+          "rank": "57位"
+        }
+      ]
+    },
     {
       "video_id": "gjzB4NMkgTA",
       "title": "ハスター #34 S44 達人観戦 The Feaster 夜ラン #identityV #第五人格",
