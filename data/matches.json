@@ -1,6 +1,414 @@
 {
-  "updated_at": "2026-11-05T00:34:47.462247+00:00",
+  "updated_at": "2026-11-06T00:35:40.254897+00:00",
   "videos": [
+    {
+      "video_id": "tC2TQWpahLU",
+      "title": "蝋人形師 #34 S44 達人観戦 Wax Artist 夜ラン #identityV #第五人格",
+      "character": "蝋人形師",
+      "published_at": "2026-11-05T18:19:33Z",
+      "url": "https://www.youtube.com/watch?v=tC2TQWpahLU",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:39",
+          "seconds": 339,
+          "map": "中華街",
+          "player": "王国w1206",
+          "rank": "72位"
+        },
+        {
+          "timestamp": "0:11:20",
+          "seconds": 680,
+          "map": "中華街",
+          "player": "つーくん人形",
+          "rank": "68位"
+        },
+        {
+          "timestamp": "0:19:29",
+          "seconds": 1169,
+          "map": "赤の教会",
+          "player": "癫瘋小孩",
+          "rank": "78位"
+        },
+        {
+          "timestamp": "0:25:24",
+          "seconds": 1524,
+          "map": "月の河公園",
+          "player": "茵緣",
+          "rank": "10位"
+        },
+        {
+          "timestamp": "0:32:10",
+          "seconds": 1930,
+          "map": "レオの思い出",
+          "player": "汝真",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "0:40:05",
+          "seconds": 2405,
+          "map": "聖心病院",
+          "player": "奏歌_",
+          "rank": "58位"
+        },
+        {
+          "timestamp": "0:47:59",
+          "seconds": 2879,
+          "map": "中華街",
+          "player": "ももんがしゃま",
+          "rank": "B"
+        },
+        {
+          "timestamp": "0:53:39",
+          "seconds": 3219,
+          "map": "湖景村",
+          "player": "れもんさん01",
+          "rank": "50位"
+        },
+        {
+          "timestamp": "1:00:23",
+          "seconds": 3623,
+          "map": "聖心病院",
+          "player": "チキンジャッキ",
+          "rank": "56位"
+        },
+        {
+          "timestamp": "1:08:01",
+          "seconds": 4081,
+          "map": "軍需工場",
+          "player": "アホ毛釜切り",
+          "rank": "9位"
+        },
+        {
+          "timestamp": "1:14:37",
+          "seconds": 4477,
+          "map": "聖心病院",
+          "player": "ねむにゃんそ",
+          "rank": "34位"
+        },
+        {
+          "timestamp": "1:19:53",
+          "seconds": 4793,
+          "map": "聖心病院",
+          "player": "通州事件",
+          "rank": "36位"
+        },
+        {
+          "timestamp": "1:26:29",
+          "seconds": 5189,
+          "map": "聖心病院",
+          "player": "你未曾見我哭泣",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "1:33:51",
+          "seconds": 5631,
+          "map": "赤の教会",
+          "player": "王国w1206",
+          "rank": "72位"
+        },
+        {
+          "timestamp": "1:38:56",
+          "seconds": 5936,
+          "map": "聖心病院",
+          "player": "鹿田しかお",
+          "rank": "66位"
+        },
+        {
+          "timestamp": "1:44:32",
+          "seconds": 6272,
+          "map": "赤の教会",
+          "player": "さっくさくさ",
+          "rank": "86位"
+        },
+        {
+          "timestamp": "1:50:13",
+          "seconds": 6613,
+          "map": "レオの思い出",
+          "player": "你未曾見我哭泣",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "1:56:07",
+          "seconds": 6967,
+          "map": "永眠町",
+          "player": "ミドルン",
+          "rank": "4位"
+        },
+        {
+          "timestamp": "2:01:04",
+          "seconds": 7264,
+          "map": "湖景村",
+          "player": "アホ毛釜切り",
+          "rank": "9位"
+        }
+      ]
+    },
+    {
+      "video_id": "s3V2BThODrA",
+      "title": "泣き虫 #34 S44 達人観戦 Axe Boy 昼ラン #identityV #第五人格",
+      "character": "泣き虫",
+      "published_at": "2026-11-05T06:52:40Z",
+      "url": "https://www.youtube.com/watch?v=s3V2BThODrA",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:33",
+          "seconds": 333,
+          "map": "レオの思い出",
+          "player": "ひよこのりるθ",
+          "rank": "C"
+        },
+        {
+          "timestamp": "0:12:54",
+          "seconds": 774,
+          "map": "軍需工場",
+          "player": "こう▭",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "0:18:59",
+          "seconds": 1139,
+          "map": "赤の教会",
+          "player": "ぱら具合",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "0:24:56",
+          "seconds": 1496,
+          "map": "赤の教会",
+          "player": "魂の錬金術士",
+          "rank": "38位"
+        },
+        {
+          "timestamp": "0:30:09",
+          "seconds": 1809,
+          "map": "レオの思い出",
+          "player": "失樂園大師泥鰍",
+          "rank": "39位"
+        },
+        {
+          "timestamp": "0:35:25",
+          "seconds": 2125,
+          "map": "湖景村",
+          "player": "こう▭",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "0:40:12",
+          "seconds": 2412,
+          "map": "中華街",
+          "player": "ぱら具合",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "0:47:23",
+          "seconds": 2843,
+          "map": "湖景村",
+          "player": "Mrポジティブ",
+          "rank": "27位"
+        },
+        {
+          "timestamp": "0:54:13",
+          "seconds": 3253,
+          "map": "永眠町",
+          "player": "爆涙天使",
+          "rank": "30位"
+        },
+        {
+          "timestamp": "0:59:33",
+          "seconds": 3573,
+          "map": "軍需工場",
+          "player": "魂の錬金術士",
+          "rank": "38位"
+        },
+        {
+          "timestamp": "1:06:04",
+          "seconds": 3964,
+          "map": "レオの思い出",
+          "player": "こう▭",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "1:11:38",
+          "seconds": 4298,
+          "map": "湖景村",
+          "player": "魂の錬金術士",
+          "rank": "38位"
+        },
+        {
+          "timestamp": "1:18:55",
+          "seconds": 4735,
+          "map": "湖景村",
+          "player": "爆涙天使",
+          "rank": "30位"
+        },
+        {
+          "timestamp": "1:27:20",
+          "seconds": 5240,
+          "map": "軍需工場",
+          "player": "ぱら具合",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "1:33:36",
+          "seconds": 5616,
+          "map": "永眠町",
+          "player": "こう▭",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "1:41:50",
+          "seconds": 6110,
+          "map": "湖景村",
+          "player": "この歌で終わる",
+          "rank": "5位"
+        },
+        {
+          "timestamp": "1:47:15",
+          "seconds": 6435,
+          "map": "赤の教会",
+          "player": "爆涙天使",
+          "rank": "30位"
+        },
+        {
+          "timestamp": "1:52:54",
+          "seconds": 6774,
+          "map": "聖心病院",
+          "player": "こう▭",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "1:59:25",
+          "seconds": 7165,
+          "map": "湖景村",
+          "player": "At_Oni",
+          "rank": "15位"
+        }
+      ]
+    },
+    {
+      "video_id": "_1i6eSNCvHA",
+      "title": "オペラ歌手 #75 S44 達人観戦 Opera Singer 朝ラン #identityV #第五人格",
+      "character": "オペラ歌手",
+      "published_at": "2026-11-04T23:12:08Z",
+      "url": "https://www.youtube.com/watch?v=_1i6eSNCvHA",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:45",
+          "seconds": 345,
+          "map": "レオの思い出",
+          "player": "久保渚沙",
+          "rank": "27位"
+        },
+        {
+          "timestamp": "0:14:39",
+          "seconds": 879,
+          "map": "軍需工場",
+          "player": "ただいまんぼー",
+          "rank": "無徽章"
+        },
+        {
+          "timestamp": "0:22:28",
+          "seconds": 1348,
+          "map": "湖景村",
+          "player": "久保渚沙",
+          "rank": "27位"
+        },
+        {
+          "timestamp": "0:33:09",
+          "seconds": 1989,
+          "map": "月の河公園",
+          "player": "やすたこっこ",
+          "rank": "無徽章"
+        },
+        {
+          "timestamp": "0:40:07",
+          "seconds": 2407,
+          "map": "湖景村",
+          "player": "紅魔の魔女",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "0:48:21",
+          "seconds": 2901,
+          "map": "永眠町",
+          "player": "久保渚沙",
+          "rank": "27位"
+        },
+        {
+          "timestamp": "0:54:26",
+          "seconds": 3266,
+          "map": "赤の教会",
+          "player": "荊薔薇棘",
+          "rank": "39位"
+        },
+        {
+          "timestamp": "0:59:25",
+          "seconds": 3565,
+          "map": "中華街",
+          "player": "久保渚沙",
+          "rank": "27位"
+        },
+        {
+          "timestamp": "1:10:32",
+          "seconds": 4232,
+          "map": "月の河公園",
+          "player": "紅魔の魔女",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "1:18:22",
+          "seconds": 4702,
+          "map": "湖景村",
+          "player": "久保渚沙",
+          "rank": "27位"
+        },
+        {
+          "timestamp": "1:26:29",
+          "seconds": 5189,
+          "map": "軍需工場",
+          "player": "回アセロラ回",
+          "rank": "3位"
+        },
+        {
+          "timestamp": "1:33:09",
+          "seconds": 5589,
+          "map": "レオの思い出",
+          "player": "紅魔の魔女",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "1:38:17",
+          "seconds": 5897,
+          "map": "軍需工場",
+          "player": "久保渚沙",
+          "rank": "27位"
+        },
+        {
+          "timestamp": "1:44:41",
+          "seconds": 6281,
+          "map": "聖心病院",
+          "player": "みなにゃ~",
+          "rank": "C"
+        },
+        {
+          "timestamp": "1:50:22",
+          "seconds": 6622,
+          "map": "レオの思い出",
+          "player": "久保渚沙",
+          "rank": "27位"
+        },
+        {
+          "timestamp": "1:56:55",
+          "seconds": 7015,
+          "map": "罪の森",
+          "player": "回アセロラ回",
+          "rank": "3位"
+        }
+      ]
+    },
     {
       "video_id": "iOJEUeBrZyc",
       "title": "破輪 #56 S44 達人観戦 The Breaking Wheel 夜ラン #identityV #第五人格",
