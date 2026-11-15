@@ -1,6 +1,151 @@
 {
-  "updated_at": "2026-11-14T23:27:35.059141+00:00",
+  "updated_at": "2026-11-15T23:37:33.317808+00:00",
   "videos": [
+    {
+      "video_id": "Z3xPOyW5uro",
+      "title": "ハスター #35 S44 達人観戦 The Feaster 朝ラン #identityV #第五人格",
+      "character": "ハスター",
+      "published_at": "2026-11-14T22:22:06Z",
+      "url": "https://www.youtube.com/watch?v=Z3xPOyW5uro",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:55",
+          "seconds": 355,
+          "map": "レオの思い出",
+          "player": "IJL選手志望",
+          "rank": "",
+          "character": "破輪"
+        },
+        {
+          "timestamp": "0:11:03",
+          "seconds": 663,
+          "map": "永眠町",
+          "player": "魔法少女はむ_",
+          "rank": "23位"
+        },
+        {
+          "timestamp": "0:17:28",
+          "seconds": 1048,
+          "map": "聖心病院",
+          "player": "宇宙最弱hastur",
+          "rank": "38位"
+        },
+        {
+          "timestamp": "0:23:18",
+          "seconds": 1398,
+          "map": "湖景村",
+          "player": "農薬入ジュース",
+          "rank": "54位"
+        },
+        {
+          "timestamp": "0:29:40",
+          "seconds": 1780,
+          "map": "永眠町",
+          "player": "農薬入ジュース",
+          "rank": "54位"
+        },
+        {
+          "timestamp": "0:35:56",
+          "seconds": 2156,
+          "map": "レオの思い出",
+          "player": "ねこたこ^^",
+          "rank": "13位"
+        },
+        {
+          "timestamp": "0:43:14",
+          "seconds": 2594,
+          "map": "中華街",
+          "player": "イト？",
+          "rank": "",
+          "character": "白黒無常"
+        },
+        {
+          "timestamp": "0:52:21",
+          "seconds": 3141,
+          "map": "聖心病院",
+          "player": "ヒロリネス",
+          "rank": "37位"
+        },
+        {
+          "timestamp": "0:59:09",
+          "seconds": 3549,
+          "map": "レオの思い出",
+          "player": "宇宙最弱hastur",
+          "rank": "38位"
+        },
+        {
+          "timestamp": "1:06:46",
+          "seconds": 4006,
+          "map": "湖景村",
+          "player": "まさっちぴょん",
+          "rank": "4位"
+        },
+        {
+          "timestamp": "1:11:12",
+          "seconds": 4272,
+          "map": "中華街",
+          "player": "ヒロリネス",
+          "rank": "37位"
+        },
+        {
+          "timestamp": "1:19:13",
+          "seconds": 4753,
+          "map": "聖心病院",
+          "player": "CC丶不嘻嘻",
+          "rank": "C"
+        },
+        {
+          "timestamp": "1:26:00",
+          "seconds": 5160,
+          "map": "軍需工場",
+          "player": "まさっちぴょん",
+          "rank": "4位"
+        },
+        {
+          "timestamp": "1:32:38",
+          "seconds": 5558,
+          "map": "軍需工場",
+          "player": "雑賀ヤン坊達也",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "1:38:50",
+          "seconds": 5930,
+          "map": "湖景村",
+          "player": "HatoRa",
+          "rank": "14位"
+        },
+        {
+          "timestamp": "1:43:31",
+          "seconds": 6211,
+          "map": "罪の森",
+          "player": "まさっちぴょん",
+          "rank": "4位"
+        },
+        {
+          "timestamp": "1:48:41",
+          "seconds": 6521,
+          "map": "聖心病院",
+          "player": "ねこたこ^^",
+          "rank": "13位"
+        },
+        {
+          "timestamp": "1:54:33",
+          "seconds": 6873,
+          "map": "赤の教会",
+          "player": "魔法少女はむ_",
+          "rank": "23位"
+        },
+        {
+          "timestamp": "2:01:28",
+          "seconds": 7288,
+          "map": "聖心病院",
+          "player": "宇宙最弱hastur",
+          "rank": "38位"
+        }
+      ]
+    },
     {
       "video_id": "aBZg-EStEeo",
       "title": "フラバルー #64 S44 達人観戦 Hullabaroo 夜ラン #identityV #第五人格",
