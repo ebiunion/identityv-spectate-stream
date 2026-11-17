@@ -1,6 +1,271 @@
 {
-  "updated_at": "2026-11-15T23:37:33.317808+00:00",
+  "updated_at": "2026-11-17T02:40:13.827012+00:00",
   "videos": [
+    {
+      "video_id": "hG-HzRRvQ7A",
+      "title": "アン #45 S44 達人観戦 Disciple 昼ラン #identityV #第五人格",
+      "character": "アン",
+      "published_at": "2026-11-16T10:28:17Z",
+      "url": "https://www.youtube.com/watch?v=hG-HzRRvQ7A",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:52",
+          "seconds": 352,
+          "map": "月の河公園",
+          "player": "你好`安妮",
+          "rank": "27位"
+        },
+        {
+          "timestamp": "0:11:03",
+          "seconds": 663,
+          "map": "レオの思い出",
+          "player": "優質Man",
+          "rank": "76位"
+        },
+        {
+          "timestamp": "0:22:14",
+          "seconds": 1334,
+          "map": "聖心病院",
+          "player": "＠犬系アン",
+          "rank": "5位"
+        },
+        {
+          "timestamp": "0:28:46",
+          "seconds": 1726,
+          "map": "罪の森",
+          "player": "你好`安妮",
+          "rank": "27位"
+        },
+        {
+          "timestamp": "0:34:13",
+          "seconds": 2053,
+          "map": "赤の教会",
+          "player": "だっぷんのに子",
+          "rank": "17位"
+        },
+        {
+          "timestamp": "0:39:24",
+          "seconds": 2364,
+          "map": "中華街",
+          "player": "優質Man",
+          "rank": "76位"
+        },
+        {
+          "timestamp": "0:46:24",
+          "seconds": 2784,
+          "map": "湖景村",
+          "player": "＠犬系アン",
+          "rank": "5位"
+        },
+        {
+          "timestamp": "0:54:00",
+          "seconds": 3240,
+          "map": "赤の教会",
+          "player": "やたてぃー",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "1:01:05",
+          "seconds": 3665,
+          "map": "湖景村",
+          "player": "DivaAnn",
+          "rank": "34位"
+        },
+        {
+          "timestamp": "1:07:26",
+          "seconds": 4046,
+          "map": "罪の森",
+          "player": "＠犬系アン",
+          "rank": "5位"
+        },
+        {
+          "timestamp": "1:15:29",
+          "seconds": 4529,
+          "map": "レオの思い出",
+          "player": "アンかポンか",
+          "rank": "95位"
+        },
+        {
+          "timestamp": "1:23:53",
+          "seconds": 5033,
+          "map": "中華街",
+          "player": "だっぷんのに子",
+          "rank": "17位"
+        },
+        {
+          "timestamp": "1:28:51",
+          "seconds": 5331,
+          "map": "永眠町",
+          "player": "ぜっぜっぜ",
+          "rank": "16位"
+        },
+        {
+          "timestamp": "1:37:13",
+          "seconds": 5833,
+          "map": "湖景村",
+          "player": "野良戦KiNch1",
+          "rank": "55位"
+        },
+        {
+          "timestamp": "1:41:47",
+          "seconds": 6107,
+          "map": "中華街",
+          "player": "君専属_Ash1n",
+          "rank": "63位"
+        },
+        {
+          "timestamp": "1:50:14",
+          "seconds": 6614,
+          "map": "レオの思い出",
+          "player": "野良戦KiNch1",
+          "rank": "55位"
+        },
+        {
+          "timestamp": "1:57:23",
+          "seconds": 7043,
+          "map": "赤の教会",
+          "player": "DivaAnn",
+          "rank": "34位"
+        },
+        {
+          "timestamp": "2:03:02",
+          "seconds": 7382,
+          "map": "中華街",
+          "player": "だっぷんのに子",
+          "rank": "17位"
+        }
+      ]
+    },
+    {
+      "video_id": "0QV9oAghM8Y",
+      "title": "夢の魔女 #37 S44 達人観戦 Dream Witch朝ラン #identityV #第五人格",
+      "character": "夢の魔女",
+      "published_at": "2026-11-15T22:30:36Z",
+      "url": "https://www.youtube.com/watch?v=0QV9oAghM8Y",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:33",
+          "seconds": 333,
+          "map": "軍需工場",
+          "player": "サーモン渡せん",
+          "rank": "B"
+        },
+        {
+          "timestamp": "0:11:37",
+          "seconds": 697,
+          "map": "湖景村",
+          "player": "Junzr",
+          "rank": "無徽章"
+        },
+        {
+          "timestamp": "0:18:58",
+          "seconds": 1138,
+          "map": "聖心病院",
+          "player": "HETA_とらお",
+          "rank": "8位"
+        },
+        {
+          "timestamp": "0:26:06",
+          "seconds": 1566,
+          "map": "月の河公園",
+          "player": "¥Thị£Nắc¥",
+          "rank": "43位"
+        },
+        {
+          "timestamp": "0:36:50",
+          "seconds": 2210,
+          "map": "月の河公園",
+          "player": "悪魔神丶",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "0:45:12",
+          "seconds": 2712,
+          "map": "軍需工場",
+          "player": "神▭女",
+          "rank": "53位"
+        },
+        {
+          "timestamp": "0:51:45",
+          "seconds": 3105,
+          "map": "月の河公園",
+          "player": "Junzr",
+          "rank": "無徽章"
+        },
+        {
+          "timestamp": "0:57:19",
+          "seconds": 3439,
+          "map": "湖景村",
+          "player": "チぃたん",
+          "rank": "26位"
+        },
+        {
+          "timestamp": "1:04:55",
+          "seconds": 3895,
+          "map": "聖心病院",
+          "player": "神▭女",
+          "rank": "53位"
+        },
+        {
+          "timestamp": "1:09:29",
+          "seconds": 4169,
+          "map": "赤の教会",
+          "player": "チぃたん",
+          "rank": "26位"
+        },
+        {
+          "timestamp": "1:18:22",
+          "seconds": 4702,
+          "map": "軍需工場",
+          "player": "HETA_とらお",
+          "rank": "8位"
+        },
+        {
+          "timestamp": "1:26:10",
+          "seconds": 5170,
+          "map": "罪の森",
+          "player": "チぃたん",
+          "rank": "26位"
+        },
+        {
+          "timestamp": "1:32:57",
+          "seconds": 5577,
+          "map": "中華街",
+          "player": "¥Thị£Nắc¥",
+          "rank": "43位"
+        },
+        {
+          "timestamp": "1:40:44",
+          "seconds": 6044,
+          "map": "聖心病院",
+          "player": "HETA_とらお",
+          "rank": "8位"
+        },
+        {
+          "timestamp": "1:46:40",
+          "seconds": 6400,
+          "map": "罪の森",
+          "player": "DaCs",
+          "rank": "11位"
+        },
+        {
+          "timestamp": "1:54:19",
+          "seconds": 6859,
+          "map": "永眠町",
+          "player": "Junzr",
+          "rank": "無徽章"
+        },
+        {
+          "timestamp": "2:00:36",
+          "seconds": 7236,
+          "map": "罪の森",
+          "player": "HETA_とらお",
+          "rank": "8位"
+        }
+      ]
+    },
     {
       "video_id": "Z3xPOyW5uro",
       "title": "ハスター #35 S44 達人観戦 The Feaster 朝ラン #identityV #第五人格",
