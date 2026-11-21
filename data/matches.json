@@ -1,6 +1,393 @@
 {
-  "updated_at": "2026-11-21T00:58:51.653218+00:00",
+  "updated_at": "2026-11-21T23:58:47.633792+00:00",
   "videos": [
+    {
+      "video_id": "B1dzq-fSB-I",
+      "title": "アイヴィ #28 S45 達人観戦 The Shadow 夜ラン #identityV #第五人格",
+      "character": "アイヴィ",
+      "published_at": "2026-11-21T13:47:36Z",
+      "url": "https://www.youtube.com/watch?v=B1dzq-fSB-I",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:43",
+          "seconds": 343,
+          "map": "聖心病院",
+          "player": "すぺのもん",
+          "rank": "B"
+        },
+        {
+          "timestamp": "0:11:46",
+          "seconds": 706,
+          "map": "レオの思い出",
+          "player": "KnekoKing",
+          "rank": "31位"
+        },
+        {
+          "timestamp": "0:18:42",
+          "seconds": 1122,
+          "map": "レオの思い出",
+          "player": "みろくバチ",
+          "rank": "C"
+        },
+        {
+          "timestamp": "0:27:12",
+          "seconds": 1632,
+          "map": "レオの思い出",
+          "player": "はちみつ^333",
+          "rank": "12位"
+        },
+        {
+          "timestamp": "0:33:51",
+          "seconds": 2031,
+          "map": "湖景村",
+          "player": "みろくバチ",
+          "rank": "C"
+        },
+        {
+          "timestamp": "0:41:54",
+          "seconds": 2514,
+          "map": "軍需工場",
+          "player": "FノSigN",
+          "rank": "5位"
+        },
+        {
+          "timestamp": "0:51:23",
+          "seconds": 3083,
+          "map": "罪の森",
+          "player": "みろくバチ",
+          "rank": "C"
+        },
+        {
+          "timestamp": "0:58:27",
+          "seconds": 3507,
+          "map": "月の河公園",
+          "player": "カズマ｜エリス",
+          "rank": "無徽章"
+        },
+        {
+          "timestamp": "1:05:32",
+          "seconds": 3932,
+          "map": "湖景村",
+          "player": "零点振動",
+          "rank": "47位"
+        },
+        {
+          "timestamp": "1:14:12",
+          "seconds": 4452,
+          "map": "永眠町",
+          "player": "みろくバチ",
+          "rank": "C"
+        },
+        {
+          "timestamp": "1:21:49",
+          "seconds": 4909,
+          "map": "中華街",
+          "player": "カズマ｜エリス",
+          "rank": "無徽章"
+        },
+        {
+          "timestamp": "1:27:38",
+          "seconds": 5258,
+          "map": "レオの思い出",
+          "player": "みろくバチ",
+          "rank": "C"
+        },
+        {
+          "timestamp": "1:33:47",
+          "seconds": 5627,
+          "map": "罪の森",
+          "player": "カズマ｜エリス",
+          "rank": "無徽章"
+        },
+        {
+          "timestamp": "1:40:35",
+          "seconds": 6035,
+          "map": "レオの思い出",
+          "player": "ミスターピソカ",
+          "rank": "B"
+        },
+        {
+          "timestamp": "1:50:26",
+          "seconds": 6626,
+          "map": "赤の教会",
+          "player": "みろくバチ",
+          "rank": "C"
+        },
+        {
+          "timestamp": "1:57:32",
+          "seconds": 7052,
+          "map": "軍需工場",
+          "player": "なおんでぃー",
+          "rank": "B"
+        },
+        {
+          "timestamp": "2:03:01",
+          "seconds": 7381,
+          "map": "罪の森",
+          "player": "はちみつ^333",
+          "rank": "12位"
+        }
+      ]
+    },
+    {
+      "video_id": "PFhSxfdDneU",
+      "title": "ビリヤードプレイヤー #10 S45 達人観戦 The Cuiest 昼ラン #identityV #第五人格",
+      "character": "ビリヤードプレイヤー",
+      "published_at": "2026-11-21T07:12:28Z",
+      "url": "https://www.youtube.com/watch?v=PFhSxfdDneU",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:41",
+          "seconds": 341,
+          "map": "レオの思い出",
+          "player": "Alfiche",
+          "rank": "無徽章"
+        },
+        {
+          "timestamp": "0:12:59",
+          "seconds": 779,
+          "map": "中華街",
+          "player": "▭mikann",
+          "rank": "10位"
+        },
+        {
+          "timestamp": "0:19:40",
+          "seconds": 1180,
+          "map": "月の河公園",
+          "player": "発禁そーだ",
+          "rank": "6位"
+        },
+        {
+          "timestamp": "0:26:06",
+          "seconds": 1566,
+          "map": "湖景村",
+          "player": "Mobnoir",
+          "rank": "B"
+        },
+        {
+          "timestamp": "0:34:20",
+          "seconds": 2060,
+          "map": "レオの思い出",
+          "player": "人类无名",
+          "rank": "26位"
+        },
+        {
+          "timestamp": "0:41:32",
+          "seconds": 2492,
+          "map": "聖心病院",
+          "player": "▭mikann",
+          "rank": "10位"
+        },
+        {
+          "timestamp": "0:48:18",
+          "seconds": 2898,
+          "map": "聖心病院",
+          "player": "モナ王▭▭",
+          "rank": "8位"
+        },
+        {
+          "timestamp": "0:56:58",
+          "seconds": 3418,
+          "map": "湖景村",
+          "player": "ゆあ＞_＜",
+          "rank": "22位"
+        },
+        {
+          "timestamp": "1:02:35",
+          "seconds": 3755,
+          "map": "湖景村",
+          "player": "ナロぉ",
+          "rank": "無徽章"
+        },
+        {
+          "timestamp": "1:08:23",
+          "seconds": 4103,
+          "map": "聖心病院",
+          "player": "人类无名",
+          "rank": "26位"
+        },
+        {
+          "timestamp": "1:17:28",
+          "seconds": 4648,
+          "map": "湖景村",
+          "player": "星々▭▭▭▭",
+          "rank": "23位"
+        },
+        {
+          "timestamp": "1:27:02",
+          "seconds": 5222,
+          "map": "永眠町",
+          "player": "GGfxingEZ",
+          "rank": "28位"
+        },
+        {
+          "timestamp": "1:33:07",
+          "seconds": 5587,
+          "map": "聖心病院",
+          "player": "Alfiche",
+          "rank": "無徽章"
+        },
+        {
+          "timestamp": "1:39:30",
+          "seconds": 5970,
+          "map": "月の河公園",
+          "player": "星々▭▭▭▭",
+          "rank": "23位"
+        },
+        {
+          "timestamp": "1:46:58",
+          "seconds": 6418,
+          "map": "聖心病院",
+          "player": "グミサプリ食え",
+          "rank": "B"
+        },
+        {
+          "timestamp": "1:55:29",
+          "seconds": 6929,
+          "map": "聖心病院",
+          "player": "くるくるボット",
+          "rank": "B"
+        }
+      ]
+    },
+    {
+      "video_id": "Pfl0sP5lXOU",
+      "title": "足萎えの羊 #12 S45 達人観戦 Goatman 朝ラン #identityV #第五人格",
+      "character": "足萎えの羊",
+      "published_at": "2026-11-20T22:16:51Z",
+      "url": "https://www.youtube.com/watch?v=Pfl0sP5lXOU",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:59",
+          "seconds": 359,
+          "map": "中華街",
+          "player": "ニコハリソン",
+          "rank": "48位"
+        },
+        {
+          "timestamp": "0:16:47",
+          "seconds": 1007,
+          "map": "聖心病院",
+          "player": "しゃんい",
+          "rank": "98位"
+        },
+        {
+          "timestamp": "0:22:37",
+          "seconds": 1357,
+          "map": "レオの思い出",
+          "player": "渋り損ch",
+          "rank": "23位"
+        },
+        {
+          "timestamp": "0:28:18",
+          "seconds": 1698,
+          "map": "赤の教会",
+          "player": "愛の標識680円",
+          "rank": "5位"
+        },
+        {
+          "timestamp": "0:34:14",
+          "seconds": 2054,
+          "map": "軍需工場",
+          "player": "しゃんい",
+          "rank": "98位"
+        },
+        {
+          "timestamp": "0:40:28",
+          "seconds": 2428,
+          "map": "永眠町",
+          "player": "渋り損ch",
+          "rank": "23位"
+        },
+        {
+          "timestamp": "0:45:50",
+          "seconds": 2750,
+          "map": "湖景村",
+          "player": "愛の標識680円",
+          "rank": "5位"
+        },
+        {
+          "timestamp": "0:54:16",
+          "seconds": 3256,
+          "map": "赤の教会",
+          "player": "ねぎちくん",
+          "rank": "29位"
+        },
+        {
+          "timestamp": "1:00:10",
+          "seconds": 3610,
+          "map": "軍需工場",
+          "player": "愛の標識680円",
+          "rank": "5位"
+        },
+        {
+          "timestamp": "1:05:32",
+          "seconds": 3932,
+          "map": "湖景村",
+          "player": "ボケガエル▭",
+          "rank": "8位"
+        },
+        {
+          "timestamp": "1:13:14",
+          "seconds": 4394,
+          "map": "聖心病院",
+          "player": "渋り損ch",
+          "rank": "23位"
+        },
+        {
+          "timestamp": "1:18:35",
+          "seconds": 4715,
+          "map": "月の河公園",
+          "player": "愛の標識680円",
+          "rank": "5位"
+        },
+        {
+          "timestamp": "1:25:59",
+          "seconds": 5159,
+          "map": "罪の森",
+          "player": "ボケガエル▭",
+          "rank": "8位"
+        },
+        {
+          "timestamp": "1:32:35",
+          "seconds": 5555,
+          "map": "罪の森",
+          "player": "福丸ゆば",
+          "rank": "54位"
+        },
+        {
+          "timestamp": "1:39:14",
+          "seconds": 5954,
+          "map": "湖景村",
+          "player": "しゃんい",
+          "rank": "98位"
+        },
+        {
+          "timestamp": "1:44:28",
+          "seconds": 6268,
+          "map": "月の河公園",
+          "player": "ボケガエル▭",
+          "rank": "8位"
+        },
+        {
+          "timestamp": "1:52:12",
+          "seconds": 6732,
+          "map": "罪の森",
+          "player": "愛の標識680円",
+          "rank": "5位"
+        },
+        {
+          "timestamp": "2:00:18",
+          "seconds": 7218,
+          "map": "月の河公園",
+          "player": "X_Xiaomao",
+          "rank": "無徽章"
+        }
+      ]
+    },
     {
       "video_id": "6NE1C77Do_w",
       "title": "アンデッド #10 S45 達人観戦 Undead 夜ラン #identityV #第五人格",
