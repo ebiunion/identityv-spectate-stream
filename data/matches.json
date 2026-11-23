@@ -1,6 +1,408 @@
 {
-  "updated_at": "2026-11-21T23:58:47.633792+00:00",
+  "updated_at": "2026-11-23T00:30:59.814044+00:00",
   "videos": [
+    {
+      "video_id": "J4eKeuKHHKc",
+      "title": "鹿 #36 S45 達人観戦 Gamekeeper 夜ラン #identityV #第五人格",
+      "character": "鹿",
+      "published_at": "2026-11-22T19:39:09Z",
+      "url": "https://www.youtube.com/watch?v=J4eKeuKHHKc",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:41",
+          "seconds": 341,
+          "map": "湖景村",
+          "player": "BVG_DANZAI",
+          "rank": "60位"
+        },
+        {
+          "timestamp": "0:11:45",
+          "seconds": 705,
+          "map": "湖景村",
+          "player": "DsNG6UG",
+          "rank": "20位"
+        },
+        {
+          "timestamp": "0:18:26",
+          "seconds": 1106,
+          "map": "聖心病院",
+          "player": "ひこく▭",
+          "rank": "14位"
+        },
+        {
+          "timestamp": "0:27:57",
+          "seconds": 1677,
+          "map": "月の河公園",
+          "player": "Shär9",
+          "rank": "無徽章"
+        },
+        {
+          "timestamp": "0:35:59",
+          "seconds": 2159,
+          "map": "赤の教会",
+          "player": "きざたろ",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "0:41:48",
+          "seconds": 2508,
+          "map": "永眠町",
+          "player": "しー＠^_^",
+          "rank": "無徽章"
+        },
+        {
+          "timestamp": "0:49:01",
+          "seconds": 2941,
+          "map": "月の河公園",
+          "player": "鳥の人AO",
+          "rank": "3位"
+        },
+        {
+          "timestamp": "0:56:43",
+          "seconds": 3403,
+          "map": "赤の教会",
+          "player": "BVG_DANZAI",
+          "rank": "60位"
+        },
+        {
+          "timestamp": "1:03:36",
+          "seconds": 3816,
+          "map": "聖心病院",
+          "player": "鳥の人AO",
+          "rank": "3位"
+        },
+        {
+          "timestamp": "1:10:20",
+          "seconds": 4220,
+          "map": "月の河公園",
+          "player": "Emi_reaX",
+          "rank": "無徽章"
+        },
+        {
+          "timestamp": "1:18:48",
+          "seconds": 4728,
+          "map": "レオの思い出",
+          "player": "BVG_DANZAI",
+          "rank": "60位"
+        },
+        {
+          "timestamp": "1:24:39",
+          "seconds": 5079,
+          "map": "湖景村",
+          "player": "鳥の人AO",
+          "rank": "3位"
+        },
+        {
+          "timestamp": "1:29:36",
+          "seconds": 5376,
+          "map": "聖心病院",
+          "player": "BVG_DANZAI",
+          "rank": "60位"
+        },
+        {
+          "timestamp": "1:34:21",
+          "seconds": 5661,
+          "map": "永眠町",
+          "player": "きざたろ",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "1:39:03",
+          "seconds": 5943,
+          "map": "永眠町",
+          "player": "おつあり▭",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "1:43:38",
+          "seconds": 6218,
+          "map": "中華街",
+          "player": "鳥の人AO",
+          "rank": "3位"
+        },
+        {
+          "timestamp": "1:48:31",
+          "seconds": 6511,
+          "map": "聖心病院",
+          "player": "Emi_reaX",
+          "rank": "無徽章"
+        },
+        {
+          "timestamp": "1:56:14",
+          "seconds": 6974,
+          "map": "赤の教会",
+          "player": "鳥の人AO",
+          "rank": "3位"
+        },
+        {
+          "timestamp": "2:02:22",
+          "seconds": 7342,
+          "map": "湖景村",
+          "player": "我的神明垂泪",
+          "rank": "B"
+        }
+      ]
+    },
+    {
+      "video_id": "AfPJL2NXJ0Q",
+      "title": "ピエロ #36 S45 達人観戦 Smiley Face 夜ラン #identityV #第五人格",
+      "character": "ピエロ",
+      "published_at": "2026-11-22T06:36:03Z",
+      "url": "https://www.youtube.com/watch?v=AfPJL2NXJ0Q",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:31",
+          "seconds": 331,
+          "map": "湖景村",
+          "player": "mgmg^p^",
+          "rank": "無徽章"
+        },
+        {
+          "timestamp": "0:16:38",
+          "seconds": 998,
+          "map": "聖心病院",
+          "player": "二次元賦",
+          "rank": "無徽章"
+        },
+        {
+          "timestamp": "0:22:53",
+          "seconds": 1373,
+          "map": "レオの思い出",
+          "player": "世間安得兩全法",
+          "rank": "59位"
+        },
+        {
+          "timestamp": "0:31:29",
+          "seconds": 1889,
+          "map": "レオの思い出",
+          "player": "我想睡了▭",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "0:37:32",
+          "seconds": 2252,
+          "map": "軍需工場",
+          "player": "请说谢谢茉白",
+          "rank": "3位"
+        },
+        {
+          "timestamp": "0:43:52",
+          "seconds": 2632,
+          "map": "赤の教会",
+          "player": "我想睡了▭",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "0:49:33",
+          "seconds": 2973,
+          "map": "赤の教会",
+          "player": "なすび無双",
+          "rank": "無徽章"
+        },
+        {
+          "timestamp": "0:58:58",
+          "seconds": 3538,
+          "map": "聖心病院",
+          "player": "我想睡了▭",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "1:06:57",
+          "seconds": 4017,
+          "map": "永眠町",
+          "player": "Kitsuneヅ",
+          "rank": "無徽章"
+        },
+        {
+          "timestamp": "1:16:59",
+          "seconds": 4619,
+          "map": "月の河公園",
+          "player": "请说谢谢茉白",
+          "rank": "3位"
+        },
+        {
+          "timestamp": "1:23:15",
+          "seconds": 4995,
+          "map": "聖心病院",
+          "player": "二次元賦",
+          "rank": "無徽章"
+        },
+        {
+          "timestamp": "1:28:32",
+          "seconds": 5312,
+          "map": "永眠町",
+          "player": "Sam恆",
+          "rank": "11位"
+        },
+        {
+          "timestamp": "1:35:35",
+          "seconds": 5735,
+          "map": "赤の教会",
+          "player": "二次元賦",
+          "rank": "無徽章"
+        },
+        {
+          "timestamp": "1:40:06",
+          "seconds": 6006,
+          "map": "罪の森",
+          "player": "ʚさねてゃɞ",
+          "rank": "9位"
+        },
+        {
+          "timestamp": "1:44:56",
+          "seconds": 6296,
+          "map": "聖心病院",
+          "player": "眠らぬ観測者ɞ",
+          "rank": "無徽章"
+        },
+        {
+          "timestamp": "1:51:18",
+          "seconds": 6678,
+          "map": "永眠町",
+          "player": "二次元賦",
+          "rank": "無徽章"
+        },
+        {
+          "timestamp": "1:59:12",
+          "seconds": 7152,
+          "map": "軍需工場",
+          "player": "MeltingLoveツ",
+          "rank": "無徽章"
+        }
+      ]
+    },
+    {
+      "video_id": "3Z7pJaizaKY",
+      "title": "レオ #18 S45 達人観戦 Hell Ember 朝ラン #identityV #第五人格",
+      "character": "レオ",
+      "published_at": "2026-11-21T22:24:58Z",
+      "url": "https://www.youtube.com/watch?v=3Z7pJaizaKY",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:32",
+          "seconds": 332,
+          "map": "レオの思い出",
+          "player": "ミツバチBAN",
+          "rank": "",
+          "character": "女王蜂"
+        },
+        {
+          "timestamp": "0:10:50",
+          "seconds": 650,
+          "map": "永眠町",
+          "player": "勝のが正義",
+          "rank": "B"
+        },
+        {
+          "timestamp": "0:16:36",
+          "seconds": 996,
+          "map": "中華街",
+          "player": "純情珈琲＠丁寧",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "0:21:52",
+          "seconds": 1312,
+          "map": "聖心病院",
+          "player": "つか＠あいやー",
+          "rank": "24位"
+        },
+        {
+          "timestamp": "0:27:21",
+          "seconds": 1641,
+          "map": "罪の森",
+          "player": "★獅子丸★",
+          "rank": "3位"
+        },
+        {
+          "timestamp": "0:32:55",
+          "seconds": 1975,
+          "map": "聖心病院",
+          "player": "変質者オレ",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "0:41:04",
+          "seconds": 2464,
+          "map": "永眠町",
+          "player": "純情珈琲＠丁寧",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "0:46:35",
+          "seconds": 2795,
+          "map": "罪の森",
+          "player": "焼饂飩の復讐",
+          "rank": "17位"
+        },
+        {
+          "timestamp": "0:55:03",
+          "seconds": 3303,
+          "map": "レオの思い出",
+          "player": "純情珈琲＠丁寧",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "1:02:51",
+          "seconds": 3771,
+          "map": "湖景村",
+          "player": "^コマもんげー^",
+          "rank": "18位"
+        },
+        {
+          "timestamp": "1:11:18",
+          "seconds": 4278,
+          "map": "赤の教会",
+          "player": "純情珈琲＠丁寧",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "1:16:43",
+          "seconds": 4603,
+          "map": "軍需工場",
+          "player": "つか＠あいやー",
+          "rank": "24位"
+        },
+        {
+          "timestamp": "1:25:40",
+          "seconds": 5140,
+          "map": "軍需工場",
+          "player": "★獅子丸★",
+          "rank": "3位"
+        },
+        {
+          "timestamp": "1:34:12",
+          "seconds": 5652,
+          "map": "月の河公園",
+          "player": "純情珈琲＠丁寧",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "1:45:16",
+          "seconds": 6316,
+          "map": "罪の森",
+          "player": "変質者ダレ",
+          "rank": "14位"
+        },
+        {
+          "timestamp": "1:52:11",
+          "seconds": 6731,
+          "map": "永眠町",
+          "player": "勝のが正義",
+          "rank": "B"
+        },
+        {
+          "timestamp": "1:57:11",
+          "seconds": 7031,
+          "map": "永眠町",
+          "player": "純情珈琲＠丁寧",
+          "rank": "2位"
+        }
+      ]
+    },
     {
       "video_id": "B1dzq-fSB-I",
       "title": "アイヴィ #28 S45 達人観戦 The Shadow 夜ラン #identityV #第五人格",
