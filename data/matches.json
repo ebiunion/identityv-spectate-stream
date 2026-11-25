@@ -1,6 +1,243 @@
 {
-  "updated_at": "2026-11-24T04:29:04.054114+00:00",
+  "updated_at": "2026-11-25T03:12:42.833492+00:00",
   "videos": [
+    {
+      "video_id": "hzTcuvwNan8",
+      "title": "悪夢 #35 S45 達人観戦 Nightmare 夜ラン #identityV #第五人格",
+      "character": "悪夢",
+      "published_at": "2026-11-24T18:02:26Z",
+      "url": "https://www.youtube.com/watch?v=hzTcuvwNan8",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:38",
+          "seconds": 338,
+          "map": "罪の森",
+          "player": "ねむいバジう",
+          "rank": "4位"
+        },
+        {
+          "timestamp": "0:12:28",
+          "seconds": 748,
+          "map": "湖景村",
+          "player": "孝丸くん",
+          "rank": "22位"
+        },
+        {
+          "timestamp": "0:19:46",
+          "seconds": 1186,
+          "map": "軍需工場",
+          "player": "あくみそおる",
+          "rank": "5位"
+        },
+        {
+          "timestamp": "0:27:15",
+          "seconds": 1635,
+          "map": "湖景村",
+          "player": "ぽちゃ彼女募集中",
+          "rank": "16位"
+        },
+        {
+          "timestamp": "0:36:05",
+          "seconds": 2165,
+          "map": "罪の森",
+          "player": "S45認知配布係",
+          "rank": "14位"
+        },
+        {
+          "timestamp": "0:41:51",
+          "seconds": 2511,
+          "map": "月の河公園",
+          "player": "ゆめじゃうるす",
+          "rank": "6位"
+        },
+        {
+          "timestamp": "0:50:46",
+          "seconds": 3046,
+          "map": "罪の森",
+          "player": "歷戰王三千",
+          "rank": "3位"
+        },
+        {
+          "timestamp": "0:56:37",
+          "seconds": 3397,
+          "map": "月の河公園",
+          "player": "殿▭下▭",
+          "rank": "52位"
+        },
+        {
+          "timestamp": "1:03:03",
+          "seconds": 3783,
+          "map": "赤の教会",
+          "player": "孝丸くん",
+          "rank": "22位"
+        },
+        {
+          "timestamp": "1:07:42",
+          "seconds": 4062,
+          "map": "軍需工場",
+          "player": "youカールyou",
+          "rank": "21位"
+        },
+        {
+          "timestamp": "1:14:48",
+          "seconds": 4488,
+          "map": "レオの思い出",
+          "player": "眠族",
+          "rank": "41位"
+        },
+        {
+          "timestamp": "1:20:26",
+          "seconds": 4826,
+          "map": "赤の教会",
+          "player": "KingofgamesWWW",
+          "rank": "36位"
+        },
+        {
+          "timestamp": "1:31:26",
+          "seconds": 5486,
+          "map": "赤の教会",
+          "player": "殿▭下▭",
+          "rank": "52位"
+        },
+        {
+          "timestamp": "1:39:27",
+          "seconds": 5967,
+          "map": "軍需工場",
+          "player": "むつや＠YouTube",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "1:46:06",
+          "seconds": 6366,
+          "map": "永眠町",
+          "player": "ダンディHamerμ",
+          "rank": "8位"
+        },
+        {
+          "timestamp": "1:56:37",
+          "seconds": 6997,
+          "map": "レオの思い出",
+          "player": "愛八封的小魚",
+          "rank": "18位"
+        }
+      ]
+    },
+    {
+      "video_id": "xjmt4zBK8Kg",
+      "title": "キーガン #44 S45 達人観戦 Clerk 朝ラン #identityV #第五人格",
+      "character": "キーガン",
+      "published_at": "2026-11-23T22:22:16Z",
+      "url": "https://www.youtube.com/watch?v=xjmt4zBK8Kg",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:39",
+          "seconds": 339,
+          "map": "湖景村",
+          "player": "龍與鳳",
+          "rank": "42位"
+        },
+        {
+          "timestamp": "0:13:50",
+          "seconds": 830,
+          "map": "永眠町",
+          "player": "紙の不在証明",
+          "rank": "59位"
+        },
+        {
+          "timestamp": "0:23:32",
+          "seconds": 1412,
+          "map": "聖心病院",
+          "player": "Wr_arcana",
+          "rank": "17位"
+        },
+        {
+          "timestamp": "0:31:35",
+          "seconds": 1895,
+          "map": "軍需工場",
+          "player": "龍與鳳",
+          "rank": "42位"
+        },
+        {
+          "timestamp": "0:37:26",
+          "seconds": 2246,
+          "map": "聖心病院",
+          "player": "smilybby:3",
+          "rank": "30位"
+        },
+        {
+          "timestamp": "0:45:00",
+          "seconds": 2700,
+          "map": "永眠町",
+          "player": "龍與鳳",
+          "rank": "42位"
+        },
+        {
+          "timestamp": "0:54:05",
+          "seconds": 3245,
+          "map": "永眠町",
+          "player": "Wr_arcana",
+          "rank": "17位"
+        },
+        {
+          "timestamp": "1:04:11",
+          "seconds": 3851,
+          "map": "罪の森",
+          "player": "龍與鳳",
+          "rank": "42位"
+        },
+        {
+          "timestamp": "1:12:35",
+          "seconds": 4355,
+          "map": "湖景村",
+          "player": "タイムリーパー",
+          "rank": "54位"
+        },
+        {
+          "timestamp": "1:21:34",
+          "seconds": 4894,
+          "map": "聖心病院",
+          "player": "龍與鳳",
+          "rank": "42位"
+        },
+        {
+          "timestamp": "1:31:55",
+          "seconds": 5515,
+          "map": "軍需工場",
+          "player": "ねむねむいいい",
+          "rank": "34位"
+        },
+        {
+          "timestamp": "1:39:43",
+          "seconds": 5983,
+          "map": "中華街",
+          "player": "龍與鳳",
+          "rank": "42位"
+        },
+        {
+          "timestamp": "1:48:17",
+          "seconds": 6497,
+          "map": "永眠町",
+          "player": "玄玄喵",
+          "rank": "20位"
+        },
+        {
+          "timestamp": "1:54:35",
+          "seconds": 6875,
+          "map": "レオの思い出",
+          "player": "harapekoピッピ",
+          "rank": "B"
+        },
+        {
+          "timestamp": "2:02:53",
+          "seconds": 7373,
+          "map": "罪の森",
+          "player": "玄玄喵",
+          "rank": "20位"
+        }
+      ]
+    },
     {
       "video_id": "EJhL8FsyQOY",
       "title": "ガラテア #37 S45 達人観戦 Sculptor 夜ラン #identityV #第五人格",
