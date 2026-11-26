@@ -1,6 +1,400 @@
 {
-  "updated_at": "2026-11-25T03:12:42.833492+00:00",
+  "updated_at": "2026-11-26T02:31:19.552239+00:00",
   "videos": [
+    {
+      "video_id": "uiQFeA4IFqM",
+      "title": "イタカ #36 S45 達人観戦 Night Watch 夜ラン #identityV #第五人格",
+      "character": "イタカ",
+      "published_at": "2026-11-25T14:16:18Z",
+      "url": "https://www.youtube.com/watch?v=uiQFeA4IFqM",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:45",
+          "seconds": 345,
+          "map": "湖景村",
+          "player": "栗松OTP",
+          "rank": "13位"
+        },
+        {
+          "timestamp": "0:15:46",
+          "seconds": 946,
+          "map": "罪の森",
+          "player": "숨은냥이",
+          "rank": "42位"
+        },
+        {
+          "timestamp": "0:21:06",
+          "seconds": 1266,
+          "map": "レオの思い出",
+          "player": "▭下手下手下手",
+          "rank": "B"
+        },
+        {
+          "timestamp": "0:26:31",
+          "seconds": 1591,
+          "map": "聖心病院",
+          "player": "哲人石",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "0:34:21",
+          "seconds": 2061,
+          "map": "赤の教会",
+          "player": "和平神",
+          "rank": "26位"
+        },
+        {
+          "timestamp": "0:40:10",
+          "seconds": 2410,
+          "map": "罪の森",
+          "player": "ao0103",
+          "rank": "B"
+        },
+        {
+          "timestamp": "0:47:44",
+          "seconds": 2864,
+          "map": "レオの思い出",
+          "player": "哲人石",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "0:55:51",
+          "seconds": 3351,
+          "map": "軍需工場",
+          "player": "和平神",
+          "rank": "26位"
+        },
+        {
+          "timestamp": "1:03:59",
+          "seconds": 3839,
+          "map": "軍需工場",
+          "player": "哲人石",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "1:09:56",
+          "seconds": 4196,
+          "map": "湖景村",
+          "player": "ど話聞あそ俺悪",
+          "rank": "B"
+        },
+        {
+          "timestamp": "1:16:38",
+          "seconds": 4598,
+          "map": "聖心病院",
+          "player": "風無しの番人",
+          "rank": "B"
+        },
+        {
+          "timestamp": "1:22:21",
+          "seconds": 4941,
+          "map": "軍需工場",
+          "player": "兮ツ",
+          "rank": "93位"
+        },
+        {
+          "timestamp": "1:28:33",
+          "seconds": 5313,
+          "map": "軍需工場",
+          "player": "いたうぇるふ",
+          "rank": "89位"
+        },
+        {
+          "timestamp": "1:34:24",
+          "seconds": 5664,
+          "map": "湖景村",
+          "player": "哲人石",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "1:41:01",
+          "seconds": 6061,
+          "map": "中華街",
+          "player": "▭下手下手下手",
+          "rank": "B"
+        },
+        {
+          "timestamp": "1:46:39",
+          "seconds": 6399,
+          "map": "聖心病院",
+          "player": "なえたきなこ餅",
+          "rank": "15位"
+        },
+        {
+          "timestamp": "1:51:57",
+          "seconds": 6717,
+          "map": "レオの思い出",
+          "player": "ryuω・´りゅう",
+          "rank": "7位"
+        },
+        {
+          "timestamp": "1:57:59",
+          "seconds": 7079,
+          "map": "軍需工場",
+          "player": "りゃときち",
+          "rank": "40位"
+        }
+      ]
+    },
+    {
+      "video_id": "mrTxRMyuIdQ",
+      "title": "グレイス #43 S45 達人観戦 Naiad 昼ラン #identityV #第五人格",
+      "character": "グレイス",
+      "published_at": "2026-11-25T08:02:36Z",
+      "url": "https://www.youtube.com/watch?v=mrTxRMyuIdQ",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:58",
+          "seconds": 358,
+          "map": "月の河公園",
+          "player": "ฅそらぷりฅ",
+          "rank": "57位"
+        },
+        {
+          "timestamp": "0:11:58",
+          "seconds": 718,
+          "map": "罪の森",
+          "player": "▭暴君▭▭",
+          "rank": "B"
+        },
+        {
+          "timestamp": "0:18:35",
+          "seconds": 1115,
+          "map": "レオの思い出",
+          "player": "Hello丶World",
+          "rank": "51位"
+        },
+        {
+          "timestamp": "0:27:26",
+          "seconds": 1646,
+          "map": "聖心病院",
+          "player": "叫本名",
+          "rank": "53位"
+        },
+        {
+          "timestamp": "0:34:40",
+          "seconds": 2080,
+          "map": "軍需工場",
+          "player": "▭暴君▭▭",
+          "rank": "B"
+        },
+        {
+          "timestamp": "0:40:49",
+          "seconds": 2449,
+          "map": "中華街",
+          "player": "銛のへなそうる",
+          "rank": "58位"
+        },
+        {
+          "timestamp": "0:48:59",
+          "seconds": 2939,
+          "map": "レオの思い出",
+          "player": "Nek0p4nch1",
+          "rank": "37位"
+        },
+        {
+          "timestamp": "0:55:03",
+          "seconds": 3303,
+          "map": "永眠町",
+          "player": "擺爛小緣",
+          "rank": "3位"
+        },
+        {
+          "timestamp": "1:02:09",
+          "seconds": 3729,
+          "map": "中華街",
+          "player": "ちゃぁぁはん",
+          "rank": "21位"
+        },
+        {
+          "timestamp": "1:09:11",
+          "seconds": 4151,
+          "map": "聖心病院",
+          "player": "▭暴君▭▭",
+          "rank": "B"
+        },
+        {
+          "timestamp": "1:17:22",
+          "seconds": 4642,
+          "map": "軍需工場",
+          "player": "K01K1NG",
+          "rank": "29位"
+        },
+        {
+          "timestamp": "1:23:17",
+          "seconds": 4997,
+          "map": "永眠町",
+          "player": "銛が本体",
+          "rank": "5位"
+        },
+        {
+          "timestamp": "1:30:08",
+          "seconds": 5408,
+          "map": "罪の森",
+          "player": "[しゃけの極み]",
+          "rank": "90位"
+        },
+        {
+          "timestamp": "1:35:32",
+          "seconds": 5732,
+          "map": "永眠町",
+          "player": "紅葉▭",
+          "rank": "59位"
+        },
+        {
+          "timestamp": "1:41:51",
+          "seconds": 6111,
+          "map": "軍需工場",
+          "player": "费伦的猫猫",
+          "rank": "B"
+        },
+        {
+          "timestamp": "1:48:37",
+          "seconds": 6517,
+          "map": "湖景村",
+          "player": "sniket",
+          "rank": "8位"
+        },
+        {
+          "timestamp": "1:55:20",
+          "seconds": 6920,
+          "map": "軍需工場",
+          "player": "紅葉▭",
+          "rank": "59位"
+        },
+        {
+          "timestamp": "2:00:49",
+          "seconds": 7249,
+          "map": "レオの思い出",
+          "player": "出待ちゆう",
+          "rank": "10位"
+        }
+      ]
+    },
+    {
+      "video_id": "GfB09AQ2TN4",
+      "title": "隠者 #35 S45 達人観戦 Hermit 朝ラン #identityV #第五人格",
+      "character": "隠者",
+      "published_at": "2026-11-24T23:02:58Z",
+      "url": "https://www.youtube.com/watch?v=GfB09AQ2TN4",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:52",
+          "seconds": 352,
+          "map": "中華街",
+          "player": "隠せよステイン",
+          "rank": "21位"
+        },
+        {
+          "timestamp": "0:14:07",
+          "seconds": 847,
+          "map": "月の河公園",
+          "player": "Lilクロビカリ",
+          "rank": "31位"
+        },
+        {
+          "timestamp": "0:19:04",
+          "seconds": 1144,
+          "map": "聖心病院",
+          "player": "幻浮升~行隐墨",
+          "rank": "32位"
+        },
+        {
+          "timestamp": "0:27:34",
+          "seconds": 1654,
+          "map": "月の河公園",
+          "player": "warot＠happy",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "0:35:33",
+          "seconds": 2133,
+          "map": "軍需工場",
+          "player": "KuneKuneku",
+          "rank": "19位"
+        },
+        {
+          "timestamp": "0:42:07",
+          "seconds": 2527,
+          "map": "聖心病院",
+          "player": "AIЯU",
+          "rank": "18位"
+        },
+        {
+          "timestamp": "0:47:43",
+          "seconds": 2863,
+          "map": "湖景村",
+          "player": "warot＠happy",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "0:53:07",
+          "seconds": 3187,
+          "map": "永眠町",
+          "player": "激昂おと",
+          "rank": "4位"
+        },
+        {
+          "timestamp": "0:59:15",
+          "seconds": 3555,
+          "map": "レオの思い出",
+          "player": "るるざうるす°",
+          "rank": "29位"
+        },
+        {
+          "timestamp": "1:07:55",
+          "seconds": 4075,
+          "map": "赤の教会",
+          "player": "warot＠happy",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "1:16:11",
+          "seconds": 4571,
+          "map": "中華街",
+          "player": "激昂おと",
+          "rank": "4位"
+        },
+        {
+          "timestamp": "1:24:51",
+          "seconds": 5091,
+          "map": "聖心病院",
+          "player": "AIЯU",
+          "rank": "18位"
+        },
+        {
+          "timestamp": "1:34:25",
+          "seconds": 5665,
+          "map": "赤の教会",
+          "player": "隠者竜",
+          "rank": "35位"
+        },
+        {
+          "timestamp": "1:44:16",
+          "seconds": 6256,
+          "map": "赤の教会",
+          "player": "AIЯU",
+          "rank": "18位"
+        },
+        {
+          "timestamp": "1:51:15",
+          "seconds": 6675,
+          "map": "罪の森",
+          "player": "ウソ2105",
+          "rank": "67位"
+        },
+        {
+          "timestamp": "1:56:40",
+          "seconds": 7000,
+          "map": "軍需工場",
+          "player": "幻浮升~行隐墨",
+          "rank": "32位"
+        }
+      ]
+    },
     {
       "video_id": "hzTcuvwNan8",
       "title": "悪夢 #35 S45 達人観戦 Nightmare 夜ラン #identityV #第五人格",
