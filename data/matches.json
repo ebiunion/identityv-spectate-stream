@@ -1,6 +1,557 @@
 {
-  "updated_at": "2026-11-27T02:29:47.788820+00:00",
+  "updated_at": "2026-11-28T02:18:08.412025+00:00",
   "videos": [
+    {
+      "video_id": "x-lnBdb9jnI",
+      "title": "アン #46 S45 達人観戦 Disciple 朝ラン #identityV #第五人格",
+      "character": "アン",
+      "published_at": "2026-11-27T22:13:59Z",
+      "url": "https://www.youtube.com/watch?v=x-lnBdb9jnI",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:32",
+          "seconds": 332,
+          "map": "軍需工場",
+          "player": "はぁくさい",
+          "rank": "無徽章"
+        },
+        {
+          "timestamp": "0:11:49",
+          "seconds": 709,
+          "map": "中華街",
+          "player": "MẽoMųőp",
+          "rank": "23位"
+        },
+        {
+          "timestamp": "0:19:02",
+          "seconds": 1142,
+          "map": "月の河公園",
+          "player": "CAP_らると",
+          "rank": "29位"
+        },
+        {
+          "timestamp": "0:24:00",
+          "seconds": 1440,
+          "map": "湖景村",
+          "player": "419?",
+          "rank": "93位"
+        },
+        {
+          "timestamp": "0:30:28",
+          "seconds": 1828,
+          "map": "罪の森",
+          "player": "光のidentity",
+          "rank": "15位"
+        },
+        {
+          "timestamp": "0:36:38",
+          "seconds": 2198,
+          "map": "月の河公園",
+          "player": "ヨクバリユカク",
+          "rank": "7位"
+        },
+        {
+          "timestamp": "0:41:19",
+          "seconds": 2479,
+          "map": "軍需工場",
+          "player": "ハムちゃん角煮",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "0:48:14",
+          "seconds": 2894,
+          "map": "赤の教会",
+          "player": "R1pa_K",
+          "rank": "6位"
+        },
+        {
+          "timestamp": "0:53:25",
+          "seconds": 3205,
+          "map": "レオの思い出",
+          "player": "はぁくさい",
+          "rank": "無徽章"
+        },
+        {
+          "timestamp": "0:59:18",
+          "seconds": 3558,
+          "map": "レオの思い出",
+          "player": "ヨクバリユカク",
+          "rank": "7位"
+        },
+        {
+          "timestamp": "1:04:49",
+          "seconds": 3889,
+          "map": "湖景村",
+          "player": "ほのかごめん",
+          "rank": "48位"
+        },
+        {
+          "timestamp": "1:11:00",
+          "seconds": 4260,
+          "map": "中華街",
+          "player": "ハムちゃん角煮",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "1:17:45",
+          "seconds": 4665,
+          "map": "永眠町",
+          "player": "R1pa_K",
+          "rank": "6位"
+        },
+        {
+          "timestamp": "1:24:37",
+          "seconds": 5077,
+          "map": "永眠町",
+          "player": "CAP_らると",
+          "rank": "29位"
+        },
+        {
+          "timestamp": "1:31:28",
+          "seconds": 5488,
+          "map": "聖心病院",
+          "player": "ハムちゃん角煮",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "1:38:00",
+          "seconds": 5880,
+          "map": "軍需工場",
+          "player": "リーン撃ち空軍",
+          "rank": "5位"
+        },
+        {
+          "timestamp": "1:42:52",
+          "seconds": 6172,
+          "map": "レオの思い出",
+          "player": "R1pa_K",
+          "rank": "6位"
+        },
+        {
+          "timestamp": "1:47:34",
+          "seconds": 6454,
+          "map": "永眠町",
+          "player": "MẽoMųőp",
+          "rank": "23位"
+        },
+        {
+          "timestamp": "1:52:55",
+          "seconds": 6775,
+          "map": "赤の教会",
+          "player": "CAP_らると",
+          "rank": "29位"
+        },
+        {
+          "timestamp": "1:59:15",
+          "seconds": 7155,
+          "map": "永眠町",
+          "player": "ハムちゃん角煮",
+          "rank": "1位"
+        }
+      ]
+    },
+    {
+      "video_id": "3a7DVOKo-us",
+      "title": "夢の魔女 #38 S45 達人観戦 Dream Witch 夜ラン #identityV #第五人格",
+      "character": "夢の魔女",
+      "published_at": "2026-11-27T14:59:41Z",
+      "url": "https://www.youtube.com/watch?v=3a7DVOKo-us",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:33",
+          "seconds": 333,
+          "map": "軍需工場",
+          "player": "KiểmSoátHầu",
+          "rank": "39位"
+        },
+        {
+          "timestamp": "0:12:33",
+          "seconds": 753,
+          "map": "月の河公園",
+          "player": "B級HEROダイ",
+          "rank": "12位"
+        },
+        {
+          "timestamp": "0:19:26",
+          "seconds": 1166,
+          "map": "湖景村",
+          "player": "夜泣きっぴ",
+          "rank": "3位"
+        },
+        {
+          "timestamp": "0:28:26",
+          "seconds": 1706,
+          "map": "罪の森",
+          "player": "Junzr",
+          "rank": "B"
+        },
+        {
+          "timestamp": "0:34:38",
+          "seconds": 2078,
+          "map": "レオの思い出",
+          "player": "iaW6WSr",
+          "rank": "41位"
+        },
+        {
+          "timestamp": "0:40:58",
+          "seconds": 2458,
+          "map": "軍需工場",
+          "player": "チぃたん",
+          "rank": "14位"
+        },
+        {
+          "timestamp": "0:50:40",
+          "seconds": 3040,
+          "map": "軍需工場",
+          "player": "夜泣きっぴ",
+          "rank": "3位"
+        },
+        {
+          "timestamp": "0:58:25",
+          "seconds": 3505,
+          "map": "中華街",
+          "player": "悖律",
+          "rank": "24位"
+        },
+        {
+          "timestamp": "1:05:53",
+          "seconds": 3953,
+          "map": "月の河公園",
+          "player": "夜泣きっぴ",
+          "rank": "3位"
+        },
+        {
+          "timestamp": "1:12:27",
+          "seconds": 4347,
+          "map": "湖景村",
+          "player": "kanechi_3",
+          "rank": "33位"
+        },
+        {
+          "timestamp": "1:19:11",
+          "seconds": 4751,
+          "map": "湖景村",
+          "player": "Damengers",
+          "rank": "38位"
+        },
+        {
+          "timestamp": "1:26:41",
+          "seconds": 5201,
+          "map": "月の河公園",
+          "player": "チぃたん",
+          "rank": "14位"
+        },
+        {
+          "timestamp": "1:35:13",
+          "seconds": 5713,
+          "map": "永眠町",
+          "player": "サーモン渡せん",
+          "rank": "B"
+        },
+        {
+          "timestamp": "1:42:45",
+          "seconds": 6165,
+          "map": "軍需工場",
+          "player": "チぃたん",
+          "rank": "14位"
+        },
+        {
+          "timestamp": "1:50:20",
+          "seconds": 6620,
+          "map": "罪の森",
+          "player": "おーいゆう茶丶",
+          "rank": "22位"
+        },
+        {
+          "timestamp": "1:56:01",
+          "seconds": 6961,
+          "map": "軍需工場",
+          "player": "夜に溺れた",
+          "rank": "B"
+        }
+      ]
+    },
+    {
+      "video_id": "4pTAxMNKJdY",
+      "title": "ハスター #36 S45 達人観戦 The Feaster 昼ラン #identityV #第五人格",
+      "character": "ハスター",
+      "published_at": "2026-11-27T06:42:34Z",
+      "url": "https://www.youtube.com/watch?v=4pTAxMNKJdY",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:33",
+          "seconds": 333,
+          "map": "軍需工場",
+          "player": "しゅーこへけっ",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "0:10:32",
+          "seconds": 632,
+          "map": "軍需工場",
+          "player": "なきがらの海",
+          "rank": "92位"
+        },
+        {
+          "timestamp": "0:15:07",
+          "seconds": 907,
+          "map": "レオの思い出",
+          "player": "DC‵KuroCat2007",
+          "rank": "B"
+        },
+        {
+          "timestamp": "0:22:37",
+          "seconds": 1357,
+          "map": "聖心病院",
+          "player": "Re:tsü",
+          "rank": "24位"
+        },
+        {
+          "timestamp": "0:29:58",
+          "seconds": 1798,
+          "map": "聖心病院",
+          "player": "ごゼロ",
+          "rank": "10位"
+        },
+        {
+          "timestamp": "0:36:03",
+          "seconds": 2163,
+          "map": "赤の教会",
+          "player": "しゅーこへけっ",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "0:41:55",
+          "seconds": 2515,
+          "map": "聖心病院",
+          "player": "高級タコワサ",
+          "rank": "34位"
+        },
+        {
+          "timestamp": "0:50:38",
+          "seconds": 3038,
+          "map": "月の河公園",
+          "player": "KKKf",
+          "rank": "B"
+        },
+        {
+          "timestamp": "1:00:31",
+          "seconds": 3631,
+          "map": "軍需工場",
+          "player": "ごゼロ",
+          "rank": "10位"
+        },
+        {
+          "timestamp": "1:07:42",
+          "seconds": 4062,
+          "map": "レオの思い出",
+          "player": "しゅーこへけっ",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "1:12:42",
+          "seconds": 4362,
+          "map": "中華街",
+          "player": "めきゅたゃんMB",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "1:18:06",
+          "seconds": 4686,
+          "map": "軍需工場",
+          "player": "BuzzerSmoke",
+          "rank": "29位"
+        },
+        {
+          "timestamp": "1:25:20",
+          "seconds": 5120,
+          "map": "永眠町",
+          "player": "MEGARAGBA",
+          "rank": "48位"
+        },
+        {
+          "timestamp": "1:32:14",
+          "seconds": 5534,
+          "map": "軍需工場",
+          "player": "しゅーこへけっ",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "1:38:15",
+          "seconds": 5895,
+          "map": "軍需工場",
+          "player": "めきゅたゃんMB",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "1:46:24",
+          "seconds": 6384,
+          "map": "赤の教会",
+          "player": "アイス＠イチゴ",
+          "rank": "無徽章"
+        },
+        {
+          "timestamp": "1:53:05",
+          "seconds": 6785,
+          "map": "湖景村",
+          "player": "しゅーこへけっ",
+          "rank": "1位"
+        },
+        {
+          "timestamp": "1:58:07",
+          "seconds": 7087,
+          "map": "中華街",
+          "player": "化石たこ焼き",
+          "rank": "32位"
+        },
+        {
+          "timestamp": "2:03:03",
+          "seconds": 7383,
+          "map": "中華街",
+          "player": "めきゅたゃんMB",
+          "rank": "2位"
+        }
+      ]
+    },
+    {
+      "video_id": "5c7yR-RWl_Y",
+      "title": "フラバルー #65 S45 達人観戦 Hullabaroo 朝ラン #identityV #第五人格",
+      "character": "フラバルー",
+      "published_at": "2026-11-26T22:18:24Z",
+      "url": "https://www.youtube.com/watch?v=5c7yR-RWl_Y",
+      "is_live_archive": true,
+      "matches": [
+        {
+          "timestamp": "0:05:42",
+          "seconds": 342,
+          "map": "湖景村",
+          "player": "蜜柑サブレ",
+          "rank": "60位"
+        },
+        {
+          "timestamp": "0:15:57",
+          "seconds": 957,
+          "map": "湖景村",
+          "player": "ほりたりほ",
+          "rank": "35位"
+        },
+        {
+          "timestamp": "0:22:58",
+          "seconds": 1378,
+          "map": "聖心病院",
+          "player": "§グレバルー§",
+          "rank": "70位"
+        },
+        {
+          "timestamp": "0:28:15",
+          "seconds": 1695,
+          "map": "永眠町",
+          "player": "Daaak",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "0:34:16",
+          "seconds": 2056,
+          "map": "罪の森",
+          "player": "shisho_",
+          "rank": "54位"
+        },
+        {
+          "timestamp": "0:41:58",
+          "seconds": 2518,
+          "map": "湖景村",
+          "player": "__≡ точ🇺≡ __",
+          "rank": "19位"
+        },
+        {
+          "timestamp": "0:46:48",
+          "seconds": 2808,
+          "map": "赤の教会",
+          "player": "ひよっこもなか",
+          "rank": "22位"
+        },
+        {
+          "timestamp": "0:52:28",
+          "seconds": 3148,
+          "map": "永眠町",
+          "player": "shisho_",
+          "rank": "54位"
+        },
+        {
+          "timestamp": "1:00:09",
+          "seconds": 3609,
+          "map": "聖心病院",
+          "player": "__≡ точ🇺≡ __",
+          "rank": "19位"
+        },
+        {
+          "timestamp": "1:08:11",
+          "seconds": 4091,
+          "map": "月の河公園",
+          "player": "ひよっこもなか",
+          "rank": "22位"
+        },
+        {
+          "timestamp": "1:16:06",
+          "seconds": 4566,
+          "map": "中華街",
+          "player": "shisho_",
+          "rank": "54位"
+        },
+        {
+          "timestamp": "1:22:19",
+          "seconds": 4939,
+          "map": "軍需工場",
+          "player": "Daaak",
+          "rank": "2位"
+        },
+        {
+          "timestamp": "1:27:18",
+          "seconds": 5238,
+          "map": "赤の教会",
+          "player": "__≡ точ🇺≡ __",
+          "rank": "19位"
+        },
+        {
+          "timestamp": "1:34:03",
+          "seconds": 5643,
+          "map": "中華街",
+          "player": "ひよっこもなか",
+          "rank": "22位"
+        },
+        {
+          "timestamp": "1:41:43",
+          "seconds": 6103,
+          "map": "月の河公園",
+          "player": "shisho_",
+          "rank": "54位"
+        },
+        {
+          "timestamp": "1:47:46",
+          "seconds": 6466,
+          "map": "軍需工場",
+          "player": "__≡ точ🇺≡ __",
+          "rank": "19位"
+        },
+        {
+          "timestamp": "1:53:51",
+          "seconds": 6831,
+          "map": "罪の森",
+          "player": "ねぎちくん",
+          "rank": "14位"
+        },
+        {
+          "timestamp": "1:59:28",
+          "seconds": 7168,
+          "map": "聖心病院",
+          "player": "ろろた°",
+          "rank": "34位"
+        }
+      ]
+    },
     {
       "video_id": "xO_TaoBWky8",
       "title": "フールズ・ゴールド #34 S45 達人観戦 Fool's Gold 夜ラン #identityV #第五人格",
